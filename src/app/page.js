@@ -1,10 +1,12 @@
 import Image from 'next/image'
-import * as headers from './components/Header'
+import Headertwo from './components/Headertwo.js'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
-      <headers.default />
+    <main>
+      <div className='App bg-white min-h-screen'>
+        <Headertwo />
+      </div>
     </main>
   )
 }
