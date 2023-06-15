@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import Headertwo from '../components/Headertwo'
+import Headertwo from '../../Headertwo'
 import { ChevronLeftIcon } from '@heroicons/react/20/solid'
 
 export default function Diamond() {
@@ -176,7 +176,7 @@ function Viewcontainer1() {
 function Backbutton() {
   return (
     <button>
-      <a href='/'><ChevronLeftIcon className='absolute top-[30px] left-[20px] h-[55px] md:h-[60px] w-auto lg:h-[70px]'/></a>
+      <a href='/products'><ChevronLeftIcon className='absolute top-[30px] left-[20px] h-[55px] md:h-[60px] w-auto lg:h-[70px]'/></a>
     </button>
   )
 }
