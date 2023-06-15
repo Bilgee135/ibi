@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import productjson from './json/productjson.json'
 
 
 ////--------------------------product listing structure---------------------------////
@@ -21,60 +22,21 @@ function Productlist() {
 
   //----------beginigng of box product ;)-----//
   let product = {
-    name: 'Diamond0',
-    imgsrc: 'https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png',
-    href: '#'
+    name: '0',
+    imgsrc: '',
+    href: ''
   };
-  products.push(product)
-  //----------beginigng of box product ;)-----//
-  product = {
-    name: 'Diamond1',
-    imgsrc: 'https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png',
-    href: '#'
-  };
-  products.push(product)
-  //----------beginigng of box product ;)-----//
-  product = {
-    name: 'Diamond2',
-    imgsrc: 'https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png',
-    href: '#'
-  };
-  products.push(product)
-  //----------beginigng of box product ;)-----//
-  product = {
-    name: 'Diamond3',
-    imgsrc: 'https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png',
-    href: '#'
-  };
-  products.push(product)
-  //----------beginigng of box product ;)-----//
-  product = {
-    name: 'Diamond4',
-    imgsrc: 'https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png',
-    href: '#'
-  };
-  products.push(product)
-  //----------beginigng of box product ;)-----//
-  product = {
-    name: 'Diamond5',
-    imgsrc: 'https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png',
-    href: '#'
-  };
-  products.push(product)
-  //----------beginigng of box product ;)-----//
-  product = {
-    name: 'Diamond6',
-    imgsrc: 'https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png',
-    href: '#'
-  };
-  products.push(product)
-  //----------beginigng of box product ;)-----//
-  product = {
-    name: 'Diamond7',
-    imgsrc: 'https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png',
-    href: '#'
-  };
-  products.push(product)
+
+  productjson.map(function(curlylist) {
+    product = {
+      name: curlylist['name'],
+      imgsrc: curlylist['srcimg'],
+      href: curlylist['href']
+    }
+    products.push(product)
+  })
+  
+
 
   //game?
   let displayproducts = pick5(products, productnumber)
