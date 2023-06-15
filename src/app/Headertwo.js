@@ -32,7 +32,7 @@ const company = [
     { name: 'ХОЛБОО БАРИХ', description: 'Холбогдох утасны дугаар, email', href: '#', icon: PhoneIcon},
 ]
 const callsToAction = [
-  { name: 'Үндсэн бүтээгдэхүүн', href: '#', icon: ShieldCheckIcon },
+  { name: 'Үндсэн бүтээгдэхүүн', href: '/products', icon: ShieldCheckIcon },
   { name: 'ҮА чиглэлээр', href: '#', icon: ArrowUturnUpIcon },
 ]
 
