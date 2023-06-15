@@ -1,11 +1,11 @@
-import Image from 'next/image'
-import React from 'react'
-import Product from './components/product.js'
+import Headertwo from './components/Headertwo'
+import Productlist from './components/productlist'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col">
-      <Product />
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <Headertwo />
+      <Productlist />
     </main>
   )
 }
