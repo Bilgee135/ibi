@@ -112,16 +112,16 @@ function pick5(array, productnumber) {
 function Productbox({ productlist, onRButtonClick, onLButtonClick}) {
   return (
     <ul className='static h-[100px] w-screen flex justify-center flex-row'>
-      <li>
+      <li key='chevronLeftButton'>
         <button className='h-[100px] w-auto sticky top-0' onClick={ onLButtonClick }>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
           </svg>
         </button>
       </li>
-      {productlist.map(function(product) {
+      {productlist.map(function(product, i) {
         return (
-        <li>
+        <li key={ i }>
           <a href='#' className='relative h-[100px] w-[100px] bg-transparent flex justify-center hover:text-blue-700'>
             <img className='absolute top-5 justify-center w-[46.4px] h-[40px]' src={ product.imgsrc } alt={ product.name }/>
             <p className='absolute bottom-4 text-xs'>{ product.name }</p>
@@ -129,10 +129,10 @@ function Productbox({ productlist, onRButtonClick, onLButtonClick}) {
         </li>
         )
       })}
-      <li>
+      <li key='chevronRightButton'>
         <button className='h-[100px] w-auto sticky top-0' onClick={ onRButtonClick }>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
           </svg>
         </button>
       </li>
