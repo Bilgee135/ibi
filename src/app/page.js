@@ -1,3 +1,5 @@
+'use client'
+
 import Headertwo from './components/Headertwo'
 import Productlist from './components/productlist'
 

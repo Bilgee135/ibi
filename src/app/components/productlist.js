@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 'use client'
 
 import React from 'react'
 import { useState } from 'react';
+=======
+import React from 'react'
+import { useState } from 'react';
+import productjson from './json/productjson.json'
+>>>>>>> 0ad9293d37dca28271f6ab830c741071a474b40f
 
 
 ////--------------------------product listing structure---------------------------////
@@ -23,6 +29,7 @@ function Productlist() {
 
   //----------beginigng of box product ;)-----//
   let product = {
+<<<<<<< HEAD
     name: 'Diamond0',
     imgsrc: 'https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png',
     href: '#'
@@ -77,6 +84,23 @@ function Productlist() {
     href: '#'
   };
   products.push(product)
+=======
+    name: '0',
+    imgsrc: '',
+    href: ''
+  };
+
+  productjson.map(function(curlylist) {
+    product = {
+      name: curlylist['name'],
+      imgsrc: curlylist['srcimg'],
+      href: curlylist['href']
+    }
+    products.push(product)
+  })
+  
+
+>>>>>>> 0ad9293d37dca28271f6ab830c741071a474b40f
 
   //game?
   let displayproducts = pick5(products, productnumber)
@@ -114,6 +138,7 @@ function pick5(array, productnumber) {
 function Productbox({ productlist, onRButtonClick, onLButtonClick}) {
   return (
     <ul className='static h-[100px] w-screen flex justify-center flex-row'>
+<<<<<<< HEAD
       <li>
         <button className='h-[100px] w-auto sticky top-0' onClick={ onLButtonClick }>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -124,6 +149,18 @@ function Productbox({ productlist, onRButtonClick, onLButtonClick}) {
       {productlist.map(function(product) {
         return (
         <li>
+=======
+      <li key='chevronLeftButton'>
+        <button className='h-[100px] w-auto sticky top-0' onClick={ onLButtonClick }>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </button>
+      </li>
+      {productlist.map(function(product, i) {
+        return (
+        <li key={ i }>
+>>>>>>> 0ad9293d37dca28271f6ab830c741071a474b40f
           <a href='#' className='relative h-[100px] w-[100px] bg-transparent flex justify-center hover:text-blue-700'>
             <img className='absolute top-5 justify-center w-[46.4px] h-[40px]' src={ product.imgsrc } alt={ product.name }/>
             <p className='absolute bottom-4 text-xs'>{ product.name }</p>
@@ -131,10 +168,17 @@ function Productbox({ productlist, onRButtonClick, onLButtonClick}) {
         </li>
         )
       })}
+<<<<<<< HEAD
       <li>
         <button className='h-[100px] w-auto sticky top-0' onClick={ onRButtonClick }>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+=======
+      <li key='chevronRightButton'>
+        <button className='h-[100px] w-auto sticky top-0' onClick={ onRButtonClick }>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+>>>>>>> 0ad9293d37dca28271f6ab830c741071a474b40f
           </svg>
         </button>
       </li>
