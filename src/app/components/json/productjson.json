@@ -2,36 +2,43 @@
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Diamond0",
-        "href" : "#"
+        "href" : "#",
+        "key" : "diamond0"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Diamond1",
-        "href" : "#"
+        "href" : "#",
+        "key" : "diamond1"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Diamond2",
-        "href" : "#"
+        "href" : "#",
+        "key" : "diamond2"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Diamond3",
-        "href" : "#"
+        "href" : "#",
+        "key" : "diamond3"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Diamond4",
-        "href" : "#"
+        "href" : "#",
+        "key" : "diamond4"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Diamond5",
-        "href" : "#"
+        "href" : "#",
+        "key" : "diamond5"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Diamond6",
-        "href" : "#"
+        "href" : "#",
+        "key" : "diamond6"
     }
 ]
