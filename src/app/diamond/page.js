@@ -5,40 +5,139 @@ import Headertwo from '../components/Headertwo'
 import { ChevronLeftIcon } from '@heroicons/react/20/solid'
 
 export default function Diamond() {
+  const [isDetails, SetIsDetails] = useState(true)
+  const HandleDetailsButtonClick = () => {
+    SetIsDetails(true)
+  }
+  const HandleOtherButtonClick = () => {
+    SetIsDetails(false)
+  }
+  function Detailsbutton() {
+    return (
+      <button className='relative w-3/4 h-2/3 flex items-center' onClick={ HandleDetailsButtonClick }>
+        <h2 className='absolute left-0 text-[13px] sm:text-[16px] font-semibold w-auto flex-col'>
+          Бүтээгдэхүүний тухай
+          <LineButton detailsbuttonclicked={ isDetails } detailsbutton={ true }/>
+        </h2>
+      </button>
+    )
+  }
+  function Otherbutton() {
+    return (
+      <button className='relative w-3/4 h-2/3 flex items-center' onClick={ HandleOtherButtonClick }>
+        <h2 className='absolute left-0 text-[13px] sm:text-[16px] font-semibold w-auto flex-col'>
+          Бүрэлдэхүүн
+          <LineButton detailsbuttonclicked={ isDetails } detailsbutton={ false }/>
+        </h2>
+      </button>
+    )
+  }
   return (
     <main className="flex min-h-screen flex-col scroll-smooth">
       <Headertwo />
-      <div className='h-[1300px] w-full bg-slate-100'>
+      <div className='h-auto w-full bg-slate-100'>
         <div className='relative w-full h-[620px] bg-[#C5E9FF] flex items-center justify-center'>
           <Viewcontainer1 />
           <Backbutton />
         </div>
         <div id='details0' className='relative h-[100px] w-full'>
-          <div className='absolute left-[10%] h-full w-2/6 flex items-center flex-row'>
+          <div className='absolute left-[10%] h-full w-full sm:w-5/6 md:w-4/6 lg:w-3/6 flex items-center flex-row'>
             <div className='relative w-1/2 h-1/2'>
-              <button className='relative w-3/4 h-2/3 flex items-center'>
-                <h2 className='absolute left-0 text-[16px] font-semibold'>Бүтээгдэхүүний тухай</h2>
-              </button>
-              <Linepage />
+              <Detailsbutton />
             </div>
             <div className='relative w-1/2 h-1/2'>
-              <button className='relative w-3/4 h-2/3 flex items-center'>
-                <h2 className='absolute left-0 text-[16px] font-semibold'>Бүрэлдэхүүн</h2>
-              </button>
-              <Linepage />
+              <Otherbutton />
             </div>
           </div>
         </div>
+        <Detailssubpage isDetails={ isDetails }/>
+        <Othersubpage isDetails={ isDetails }/>
       </div>
     </main>
   )
 }
 
-function Linepage() {
-  const [isDetails, SetIsDetails] = useState(true)
-  return (
-    <div className='h-[10%] w-3/4 bg-blue-900'></div>
-  )
+function Detailssubpage({ isDetails }) {
+  if (isDetails) {
+    return (
+      <div className='mx-[10%] text-justify'> 
+        <p id="b4512997-2078-4e35-b402-e999dee515f0" className='my-8 text-[16px] text-justify'>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor
+          . Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl
+          . Fusce scelerisque arcu nisl, vitae tempor tortor feugiat a. Donec eu rhoncus dui
+          . Nunc bibendum augue vulputate erat hendrerit fringilla. Nulla consectetur leo ut velit rutrum volutpat
+          . Morbi imperdiet eget tortor non semper
+          . Sed ac lorem nibh.
+        </p>
+        <div className='w-full md:w-4/5 lg:w-3/5'>
+          <div class="text-[16px]">
+            <h2 class="font-semibold text-[20px]">Lorem Ipsum</h2>
+            <ul class="list-disc ml-6">
+              <li>
+                <h3 class="font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                <ul class="list-disc ml-6">
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl.</li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="font-semibold">Pellentesque quis commodo tortor.</h3>
+                <ul class="list-disc ml-6">
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="text-[16px] my-8">
+            <h2 class="font-semibold text-[20px]">Sed consectetur</h2>
+            <ul class="list-disc ml-6">
+              <li>
+                <h3 class="font-semibold">Sed consectetur bibendum ipsum ut consequat.</h3>
+                <ul class="list-disc ml-6">
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl.</li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="font-semibold">In auctor sed nisl ac porttitor.</h3>
+                <ul class="list-disc ml-6">
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    )
+  } else {
+    return
+  }
+}
+
+function Othersubpage({ isDetails }) {
+  if (!isDetails) {
+    return (
+      <div className='w-full h-24 bg-slate-400 my-8'></div>
+    )
+  } else {
+    return
+  }
+}
+
+
+function LineButton({ detailsbuttonclicked, detailsbutton}) {
+  if (detailsbuttonclicked) {
+    if (detailsbutton) {
+      return (<div className='w-full h-1 bg-slate-600'></div>)
+    } else {
+      return
+    }
+  } else {
+    if (!detailsbutton) {
+      return (<div className='w-full h-1 bg-slate-600'></div>)
+    } else {
+      return
+    }
+  }
 }
 
 function Viewcontainer1() {
@@ -66,7 +165,7 @@ function Viewcontainer1() {
           <h1 className='absolute bottom-0 text-[24px] font-semibold'>ДАЙМОНД ERP</h1>
         </div>
         <div className='relative w-full h-3/4 flex justify-center'>
-          <p className='absolute top-[10%] text-[15px] font-medium text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.</p>
+          <p className='absolute top-[10%] text-[15px] font-medium text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. <a href="#details0" className="text-[11px] text-blue-800 hover:underline">Дэлгэрэнгүй</a></p>
         </div>
       </div>
 
