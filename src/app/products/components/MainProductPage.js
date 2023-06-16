@@ -2,6 +2,13 @@ import React from 'react'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { ButtonGroup, Button } from "@material-tailwind/react"
+import AdvONE from './AdvantagesMenu/Adv1'
+import AdvTWO from './AdvantagesMenu/Adv2'
+import AdvTHREE from './AdvantagesMenu/Adv3'
+import AdvFOUR from './AdvantagesMenu/Adv4'
+import AdvFIVE from './AdvantagesMenu/Adv5'
+
 
 const navigation = [
     { name: 'Оновчтой үйл ажиллагаа', href: '#', current: false },
@@ -16,17 +23,19 @@ function classNames(...classes) {
 }
 
 export default function MainPage(){
+
     return (
-        <main className='ml-[200px] mt-[100px] mr-[200px]'>
+        <main className=' static ml-[10%] mt-[100px] mr-[10%]'>
             <div>
-                <h1 className='text-5xl font-sans font-bold '>
+                <h1 className='text-4xl font-sans font-bold '>
                     <span className='text-blue-500'>ҮНДСЭН</span> {' '}
                     <span className='text-black'>БҮТЭЭГДЭХҮҮН</span>
-                    <div className="h-2 mt-[10px]                                   
-                        bg-gradient-to-r from-blue-500 to-45% to-whtie w-full"></div>
+                   
                 </h1>
+                <div className="h-2 mt-[10px]                                   
+                        bg-gradient-to-r from-blue-500 to-50% to-whtie w-full"></div>
                 <div id='mainDescription' 
-                    className='text-2xl font-normal font-sans text-black 
+                    className='text-base font-semibold font-sans text-black 
                     mt-[10px] mr-[500px] text-justify'>
                     <div>
                     ERP гэдэг нь байгууллагын нөөц төлөвлөлтийн цогц шийдэл юм. Байгууллагын нөөц төлөвлөлтийн системийг 
@@ -39,29 +48,26 @@ export default function MainPage(){
                 </div>
             </div>
             
-            <div className='flex flex-col items-end mt-[200px]'>
-                <h1 className='text-5xl font-sans font-bold'>
+            <div className='flex flex-col items-end'>
+                <h1 className='text-4xl font-sans font-bold'>
                     <span className='text-blue-500'>ДАВУУ</span> {' '}
                     <span className='text-black'>ТАЛУУД</span>
-                    <div className="h-2 mt-[10px]                                   
-                        bg-gradient-to-l from-blue-500 to-100% to-white w-full"></div>
                 </h1>
-                <div className='mt=[50px]'> <SmallNavBar /> </div>
-        
-                <div id='mainDescription2' 
-                    className='text-2xl font-normal font-sans text-black 
-                    mt-[10px] ml-[500px] text-justify'>
-                    <div>
-                    ERP нь танд нягтлан бодох бүртгэл, худалдан авалт, борлуулалт,бараа материал, 
-                    харилцагч нартай холбоотой тооцоо, мөнүйлдвэрлэлийн процесс эсвэл олон газар байрлах 
-                    салбаруудынхаа үйлажиллагааг дэмжиж оновчтой арга барилаар удирдахад тань туслахбодит 
-                    хяналтыг мэдрүүлэх болно. Салбаруудын үйл ажиллагааны хяналтыг цаг алдалгүй хийж бизнесийг
-                    дэмжинэ. Бүхий л үйл ажиллагаандаа бодит хяналт тавина. Шийдвэр гаргах явцыг хурдасгаж, 
-                    зах зээлд үзүүлэх нөлөөллийгнэмэгдүүлнэ.Удирдлага хялбар байдлаар нийт хэлтэс, нэгжүүдийн 
-                    талаархоновчтой мэдээлэл авна.
-                    </div>
-                    
+                <div className="h-2 mt-[10px]                                   
+                        bg-gradient-to-l from-blue-500 to-50% to-white w-full">
                 </div>
+            </div>
+            <div className='flex justify-items-stretch mt-[1%] space-x-5 place-items-center'>
+              <div className='order-1 active bg-white rounded-xl w-fit hover:bg-blue-500    
+              transition duration-500 ease-in-out'><AdvONE /></div>
+              <div className='order-2 active bg-white rounded-xl w-fit hover:bg-blue-500
+              transition duration-500 ease-in-out'><AdvTWO /></div>
+              <div className='order-3 active bg-white rounded-xl w-fit hover:bg-blue-500
+              transition duration-500 ease-in-out'><AdvTHREE /></div>
+              <div className='order-4 active bg-white rounded-xl w-fit hover:bg-blue-500
+              transition duration-500 ease-in-out'><AdvFOUR /></div>
+              <div className='order-5 active bg-white rounded-xl w-fit hover:bg-blue-500
+              transition duration-500 ease-in-out'><AdvFIVE /></div>
             </div>
            
         </main>
@@ -69,59 +75,6 @@ export default function MainPage(){
     )
 }
 
-function SmallNavBar() {
-    return (
-        <Disclosure as="nav" className="bg-transparent">
-          {({ open }) => (
-            <>
-              <div className="max-w-7xl sm:px-6 lg:px-8">
-                <div className="flex h-16 items-center justify-items-end">
-                  
-                  <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                    <div className="hidden sm:ml-6 sm:block">
-                      <div>
-                        {navigation.map((item) => (
-                          <a
-                            key={item.name}
-                            href={item.href}
-                            className={classNames(
-                              item.current ? 'bg-blue-500 text-white break-all' : 'text-black hover:bg-blue-500 hover:text-white',
-                              'rounded-3xl px-1 py-5 text-lr font-semibold font-sans text-center '
-                            )}
-                          >
-                            {item.name}
-                          </a>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                  {/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                   
-                  </div> */}
-                </div>
-              </div>
-    
-              <Disclosure.Panel className="sm:hidden">
-                <div className="space-y-1 px-2 pb-3 pt-2">
-                  {navigation.map((item) => (
-                    <Disclosure.Button
-                      key={item.name}
-                      as="a"
-                      href={item.href}
-                      className={classNames(
-                        item.current ? 'bg-blue-500 text-white' : 'text-black hover:bg-blue-500 hover:text-white',
-                        'block rounded-md px-3 py-2 text-base font-medium'
-                      )}
-                      
-                    >
-                      {item.name}
-                    </Disclosure.Button>
-                  ))}
-                </div>
-              </Disclosure.Panel>
-            </>
-          )}
-        </Disclosure>
-      )
-}
+
+
 
