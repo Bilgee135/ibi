@@ -1,0 +1,17 @@
+[
+    {
+        "BurdeldehuunSystem0" : true,
+        "BurdeldehuunSystem1" : true,
+        "BurdeldehuunSystem2" : true,
+        "BurdeldehuunSystem3" : false,
+        "BurdeldehuunSystem4" : false,
+        "BurdeldehuunSystem5" : true,
+        "BurdeldehuunSystem6" : true,
+        "BurdeldehuunSystem7" : true
+    },
+    {
+        "systemName" : "Сэцэн Кассын Систем",
+        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
+        "systemIcon" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png"
+    }
+]

@@ -1,44 +1,44 @@
 [
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
-        "name" : "Diamond ERP",
+        "name" : "Даймонд ERP",
         "href" : "/DiamondERP",
         "key" : "diamond0"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
-        "name" : "Diamond1",
-        "href" : "#",
+        "name" : "Импакт",
+        "href" : "/Impact",
         "key" : "diamond1"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
-        "name" : "Diamond2",
-        "href" : "#",
+        "name" : "Эмералд",
+        "href" : "/Emerald",
         "key" : "diamond2"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
-        "name" : "Diamond3",
-        "href" : "#",
+        "name" : "Спинел",
+        "href" : "/Spinel",
         "key" : "diamond3"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
-        "name" : "Diamond4",
-        "href" : "#",
+        "name" : "Ruby",
+        "href" : "/Ruby",
         "key" : "diamond4"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
-        "name" : "Diamond5",
-        "href" : "#",
+        "name" : "Сэцэн",
+        "href" : "/Setsen",
         "key" : "diamond5"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
-        "name" : "Diamond6",
-        "href" : "#",
+        "name" : "Даймонд 6.0",
+        "href" : "/Diamond6",
         "key" : "diamond6"
     }
 ]
