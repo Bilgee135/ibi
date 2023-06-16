@@ -15,37 +15,35 @@ export default function Othersubpage({ isDetails }) {
 
 function BureldehCom(props) {
     return (
-        <div className='w-[50%] xl:w-[45%] 2xl:w-2/5 h-44 relative flex items-center justify-center'>
+        <div className='w-full sm:w-[50%] md:w-[40%] h-44 relative flex items-center justify-center flex-col'>
             <button className='w-[65%] h-36'>
                 <a href={ props.href}>
-                    <div className='w-full md:h-[45%] flex flex-row   '>
-                        <div className='px-[5%] w-auto h-auto'><img src={ props.img } className='aspect-square h-full' /></div>
-                        <h2 className='flex items-center h-full w-auto font-extrabold text-[18px] text-blue-900'>{ props.name }</h2>
+                    <div className='w-full h-[45%] flex flex-row   '>
+                        <div className='px-[5%] aspect-[89.16/64.8] w-auto flex items-center justify-center'><img src={ props.img } className='aspect-square w-full sm:w-4/6 min-[912px]:w-5/6 min-[1074px]:w-full' /></div>
+                        <h2 className='flex items-center text-left h-full w-auto font-extrabold text-[14px] sm:text-[12px] min-[850px]:text[14px] min-[1074px]:text-[18px] text-blue-900'>{ props.name }</h2>
                     </div>
                     <div className='bg-blue-900 h-[2px]'></div>
 
                     <div className='w-full h-[54%] relative'>
-                        <div className='w-full h-5/6 absolute bottom-0'>
-                            <p className='text-[14px] text-left'> { props.desc } </p>
+                        <div className='w-full h-4/6 sm:h-5/6 absolute bottom-0'>
+                            <p className='flex items-center text-left h-full w-auto text-[12px] sm:text-[11px] min-[1074px]:text-[13px]'> { props.desc } </p>
                         </div>
                     </div>
                 </a>
             </button>
+            <div className='w-full h-[40%]'></div>
         </div>
     )
 }
 
 function NiitBureldeguun(props) {
     return (
-        <div className='w-full flex justify-center flex-col'>
-            {Array.from({ length: Math.ceil(props.Bureldehuun.length / 2) }).map((_, rowIndex) => (
-                <div key={rowIndex} className="flex justify-center">
-                    {props.Bureldehuun.slice(rowIndex * 2, rowIndex * 2 + 2).map((comp, i) => (
-                        <BureldehCom key={i} name={comp["name"]} img={comp["img"]} desc={comp["desc"]} href={ comp["href"] } />
-                    ))}
-                </div>
-            ))}
+        <div className='w-full flex justify-center flex-wrap'>
+            {props.Bureldehuun.map(function(comp) {
+                return (
+                    <BureldehCom name={comp["name"]} img={comp["img"]} desc={comp["desc"]} href={ comp["href"] } />
+                )
+            })}
         </div>
-
     )
 }
