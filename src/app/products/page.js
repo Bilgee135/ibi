@@ -4,6 +4,7 @@ import Headertwo from '../Headertwo'
 import Productlist from './components/productlist'
 import MainPage from './components/MainProductPage'
 
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col
