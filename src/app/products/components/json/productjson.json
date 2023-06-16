@@ -1,20 +1,20 @@
 [
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
-        "name" : "Diamond ERP",
+        "name" : "Даймонд ERP",
         "href" : "/DiamondERP",
         "key" : "diamond0"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
-        "name" : "Diamond1",
-        "href" : "#",
+        "name" : "Импакт",
+        "href" : "/Impact",
         "key" : "diamond1"
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
-        "name" : "Diamond2",
-        "href" : "#",
+        "name" : "Эмералд",
+        "href" : "/Emerald",
         "key" : "diamond2"
     },
     {
