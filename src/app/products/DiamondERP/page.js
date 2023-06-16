@@ -41,9 +41,9 @@ export default function Diamond() {
 
   //-----------------------------Undsen butsaalt-------------------//
   return (
-    <main className="flex min-h-screen flex-col scroll-smooth">
+    <main className="flex min-h-screen flex-col scroll-smooth bg-white">
       <Headertwo />
-      <div className='h-auto w-full bg-slate-100'>
+      <div className='h-auto w-full'>
         <div className='relative w-full h-[620px] bg-[#C5E9FF] flex items-center justify-center'>
           <Viewcontainer1 />
           <Backbutton />

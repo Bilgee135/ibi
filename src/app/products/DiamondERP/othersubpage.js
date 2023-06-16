@@ -1,11 +1,12 @@
 import React from 'react'
 import Bureldehuun from '../components/json/Bureldehuun'
+import bureldeh from './bureldeh'
 
 export default function Othersubpage({ isDetails }) {
     if (!isDetails) {
         return (
-            <div className='w-full h-auto bg-slate-100 flex justify-center'>
-                <NiitBureldeguun Bureldehuun={ Bureldehuun }/>
+            <div className='w-full h-auto flex justify-center'>
+                <NiitBureldeguun Bureldehuun={ Bureldehuun } Bureldeh={ bureldeh }/>
             </div>
         )
     } else {
@@ -40,9 +41,11 @@ function NiitBureldeguun(props) {
     return (
         <div className='w-full flex justify-center flex-wrap'>
             {props.Bureldehuun.map(function(comp) {
-                return (
-                    <BureldehCom name={comp["name"]} img={comp["img"]} desc={comp["desc"]} href={ comp["href"] } />
-                )
+                if (props.Bureldeh[0][comp["id"]]) {
+                    return (
+                        <BureldehCom name={comp["name"]} img={comp["img"]} desc={comp["desc"]} href={ comp["href"] } />
+                    )
+                }
             })}
         </div>
     )
