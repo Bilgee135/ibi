@@ -86,7 +86,7 @@ function LineButton({ detailsbuttonclicked, detailsbutton}) {
 function Backbutton() {
   return (
     <button>
-      <a href='/products'><ChevronLeftIcon className='absolute top-[30px] left-[20px] h-[55px] md:h-[60px] w-auto lg:h-[70px]'/></a>
+      <a href='/products#buteegdehuunHeader'><ChevronLeftIcon className='absolute top-[30px] left-[20px] h-[55px] md:h-[60px] w-auto lg:h-[70px]'/></a>
     </button>
   )
 }
