@@ -25,52 +25,66 @@ function classNames(...classes) {
 export default function MainPage(){
 
     return (
-        <main className=' static ml-[10%] mt-[100px] mr-[10%]'>
+        <div className='static ml-[10%] mt-[100px] mr-[10%]'>
             <div>
-                <h1 className='text-4xl font-sans font-bold '>
-                    <span className='text-blue-500'>ҮНДСЭН</span> {' '}
-                    <span className='text-black'>БҮТЭЭГДЭХҮҮН</span>
-                   
-                </h1>
-                <div className="h-2 mt-[10px]                                   
-                        bg-gradient-to-r from-blue-500 to-50% to-whtie w-full"></div>
-                <div id='mainDescription' 
-                    className='text-base font-semibold font-sans text-black 
-                    mt-[10px] mr-[500px] text-justify'>
-                    <div>
-                    ERP гэдэг нь байгууллагын нөөц төлөвлөлтийн цогц шийдэл юм. Байгууллагын нөөц төлөвлөлтийн системийг 
-                    зөвхэрэглэснээр өөрсдийн бизнесээ өргөжүүлж, байгууллагын санхүү, цалин, хүний нөөц, түгээлт, ханган 
-                    нийлүүлэлт,агуулах, үйлдвэрлэлээс гадна салбарын онцлогт тохирсон хэрэглэхэд хялбар системээр бизнесийнхээ 
-                    үнэн бодитоймэдээллийг цаг тухайд нь хүлээн авч оновчтой шийдвэр гарган, үр ашигтай удирдаж, бүтээмжээ 
-                    нэмэгдүүлэн ажиллахболомжтой болно.
-                    </div>
+                <div id='upperPart'>
+                    <h1 id='undsenButeegdehuun' className='text-2xl font-sans font-bold md:text-3xl lg:text-4xl'>
+                        <span className='text-blue-500'>ҮНДСЭН</span> {' '}
+                        <span className='text-black'>БҮТЭЭГДЭХҮҮН</span>
                     
+                    </h1>
+                    <div className="h-1 sm:h-2 mt-[5px] sm:mt-[10px]                                   
+                            bg-gradient-to-r from-blue-500 to-50% to-whtie w-full">
+                    </div>
+                    <div id='mainDescription' 
+                        className='static text-xs font-semibold font-sans text-black 
+                        mt-[10px] w-full sm:w-[60%] text-justify md:text-sm lg:text-base'>
+                        ERP гэдэг нь байгууллагын нөөц төлөвлөлтийн цогц шийдэл юм. Байгууллагын нөөц төлөвлөлтийн системийг 
+                        зөвхэрэглэснээр өөрсдийн бизнесээ өргөжүүлж, байгууллагын санхүү, цалин, хүний нөөц, түгээлт, ханган 
+                        нийлүүлэлт,агуулах, үйлдвэрлэлээс гадна салбарын онцлогт тохирсон хэрэглэхэд хялбар системээр бизнесийнхээ 
+                        үнэн бодитоймэдээллийг цаг тухайд нь хүлээн авч оновчтой шийдвэр гарган, үр ашигтай удирдаж, бүтээмжээ 
+                        нэмэгдүүлэн ажиллах боломжтой болно.
+                    </div>
+                </div>
+                <div id='middlePart' className='mt-[50px] flex flex-col items-end'>
+                    <h1 className='text-2xl font-sans font-bold md:text-3xl lg:text-4xl'>
+                        <span className='text-blue-500'>ДАВУУ</span> {' '}
+                        <span className='text-black'>ТАЛУУД</span>
+                    </h1>
+                    <div className="h-1 sm:h-2 mt-[5px] sm:mt-[10px]                                  
+                            bg-gradient-to-l from-blue-500 to-50% to-white w-full">
+                    </div>
+                </div>
+                <div id='advantagesNav' className='flex flex-col items-center space-y-3 mt-[2%]
+                sm:columns-2  md:flex-row md:space-x-4 lr:space-x-7 self-stretch'>
+                    <div className='active bg-blue-500 rounded-xl w-full h-[45px] sm:min-h-[60px] sm:min-w-[16%] md:min-h-[90px] 
+                    transition ease-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:ring hover:ring-blue-500 duration-250 
+                        flex justify-center'>
+                        <AdvONE />
+                    </div>
+                     <div className='active bg-blue-500 rounded-xl w-full h-[45px] sm:min-h-[60px] sm:min-w-[16%] md:min-h-[90px]
+                        transition ease-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:ring hover:ring-blue-500 duration-250
+                        flex justify-center'>
+                        <AdvTWO />
+                    </div>
+                    <div className='active bg-blue-500 rounded-xl w-full h-[45px] sm:min-h-[60px] sm:min-w-[16%] md:min-h-[90px]
+                         transition ease-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:ring hover:ring-blue-500 duration-250
+                         flex justify-center'>
+                        <AdvTHREE />
+                    </div>
+                    <div className='active bg-blue-500 rounded-xl w-full h-[45px] sm:min-h-[60px] sm:min-w-[16%] md:min-h-[90px]
+                        transition ease-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:ring hover:ring-blue-500 duration-250
+                        flex justify-center'>
+                        <AdvFOUR />
+                    </div>
+                    <div className='active bg-blue-500 rounded-xl w-full h-[45px] sm:min-h-[60px] sm:min-w-[16%] md:min-h-[90px]
+                        transition ease-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:ring hover:ring-blue-500 duration-250
+                        flex justify-center'>
+                        <AdvFIVE />
+                    </div> 
                 </div>
             </div>
-            
-            <div className='flex flex-col items-end'>
-                <h1 className='text-4xl font-sans font-bold'>
-                    <span className='text-blue-500'>ДАВУУ</span> {' '}
-                    <span className='text-black'>ТАЛУУД</span>
-                </h1>
-                <div className="h-2 mt-[10px]                                   
-                        bg-gradient-to-l from-blue-500 to-50% to-white w-full">
-                </div>
-            </div>
-            <div className='flex justify-items-stretch mt-[1%] space-x-5 place-items-center'>
-              <div className='order-1 active bg-white rounded-xl w-fit hover:bg-blue-500    
-              transition duration-500 ease-in-out'><AdvONE /></div>
-              <div className='order-2 active bg-white rounded-xl w-fit hover:bg-blue-500
-              transition duration-500 ease-in-out'><AdvTWO /></div>
-              <div className='order-3 active bg-white rounded-xl w-fit hover:bg-blue-500
-              transition duration-500 ease-in-out'><AdvTHREE /></div>
-              <div className='order-4 active bg-white rounded-xl w-fit hover:bg-blue-500
-              transition duration-500 ease-in-out'><AdvFOUR /></div>
-              <div className='order-5 active bg-white rounded-xl w-fit hover:bg-blue-500
-              transition duration-500 ease-in-out'><AdvFIVE /></div>
-            </div>
-           
-        </main>
+        </div>
         
     )
 }
