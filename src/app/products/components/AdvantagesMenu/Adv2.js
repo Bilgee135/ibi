@@ -31,12 +31,12 @@ export default function AdvTWO() {
         <Button
           {...triggers}
           variant="text"
-          className="flex items-center gap-3 text-xl font-normal capitalize tracking-normal hover:text-white"
+          className="flex items-center gap-3 align-middle text-white text-xs md:text-sm lg:text-xl font-semibold capitalize tracking-normal hover:text-blue-500"
         >
           Зардлыг бууруулна{" "}
           <ChevronDownIcon
             strokeWidth={4}
-            className={`h-3.5 w-3.5 transition-transform hover:text-white ${
+            className={`h-3.5 w-3.5 transition-transform hover:text-blue-500 ${
               openMenu ? "rotate-180" : ""
             }`}
           />
