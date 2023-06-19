@@ -19,11 +19,9 @@ import {
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
 const products = [
-  { name: 'ДАЙМОНД ERP', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
-  { name: 'ИМПАКТ', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'ЭМЕРАЛД', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
-  { name: 'СПИНЕЛ', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-  { name: 'Ruby', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
+  { name: 'Үндсэн Бүтээгдэхүүн', description: 'Манай бүтээгдэхүүнтэй танилцах', href: './products', icon: ChartPieIcon },
+  { name: 'Үйл ажиллагааны чиглэлээр', description: 'Чиглэлүүдээр сонгож харах', href: '#', icon: CursorArrowRaysIcon },
+
 ]
 
 const company = [
@@ -139,7 +137,7 @@ export default function Headertwo() {
                         <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                       </div>
                       <div className="flex-auto">
-                        <a href={item.href} className="block font-semibold text-gray-900">
+                        <a href={item.href} className="block font-semibold text-gray-900 uppercase">
                           {item.name}
                           <span className="absolute inset-0" />
                         </a>
@@ -148,7 +146,7 @@ export default function Headertwo() {
                     </div>
                   ))}
                 </div>
-                <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+                {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                   {callsToAction.map((item) => (
                     <a
                       key={item.name}
@@ -159,7 +157,7 @@ export default function Headertwo() {
                       {item.name}
                     </a>
                   ))}
-                </div>
+                </div> */}
               </Popover.Panel>
             </Transition>
           </Popover>
