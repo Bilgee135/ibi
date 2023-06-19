@@ -6,6 +6,7 @@ import { ChevronLeftIcon } from '@heroicons/react/20/solid'
 import Viewcontainer1 from './viewcontainer'
 import Detailssubpage from './detailssubpage'
 import Othersubpage from './othersubpage'
+import Footer from '@/app/footer'
 
 export default function Diamond() {
   //----------------------------"Buteegdehuunii tuhai", "Bureldehuun" gsn tovchnd deer darahad state uurclugdune--------------------//
@@ -61,6 +62,7 @@ export default function Diamond() {
         <Detailssubpage isDetails={ isDetails }/>
         <Othersubpage isDetails={ isDetails }/>
       </div>
+      <Footer />
     </main>
   )
 }
