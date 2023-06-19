@@ -56,7 +56,7 @@ export default function Headertwo() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+            <span className="sr-only">IBI</span>
             <img className="h-12 w-auto transition duration-300 ease-in-out hover:shadow-lg dark:hover:shadow-black/30" 
             src="https://m.zangia.mn/l/f/1/MO-K65NO6S-YZM1VQ0-6B2I1FL-7I.jpg" alt="" />
           </a>
