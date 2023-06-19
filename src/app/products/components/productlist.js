@@ -74,9 +74,11 @@ function Productlist() {
   }
 
   return (
-    <div className='h-[120px] w-screen bg-[#C5E9FF] flex items-center justify-center'>
+    <div className='h-[120px] w-screen  flex items-center justify-center'>
       <div className=' bg-white h-[100px] w-screen inline-block align-middle relative'>
+        <div className='h-[1px] w-screen bg-gray-300'></div>
         <Productbox productlist={displayproducts} onRButtonClick={handlePIncrement } onLButtonClick={ handleNIncrement }/>
+        <div className='h-[1px] w-screen bg-gray-300'></div>
       </div>
     </div>
   )
