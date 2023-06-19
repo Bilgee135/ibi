@@ -29,11 +29,15 @@ export default function Home() {
                 <div className="flex justify-center mx-auto">
                   <button
                     className="hover:underline bg-white text-gray-800 font-bold rounded-full py-4 px-8">
-                    Бидний тухай
+                      <a href='#'>
+                      Бидний тухай
+                      </a>
                   </button>
                   <button
                     className="ml-4 hover:underline bg-white text-gray-800 font-bold rounded-full  py-4 px-8">
-                    Бүтээгдэхүүн
+                      <a href='./products'>
+                        Бүтээгдэхүүн
+                      </a>
                   </button>
                 </div>
             </div>
