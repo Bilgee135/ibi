@@ -3,11 +3,7 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { ButtonGroup, Button } from "@material-tailwind/react"
-import AdvONE from './AdvantagesMenu/Adv1'
-import AdvTWO from './AdvantagesMenu/Adv2'
-import AdvTHREE from './AdvantagesMenu/Adv3'
-import AdvFOUR from './AdvantagesMenu/Adv4'
-import AdvFIVE from './AdvantagesMenu/Adv5'
+import Gridcolumn from './gridcolumn'
 
 
 const navigation = [
@@ -54,34 +50,7 @@ export default function MainPage(){
                     <div className="h-1 sm:h-2 mt-[5px] sm:mt-[10px]                                  
                             bg-gradient-to-l from-blue-500 to-50% to-white w-full">
                     </div>
-                </div>
-                <div id='advantagesNav' className='flex flex-col items-center space-y-3 mt-[2%]
-                sm:columns-2  md:flex-row md:space-x-4 lr:space-x-7 self-stretch'>
-                    <div className='active bg-blue-500 rounded-xl w-full h-[45px] sm:min-h-[60px] sm:min-w-[16%] md:min-h-[90px] 
-                    transition ease-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:ring hover:ring-blue-500 duration-250 
-                        flex justify-center'>
-                        <AdvONE />
-                    </div>
-                     <div className='active bg-blue-500 rounded-xl w-full h-[45px] sm:min-h-[60px] sm:min-w-[16%] md:min-h-[90px]
-                        transition ease-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:ring hover:ring-blue-500 duration-250
-                        flex justify-center'>
-                        <AdvTWO />
-                    </div>
-                    <div className='active bg-blue-500 rounded-xl w-full h-[45px] sm:min-h-[60px] sm:min-w-[16%] md:min-h-[90px]
-                         transition ease-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:ring hover:ring-blue-500 duration-250
-                         flex justify-center'>
-                        <AdvTHREE />
-                    </div>
-                    <div className='active bg-blue-500 rounded-xl w-full h-[45px] sm:min-h-[60px] sm:min-w-[16%] md:min-h-[90px]
-                        transition ease-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:ring hover:ring-blue-500 duration-250
-                        flex justify-center'>
-                        <AdvFOUR />
-                    </div>
-                    <div className='active bg-blue-500 rounded-xl w-full h-[45px] sm:min-h-[60px] sm:min-w-[16%] md:min-h-[90px]
-                        transition ease-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-white hover:ring hover:ring-blue-500 duration-250
-                        flex justify-center'>
-                        <AdvFIVE />
-                    </div> 
+                    <Gridcolumn />
                 </div>
             </div>
         </div>
