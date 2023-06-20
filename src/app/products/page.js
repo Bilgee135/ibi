@@ -11,9 +11,7 @@ import ProductCards from './components/productcards'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col
-      flex-1 overflow-y-auto overflow-x-hidden
-      bg-white">
+    <main className="flex min-h-screen flex-col bg-white overflow-x-hidden pt-20">
       <section id='header'>
         <Headertwo />
       </section>
