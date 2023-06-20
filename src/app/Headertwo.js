@@ -50,10 +50,29 @@ function classNames(...classes) {
 
 export default function Headertwo() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [isOpen1, setIsOpen1] = useState(false);
+  const [isOpen2, setIsOpen2] = useState(false);
+
+  const handleMouseEnter1 = () => {
+    setIsOpen1(true);
+  };
+
+  const handleMouseLeave1 = () => {
+    setIsOpen1(false);
+  };
+
+  const handleMouseEnter2 = () => {
+    setIsOpen2(true);
+  };
+
+  const handleMouseLeave2 = () => {
+    setIsOpen2(false);
+  };
+
 
   return (
     // <div className='sticky top-0'>
-      <header className="bg-white">
+      <header className="bg-white fixed top-0 w-full z-50">
         <nav className="mx-auto flex max-w-7xl items-center justify-between p-[15px] px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
@@ -74,13 +93,18 @@ export default function Headertwo() {
           </div>
           <Popover.Group className="hidden lg:flex lg:gap-x-12">
             <Popover className="relative">
-              <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 ring-0 duration-150 hover:text-blue-500">
+              <div
+                className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 ring-0 duration-200 hover:text-blue-500"
+                onMouseEnter={handleMouseEnter1}
+                onMouseLeave={handleMouseLeave1}
+              >
                 Компани
                 <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-              </Popover.Button>
+              </div>
 
               <Transition
                 as={Fragment}
+                show={isOpen1}
                 enter="transition ease-out duration-200"
                 enterFrom="opacity-0 translate-y-1"
                 enterTo="opacity-100 translate-y-0"
@@ -88,8 +112,8 @@ export default function Headertwo() {
                 leaveFrom="opacity-100 translate-y-0"
                 leaveTo="opacity-0 translate-y-1"
               >
-                <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
-                  <div className="p-4">
+                <Popover.Panel className="absolute -left-8 top-full z-10 mt-1 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                  <div className="p-4" onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1}>
                     {company.map((item) => (
                       <div
                         key={item.name}
@@ -110,16 +134,21 @@ export default function Headertwo() {
                   </div>
                 </Popover.Panel>
               </Transition>
-            </Popover>
+            </Popover >
 
             <Popover className="relative">
-              <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 duration-150 hover:text-blue-500">
+              <div
+                className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 ring-0 duration-200 hover:text-blue-500"
+                onMouseEnter={handleMouseEnter2}
+                onMouseLeave={handleMouseLeave2}
+              >
                 Бүтээгдэхүүн
                 <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-              </Popover.Button>
+              </div>
 
               <Transition
                 as={Fragment}
+                show={isOpen2}
                 enter="transition ease-out duration-200"
                 enterFrom="opacity-0 translate-y-1"
                 enterTo="opacity-100 translate-y-0"
@@ -127,8 +156,8 @@ export default function Headertwo() {
                 leaveFrom="opacity-100 translate-y-0"
                 leaveTo="opacity-0 translate-y-1"
               >
-                <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
-                  <div className="p-4">
+                <Popover.Panel className="absolute -left-8 top-full z-10 mt-1 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                  <div className="p-4" onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}>
                     {products.map((item) => (
                       <div
                         key={item.name}
@@ -138,7 +167,7 @@ export default function Headertwo() {
                           <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                         </div>
                         <div className="flex-auto">
-                          <a href={item.href} className="block font-semibold text-gray-900 uppercase">
+                          <a href={item.href} className="block font-semibold text-gray-900">
                             {item.name}
                             <span className="absolute inset-0" />
                           </a>
@@ -147,7 +176,10 @@ export default function Headertwo() {
                       </div>
                     ))}
                   </div>
-                  {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+                </Popover.Panel>
+              </Transition>
+            </Popover >
+            {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                     {callsToAction.map((item) => (
                       <a
                         key={item.name}
@@ -159,20 +191,17 @@ export default function Headertwo() {
                       </a>
                     ))}
                   </div> */}
-                </Popover.Panel>  
-              </Transition>
-            </Popover>
                       
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-150 hover:text-blue-600">
+            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
               Үйлчилгээ
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-150 hover:text-blue-600">
+            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
               Тоног төхөөрөмж
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-150 hover:text-blue-600">
+            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
               Хүний нөөц
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-150 hover:text-blue-600">
+            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
               Хамтрагчид
             </a>
 
@@ -225,36 +254,56 @@ export default function Headertwo() {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                      Компани
-                    </a>  
                   <Disclosure as="div" className="-mx-3">
-                    {({ open }) => (
-                      <> 
-                        <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 ">
-                          Бүтээгдэхүүн
-                          <ChevronDownIcon
-                            className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
-                            aria-hidden="true"
-                          />
-                        </Disclosure.Button>
-                        <Disclosure.Panel className="mt-2 space-y-2">
-                          {[...products ].map((item) => (
-                            <Disclosure.Button
-                              key={item.name}
-                              as="a"
-                              href={item.href}
-                              className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                            >
-                              {item.name}
-                            </Disclosure.Button>
-                          ))}
-                        </Disclosure.Panel>
-                      </>
-                    )}
-                  </Disclosure>
+                      {({ open }) => (
+                        <> 
+                          <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                            Компани
+                            <ChevronDownIcon
+                              className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
+                              aria-hidden="true"
+                            />
+                          </Disclosure.Button>
+                          <Disclosure.Panel className="mt-2 space-y-2">
+                            {[...company ].map((item) => (
+                              <Disclosure.Button
+                                key={item.name}
+                                as="a"
+                                href={item.href}
+                                className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                              >
+                                {item.name}
+                              </Disclosure.Button>
+                            ))}
+                          </Disclosure.Panel>
+                        </>
+                      )}
+                    </Disclosure>
+                    <Disclosure as="div" className="-mx-3">
+                      {({ open }) => (
+                        <> 
+                          <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                            Бүтээгдэхүүн
+                            <ChevronDownIcon
+                              className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
+                              aria-hidden="true"
+                            />
+                          </Disclosure.Button>
+                          <Disclosure.Panel className="mt-2 space-y-2">
+                            {[...products ].map((item) => (
+                              <Disclosure.Button
+                                key={item.name}
+                                as="a"
+                                href={item.href}
+                                className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                              >
+                                {item.name}
+                              </Disclosure.Button>
+                            ))}
+                          </Disclosure.Panel>
+                        </>
+                      )}
+                    </Disclosure>
                   <a
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"

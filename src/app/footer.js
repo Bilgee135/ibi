@@ -7,7 +7,7 @@ const SITEMAP = [
     links: [
       {
         "name" : "Танилцуулга",
-        "href" : "#"
+        "href" : "./company"
       },
       {
         "name" : "Бүтэц зохион байгуулалт",

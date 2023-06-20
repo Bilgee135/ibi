@@ -3,7 +3,7 @@ import data from './json/productcard'
 
 export default function Productcards() {
   return (
-    <div className='relative h-full w-[80%] left-[10%] flex justify-center items-center flex-col'>
+    <div className='relative h-full w-[80%] left-[10%] flex justify-center items-center flex-col drop-shadow-xl'>
         <div className='w-full h-[100px]'></div>
         <div className='w-full h-[100px] flex items-center justify-center'><h1 id='buteegdehuunHeader' className='text-[36px] font-bold text-blue-500'>БҮТЭЭГДЭХҮҮН</h1></div>
         <div className='h-[90%] w-[80%] flex items-center relative flex-wrap'>
