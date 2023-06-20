@@ -1,7 +1,6 @@
 'use client'
 
 import Headertwo from './Headertwo'
-import Productlist from './products/components/productlist'
 import MainPage from './products/components/MainProductPage'
 import Footer from './footer'
 
