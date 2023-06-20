@@ -9,13 +9,13 @@ import Footer from './footer'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-white overflow-x-hidden">
-      <section id='header'>
+      <section id='header' className='fixed top-0 w-full'>
         <Headertwo />
       </section>
       <section id='heroSection'>
-        <div className="w-screen h-[80%] text-white bg-gradient-to-r from-blue-500 via-sky-800 to-blue-700">
+        <div className="w-screen h-[99%] text-white bg-gradient-to-r from-blue-500 via-sky-800 to-blue-700">
           <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-          {/* <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center" alt="IBI" src='./assets/ibi.png' /> */}
+          {/* <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center" alt="IBI" src='https://i.ibb.co/fk2L0Yz/ibi.png' /> */}
           <div className="text-center lg:w-5/12 w-full">
               <h1 className="my-4 text-5xl font-extrabold leading-tight">
               Interactive Business Intelligence
@@ -29,7 +29,7 @@ export default function Home() {
                 <div className="flex justify-center mx-auto">
                   <button
                     className="hover:underline bg-white text-gray-800 font-bold rounded-full py-4 px-8">
-                      <a href='#'>
+                      <a href='./company'>
                       Бидний тухай
                       </a>
                   </button>
