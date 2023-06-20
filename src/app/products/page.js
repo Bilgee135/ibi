@@ -1,9 +1,9 @@
 'use client'
 
 import Headertwo from '../Headertwo'
-import Productlist from './components/productlist'
 import MainPage from './components/MainProductPage'
 import Footer from '../footer'
+import Productlist2 from './components/productlist2'
 
 //this is temporary - integrate this into MainPage after this is finished
 import ProductCards from './components/productcards'
@@ -18,7 +18,7 @@ export default function Home() {
         <Headertwo />
       </section>
       <section id='productList'>
-        <Productlist />
+        <Productlist2 />
       </section>
       <section id='mainPage'>
         <MainPage />
