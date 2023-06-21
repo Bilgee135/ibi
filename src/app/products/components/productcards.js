@@ -1,5 +1,5 @@
 import React from 'react'
-import data from './json/productcard'
+import data from './json/productjson'
 
 export default function Productcards() {
   return (
