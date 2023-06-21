@@ -24,7 +24,7 @@ export default function Home() {
       <sectiod id='productCards'>
         <ProductCards />
       </sectiod>
-      <section id='footerSection' className='mt-[12%]'>
+      <section id='footerSection' className='mt-[5%]'>
         <Footer />
       </section>
     </main>
