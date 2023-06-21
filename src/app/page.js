@@ -26,13 +26,13 @@ export default function Home() {
                 </p>
                 <div className="flex justify-center mx-auto">
                   <button
-                    className="bg-blue-500 text-white transition durantion-200 hover:bg-white hover:text-blue-500 font-bold rounded-full py-4 px-8 drop-shadow-md">
+                    className="bg-blue-500 text-white ring-2 ring-blue-500 transition durantion-200 hover:bg-white hover:text-blue-500 font-bold rounded-full py-4 px-8 drop-shadow-md">
                       <a href='./company'>
                       Бидний тухай
                       </a>
                   </button>
                   <button
-                    className="ml-4 bg-white text-blue-500 transition duration-200 hover:bg-blue-500 hover:text-white font-bold rounded-full  py-4 px-8 drop-shadow-md">
+                    className="ml-4 bg-blue-500 text-white ring-2 ring-blue-500 transition durantion-200 hover:bg-white hover:text-blue-500 font-bold rounded-full py-4 px-8 drop-shadow-md">
                       <a href='./products'>
                         Бүтээгдэхүүн
                       </a>
