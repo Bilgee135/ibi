@@ -45,7 +45,7 @@ export default function Layout( props ) {
 
   //-----------------------------Undsen butsaalt-------------------//
   return (
-    <main className="flex min-h-screen flex-col scroll-smooth bg-white">
+    <main className="flex min-h-screen flex-col scroll-smooth bg-white overflow-x-hidden">
       <Headertwo />
       <div className='h-auto w-full'>
         <div className='relative w-full h-[620px] bg-[#C5E9FF] flex items-center justify-center'>
