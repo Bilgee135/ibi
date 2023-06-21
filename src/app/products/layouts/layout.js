@@ -50,7 +50,7 @@ export default function Layout( props ) {
       <div className='h-auto w-full'>
         <div className='relative w-full h-[620px] bg-[#C5E9FF] flex items-center justify-center'>
           <Viewcontainer1 details={ props.data }/>
-          <div className=' absolute left-3 top-12'><Backbutton /></div>
+          <div className=' absolute left-0 top-[70px]'><Backbutton /></div>
         </div>
         <div id='details0' className='relative h-[100px] w-full'>
           <div className='absolute left-[10%] h-full w-full sm:w-5/6 md:w-4/6 lg:w-3/6 flex items-center flex-row'>
