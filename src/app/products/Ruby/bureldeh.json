@@ -1,13 +1,13 @@
 [
     {
-        "BurdeldehuunSystem0" : false,
+        "BurdeldehuunSystem0" : true,
         "BurdeldehuunSystem1" : true,
-        "BurdeldehuunSystem2" : true,
-        "BurdeldehuunSystem3" : false,
+        "BurdeldehuunSystem2" : false,
+        "BurdeldehuunSystem3" : true,
         "BurdeldehuunSystem4" : false,
         "BurdeldehuunSystem5" : true,
         "BurdeldehuunSystem6" : true,
-        "BurdeldehuunSystem7" : false
+        "BurdeldehuunSystem7" : true
     },
     {
         "systemName" : "RUBY",

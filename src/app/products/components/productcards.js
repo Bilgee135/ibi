@@ -1,12 +1,12 @@
 import React from 'react'
-import data from './json/productcard'
+import data from './json/productjson'
 
 export default function Productcards() {
   return (
     <div className='relative h-full w-[80%] left-[10%] flex justify-center items-center flex-col drop-shadow-xl'>
         <div className='w-full h-[100px]'></div>
         <div className='w-full h-[100px] flex items-center justify-center'><h1 id='buteegdehuunHeader' className='text-[36px] font-bold text-blue-500'>БҮТЭЭГДЭХҮҮН</h1></div>
-        <div className='h-[90%] w-[80%] flex items-center relative flex-wrap'>
+        <div className='h-[90%] w-[80%] flex items-center relative flex-wrap justify-center'>
             { data.map(function(curlylist, i) {
                 return (
                     <ProductButton key={'card' + curlylist["name"] + i} name={ curlylist["name"] } src={ curlylist["srcimg"] } href={ 'products/' + curlylist["href"] } desc={ curlylist["desc"] }/>
@@ -19,7 +19,7 @@ export default function Productcards() {
 
 function ProductButton(props) {
     return (
-        <div className='w-full sm:w-1/2 lg:w-1/3 flex items-center justify-center flex-col'>
+        <div className='w-full sm:w-1/2 lg:w-[300px] flex items-center justify-center flex-col'>
             <div className='h-[18px] w-full'></div>
             <button className='bg-[#e8f6ff] hover:bg-[#d5efff]  hover:-translate-y-4 transition duration-200 ease-in-out aspect-[0.65] w-[90%] flex-col rounded-xl'>
                 <a href={ props.href }>

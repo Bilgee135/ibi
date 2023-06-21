@@ -1,7 +1,6 @@
 import React from 'react'
-import details from './bureldeh'
 
-function Viewcontainer1() {
+function Viewcontainer1({ details }) {
     return (
       <div className='relative w-5/6 lg:w-4/6 aspect-[10/2] h-5/6 md:h-auto'>
         <div className='invisible md:visible'>

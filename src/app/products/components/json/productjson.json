@@ -3,42 +3,49 @@
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Даймонд ERP",
         "href" : "/DiamondERP",
-        "key" : "diamond0"
+        "key" : "diamond0",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Импакт",
         "href" : "/Impact",
-        "key" : "diamond1"
+        "key" : "diamond1",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Эмералд",
         "href" : "/Emerald",
-        "key" : "diamond2"
+        "key" : "diamond2",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Спинел",
         "href" : "/Spinel",
-        "key" : "diamond3"
+        "key" : "diamond3",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Ruby",
         "href" : "/Ruby",
-        "key" : "diamond4"
+        "key" : "diamond4",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Сэцэн",
         "href" : "/Setsen",
-        "key" : "diamond5"
+        "key" : "diamond5",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
         "name" : "Даймонд 6.0",
         "href" : "/Diamond6",
-        "key" : "diamond6"
+        "key" : "diamond6",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     }
 ]

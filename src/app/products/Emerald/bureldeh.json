@@ -3,15 +3,15 @@
         "BurdeldehuunSystem0" : true,
         "BurdeldehuunSystem1" : true,
         "BurdeldehuunSystem2" : true,
-        "BurdeldehuunSystem3" : false,
+        "BurdeldehuunSystem3" : true,
         "BurdeldehuunSystem4" : true,
-        "BurdeldehuunSystem5" : false,
+        "BurdeldehuunSystem5" : true,
         "BurdeldehuunSystem6" : false,
         "BurdeldehuunSystem7" : false
     },
     {
-        "systemName" : "Эмералд",
-        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "systemName" : "ЭМЕРАЛД",
+        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png"
     }
 ]
