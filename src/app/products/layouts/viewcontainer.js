@@ -2,7 +2,7 @@ import React from 'react'
 
 function Viewcontainer1({ details }) {
     return (
-      <div className='relative w-5/6 lg:w-4/6 aspect-[10/2] h-5/6 md:h-auto'>
+      <div className='relative w-5/6 lg:w-4/6 aspect-[10/2] h-5/6 md:h-auto top-[40px]'>
         <div className='invisible md:visible'>
           <div className='absolute right-0 w-3/5 h-full'>
             <div className='h-[60%] w-full flex items-center'>
