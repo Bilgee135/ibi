@@ -118,8 +118,8 @@ const currentYear = new Date().getFullYear();
 export default function Footer() {
   return (
     <footer className="w-full">
-    <div className="max-w-screen bg-blue-800">
-    <div className="mx-auto w-full max-w-7xl px-8 bg-blue-800">
+    <div className="max-w-screen bg-sky-950">
+    <div className="mx-auto w-full max-w-7xl px-8 bg-sky-950">
         <div className="mx-auto grid w-full grid-cols-1 gap-5 py-12 md:grid-cols-2 lg:grid-cols-6">
           {SITEMAP.map(({ title, links }, key) => (
             <div key={key} className="w-full">

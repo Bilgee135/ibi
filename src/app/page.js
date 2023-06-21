@@ -14,7 +14,6 @@ export default function Home() {
       <section id='heroSection'>
         <div className="w-screen h-[90%] bg-[url('https://images.pexels.com/photos/2697050/pexels-photo-2697050.jpeg')] bg-cover bg-center">
           <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-          {/* <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center" alt="IBI" src='https://i.ibb.co/fk2L0Yz/ibi.png' /> */}
           <div className="text-center text-white lg:w-5/12 w-full">
               <h1 className="my-4 text-4xl md:text-5xl font-extrabold leading-tight">
               Interactive Business Intelligence
