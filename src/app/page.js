@@ -17,7 +17,7 @@ export default function Home() {
             <div className="container mx-auto flex px-5 py-[250px] items-left justify-center flex-col">
               <div className="text-start text-white lg:w-8/12 w-full">
                 <h1 className="my-4 text-5xl  sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black leading-tight uppercase">
-                  <span className='text-[#59d2fe]'>I</span>nteractive<br/><span className='text-[#4a8fe7]'>B</span>usiness<br/><span className='text-[#59d2fe]'>I</span>ntelligence
+                  <span className='text-[#072ac8] drop-shadow-2xl'>I</span>nteractive<br/><span className='text-[#1e96fc] drop-shadow-2xl'>B</span>usiness<br/><span className='text-[#072ac8] drop-shadow-2xl'>I</span>ntelligence
                 </h1>
                 <p className="text-white text-xl md:text-2xl mb-8 font-medium tracking-wide normal-case">
                   Санхүү, нягтлан бодох бүртгэл болон бусад бүх төрлийн програм хангамж

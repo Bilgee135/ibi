@@ -12,8 +12,10 @@ import ProductCards from './components/productcards'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-white overflow-x-hidden pt-20">
-      <section id='header'>
-        <Headertwo />
+      <section id='header' className='fixed top-0 w-full z-50'>
+        <div className="bg-gradient-to-r from-[#013a63] from-[10%] via-[#014f86] to-[#61a5c2] to-[80%] h-20 w-full">
+          <Headertwo />
+        </div>
       </section>
       <section id='productList'>
         <Productlist2 />
