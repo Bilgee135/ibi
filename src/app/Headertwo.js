@@ -75,7 +75,7 @@ export default function Headertwo() {
 
   return (
     <header className='fixed top-0 w-full z-50 font-poppins'>
-      <div className={color ? 'transition duration-[400ms] bg-white drop-shadow-md text-gray-900' : 'transition duration-[400ms] bg-transparent text-white'}>
+      <div className={color ? 'transition duration-300 bg-white drop-shadow-md text-gray-900' : 'transition duration-300 bg-transparent text-white'}>
         <nav className="mx-auto flex max-w-7xl items-center justify-between p-[15px] px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
@@ -102,7 +102,7 @@ export default function Headertwo() {
                 onMouseLeave={handleMouseLeave1}
               >
                 Компани
-                <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
+                <ChevronDownIcon className="h-5 w-5 flex-none" aria-hidden="true" />
               </div>
 
               <Transition
@@ -146,7 +146,7 @@ export default function Headertwo() {
                 onMouseLeave={handleMouseLeave2}
               >
                 Бүтээгдэхүүн
-                <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
+                <ChevronDownIcon className="h-5 w-5 flex-none" aria-hidden="true" />
               </div>
 
               <Transition

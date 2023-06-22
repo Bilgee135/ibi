@@ -1,10 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  safelist: [
-    '!duration-[0ms]',
-    '!delay-[0ms]',
-    'html.js :where([class*="taos:"]:not(.taos-init))'
-  ],
 
   theme: {
     extend: {
@@ -30,7 +25,5 @@ module.exports = {
 
   ],
   
-  plugins: [
-    require('taos/plugin')
-  ],
+  plugins: []
 }
