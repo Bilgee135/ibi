@@ -42,6 +42,17 @@ export default function Headertwo() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isOpen1, setIsOpen1] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
+  const [color, setColor] = useState(false);
+
+  const changeColor = () => {
+    if(window.scrollY >= 90) {
+      setColor(true);
+    }else{ 
+      setColor(false);
+     }
+  }
+
+  window.addEventListener('scroll', changeColor);
 
   const handleMouseEnter1 = () => {
     setIsOpen1(true);
@@ -61,8 +72,8 @@ export default function Headertwo() {
 
 
   return (
-    // <div className='sticky top-0'>
-      <header className="bg-white bg-opacity-75 fixed top-0 w-full z-50 font-poppins">
+    <header className='fixed top-0 w-full z-50 font-poppins'>
+      <div className={color ? 'transition duration-[400ms] bg-white drop-shadow-md' : 'transition duration-[400ms] bg-transparent'}>
         <nav className="mx-auto flex max-w-7xl items-center justify-between p-[15px] px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
@@ -84,7 +95,7 @@ export default function Headertwo() {
           <Popover.Group className="hidden lg:flex lg:gap-x-12">
             <Popover className="relative">
               <div
-                className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 ring-0 duration-200 hover:text-blue-500"
+                className="flex items-center gap-x-1 text-md font-semibold leading-6 text-gray-900 ring-0 duration-200 hover:text-blue-500"
                 onMouseEnter={handleMouseEnter1}
                 onMouseLeave={handleMouseLeave1}
               >
@@ -128,7 +139,7 @@ export default function Headertwo() {
 
             <Popover className="relative">
               <div
-                className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 ring-0 duration-200 hover:text-blue-500"
+                className="flex items-center gap-x-1 text-md font-semibold leading-6 text-gray-900 ring-0 duration-200 hover:text-blue-500"
                 onMouseEnter={handleMouseEnter2}
                 onMouseLeave={handleMouseLeave2}
               >
@@ -182,16 +193,16 @@ export default function Headertwo() {
                     ))}
                   </div> */}
                       
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
+            <a href="#" className="text-md font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
               Үйлчилгээ
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
+            <a href="#" className="text-md font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
               Тоног төхөөрөмж
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
+            <a href="#" className="text-md font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
               Хүний нөөц
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
+            <a href="#" className="text-md font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
               Хамтрагчид
             </a>
 
@@ -216,8 +227,8 @@ export default function Headertwo() {
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-10" />
-          <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-            <div className="flex items-center justify-between">
+          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div className="flex items-center justify-between bg-opacity-100">
               <a href="page" className="-m-1.5 p-1.5">
                 <span className="sr-only">IBI</span>
                 <img
@@ -228,7 +239,7 @@ export default function Headertwo() {
               </a>
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-gray-700 bg-opacity-100"
+                className="-m-2.5 rounded-md p-2.5 text-gray-700 "
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Цэс хаах</span>
@@ -318,7 +329,8 @@ export default function Headertwo() {
             </div>
           </Dialog.Panel>
         </Dialog>
-      </header>
+      </div>
+    </header>
     // </div>
   )
 }
