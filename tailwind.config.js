@@ -29,7 +29,7 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
 
   ],
-
+  
   plugins: [
     require('taos/plugin')
   ],

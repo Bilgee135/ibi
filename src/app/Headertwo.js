@@ -45,7 +45,7 @@ export default function Headertwo() {
   const [color, setColor] = useState(false);
 
   const changeColor = () => {
-    if(window.scrollY >= 180) {
+    if(window.scrollY >= 90) {
       setColor(true);
     }else{ 
       setColor(false);
@@ -72,8 +72,8 @@ export default function Headertwo() {
 
 
   return (
-    <header className='fixed top-0 w-full z-60 font-poppins'>
-      <div className={color ? 'transition duration-500 bg-white' : 'transition duration-500 bg-transparent'}>
+    <header className='fixed top-0 w-full z-50 font-poppins'>
+      <div className={color ? 'transition duration-[400ms] bg-white drop-shadow-md' : 'transition duration-[400ms] bg-transparent'}>
         <nav className="mx-auto flex max-w-7xl items-center justify-between p-[15px] px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
@@ -95,7 +95,7 @@ export default function Headertwo() {
           <Popover.Group className="hidden lg:flex lg:gap-x-12">
             <Popover className="relative">
               <div
-                className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 ring-0 duration-200 hover:text-blue-500"
+                className="flex items-center gap-x-1 text-md font-semibold leading-6 text-gray-900 ring-0 duration-200 hover:text-blue-500"
                 onMouseEnter={handleMouseEnter1}
                 onMouseLeave={handleMouseLeave1}
               >
@@ -139,7 +139,7 @@ export default function Headertwo() {
 
             <Popover className="relative">
               <div
-                className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 ring-0 duration-200 hover:text-blue-500"
+                className="flex items-center gap-x-1 text-md font-semibold leading-6 text-gray-900 ring-0 duration-200 hover:text-blue-500"
                 onMouseEnter={handleMouseEnter2}
                 onMouseLeave={handleMouseLeave2}
               >
@@ -193,16 +193,16 @@ export default function Headertwo() {
                     ))}
                   </div> */}
                       
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
+            <a href="#" className="text-md font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
               Үйлчилгээ
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
+            <a href="#" className="text-md font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
               Тоног төхөөрөмж
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
+            <a href="#" className="text-md font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
               Хүний нөөц
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
+            <a href="#" className="text-md font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
               Хамтрагчид
             </a>
 
