@@ -19,9 +19,9 @@ export default function Home() {
                 <h1 className="my-4 text-5xl  sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black leading-tight uppercase">
                   <span className='text-[#072ac8] drop-shadow-2xl'>I</span>nteractive<br/><span className='text-[#1e96fc] drop-shadow-2xl'>B</span>usiness<br/><span className='text-[#072ac8] drop-shadow-2xl'>I</span>ntelligence
                 </h1>
-                <p className="text-white text-xl md:text-2xl mb-8 font-medium tracking-wide normal-case">
+                <h2 className="text-white text-xl md:text-2xl mb-8 font-medium tracking-wide normal-case">
                   Санхүү, нягтлан бодох бүртгэл болон бусад бүх төрлийн програм хангамж
-                </p>
+                </h2>
                 {/* <p className="text-lr md:text-xl mb-8">
                   Бид бизнесийн бүхий л салбарт програм хангамжийн автоматжуулалтын цогц шийдлийг санал болгож байна.
                 </p> */}
