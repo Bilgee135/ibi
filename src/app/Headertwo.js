@@ -1,6 +1,6 @@
 "use client"
 
-import { Fragment, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import {
   ArrowPathIcon,
@@ -52,7 +52,9 @@ export default function Headertwo() {
      }
   }
 
-  window.addEventListener('scroll', changeColor);
+  useEffect(() => {
+    window.addEventListener('scroll', changeColor);
+  })
 
   const handleMouseEnter1 = () => {
     setIsOpen1(true);
