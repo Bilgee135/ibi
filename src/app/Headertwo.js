@@ -45,7 +45,7 @@ export default function Headertwo() {
   const [color, setColor] = useState(false);
 
   const changeColor = () => {
-    if(window.scrollY >= 90) {
+    if(window.scrollY >= 100) {
       setColor(true);
     }else{ 
       setColor(false);
@@ -75,13 +75,13 @@ export default function Headertwo() {
 
   return (
     <header className='fixed top-0 w-full z-50 font-poppins'>
-      <div className={color ? 'transition duration-[400ms] bg-white drop-shadow-md' : 'transition duration-[400ms] bg-transparent'}>
+      <div className={color ? 'transition duration-[400ms] bg-white drop-shadow-md text-gray-900' : 'transition duration-[400ms] bg-transparent text-white'}>
         <nav className="mx-auto flex max-w-7xl items-center justify-between p-[15px] px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">IBI</span>
-              <img className="h-[50px] w-auto transition duration-300 ease-in-out hover:scale-110 dark:hover:shadow-black/30" 
-              src="https://i.ibb.co/fk2L0Yz/ibi.png" alt="IBI LOGO" />
+              <img className="h-[50px] w-auto transition duration-[400ms] ease-in-out hover:scale-110" 
+              src={color ? "https://i.ibb.co/fk2L0Yz/ibi.png" : "https://i.ibb.co/FY9hVhS/IBI-LOGO-WHITE.png"} alt="IBI LOGO" />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -97,7 +97,7 @@ export default function Headertwo() {
           <Popover.Group className="hidden lg:flex lg:gap-x-12">
             <Popover className="relative">
               <div
-                className="flex items-center gap-x-1 text-md font-semibold leading-6 text-gray-900 ring-0 duration-200 hover:text-blue-500"
+                className="flex items-center gap-x-1 text-md font-semibold leading-6 ring-0 transition duration-300 hover:text-blue-700"
                 onMouseEnter={handleMouseEnter1}
                 onMouseLeave={handleMouseLeave1}
               >
@@ -123,7 +123,7 @@ export default function Headertwo() {
                         className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                       >
                         <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                          <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
+                          <item.icon className="h-6 w-6 text-gray-600 group-hover:text-blue-600" aria-hidden="true" />
                         </div>
                         <div className="flex-auto">
                           <a href={item.href} className="block font-semibold text-gray-900">
@@ -141,7 +141,7 @@ export default function Headertwo() {
 
             <Popover className="relative">
               <div
-                className="flex items-center gap-x-1 text-md font-semibold leading-6 text-gray-900 ring-0 duration-200 hover:text-blue-500"
+                className="flex items-center gap-x-1 text-md font-semibold leading-6 ring-0 transition duration-300 hover:text-blue-700"
                 onMouseEnter={handleMouseEnter2}
                 onMouseLeave={handleMouseLeave2}
               >
@@ -167,7 +167,7 @@ export default function Headertwo() {
                         className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                       >
                         <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                          <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
+                          <item.icon className="h-6 w-6 text-gray-600 group-hover:text-blue-600" aria-hidden="true" />
                         </div>
                         <div className="flex-auto">
                           <a href={item.href} className="block font-semibold text-gray-900">
@@ -195,16 +195,16 @@ export default function Headertwo() {
                     ))}
                   </div> */}
                       
-            <a href="#" className="text-md font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
+            <a href="#" className="text-md font-semibold leading-6 transition duration-300 hover:text-blue-700">
               Үйлчилгээ
             </a>
-            <a href="#" className="text-md font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
+            <a href="#" className="text-md font-semibold leading-6 transition duration-300 hover:text-blue-700">
               Тоног төхөөрөмж
             </a>
-            <a href="#" className="text-md font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
+            <a href="#" className="text-md font-semibold leading-6 transition duration-300 hover:text-blue-700">
               Хүний нөөц
             </a>
-            <a href="#" className="text-md font-semibold leading-6 text-gray-900 duration-200 hover:text-blue-600">
+            <a href="#" className="text-md font-semibold leading-6 transition duration-300 hover:text-blue-700">
               Хамтрагчид
             </a>
 
@@ -234,7 +234,7 @@ export default function Headertwo() {
               <a href="page" className="-m-1.5 p-1.5">
                 <span className="sr-only">IBI</span>
                 <img
-                  className="h-8 w-auto"
+                  className="h-[50px] w-auto"
                   src="https://i.ibb.co/fk2L0Yz/ibi.png"
                   alt=""
                 />
