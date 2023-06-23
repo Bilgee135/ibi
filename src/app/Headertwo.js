@@ -18,21 +18,42 @@ import {
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 
-const products = [
-  { name: 'Үндсэн Бүтээгдэхүүн', description: 'Манай бүтээгдэхүүнтэй танилцах', href: './products', icon: ChartPieIcon },
-  { name: 'Үйл ажиллагааны чиглэлээр', description: 'Чиглэлүүдээр сонгож харах', href: '#', icon: CursorArrowRaysIcon },
 
+const aboutUS = [
+    { name: 'Танилцуулга', description: 'Бидний бүтээсэн түүх', href: './company', icon: BuildingOfficeIcon},
+    { name: 'Бүтээгдэхүүн', description: 'Бүтээгдэхүүний хөгжлийн түүх', href: '#', icon: UserGroupIcon},
+    { name: 'Зохион байгуулалт', description: 'Албадуудын үйл ажиллагааны чиглэл', href: '#', icon: PhoneIcon},
+    { name: 'Хамтрагч', description: 'Харилцагч байгууллагуудын мэдээлэл', href: '#', icon: PhoneIcon},
+    { name: 'Стратиги', description: 'Бизнесийн үзэл санаа', href: '#', icon: PhoneIcon},
 ]
 
-const company = [
-    { name: 'ТАНИЛЦУУЛГА', description: 'Бидний түүх болон ажиллах арга барил', href: './company', icon: BuildingOfficeIcon},
-    { name: 'ЗОХИОН БАЙГУУЛАЛТ', description: 'Байгууулагын дотоод бүтэц', href: '#', icon: UserGroupIcon},
-    { name: 'ХОЛБОО БАРИХ', description: 'Холбогдох утасны дугаар, email', href: '#', icon: PhoneIcon},
+// const products = [
+//   { name: 'Үндсэн Бүтээгдэхүүн', description: 'Манай бүтээгдэхүүнтэй танилцах', href: './products', icon: ChartPieIcon },
+//   { name: 'Үйл ажиллагааны чиглэлээр', description: 'Чиглэлүүдээр сонгож харах', href: '#', icon: CursorArrowRaysIcon },
+
+// ]
+const service = [
+  { name: 'Зөвлөх үйлчилгээ', description: 'ERP системийн үр өгөөж', href: '#', icon: BuildingOfficeIcon},
+  { name: 'Борлуулалт', description: 'Борлуулалтын үеийн үйлчилгээ', href: '#', icon: UserGroupIcon},
+  { name: 'Нэвтрүүлэлт', description: 'Худалдаж авсны дараах үйлчилгээ', href: '#', icon: PhoneIcon},
+  { name: 'IT үйлчилгээ', description: 'Техник, тоног төхөөрөмжийн үйлчилгээ', href: '#', icon: PhoneIcon},
 ]
-const callsToAction = [
-  { name: 'Үндсэн бүтээгдэхүүн', href: '/products', icon: ShieldCheckIcon },
-  { name: 'ҮА чиглэлээр', href: '#', icon: ArrowUturnUpIcon },
+const HR = [
+  { name: 'Яагаад бид гэж?', description: 'Бидэнтэй нэгдэх шалтгаан', href: '#', icon: BuildingOfficeIcon},
+  { name: 'Ажлын байр', description: 'Нээлттэй ажлын байрны зарууд', href: '#', icon: UserGroupIcon},
+  { name: 'CV илгээх', description: 'Ажилд орох хүсэлт гаргах', href: '#', icon: PhoneIcon},
+  { name: 'IT үйлчилгээ', description: 'Техник, тоног төхөөрөмжийн үйлчилгээ', href: '#', icon: PhoneIcon},
 ]
+const feedback = [
+  { name: 'Шууд холбогдох', description: 'Мэдээллийн ажилтнаас мэдээлэл авах', href: '#', icon: BuildingOfficeIcon},
+  { name: 'Албан хүсэлт', description: 'Хамтран ажиллах санал', href: '#', icon: UserGroupIcon},
+  { name: 'CV илгээх', description: '', href: '#', icon: PhoneIcon},
+]
+
+// const callsToAction = [
+//   { name: 'Үндсэн бүтээгдэхүүн', href: '/products', icon: ShieldCheckIcon },
+//   { name: 'ҮА чиглэлээр', href: '#', icon: ArrowUturnUpIcon },
+// ]
 
 function classNames(...classes) {  
   return classes.filter(Boolean).join(' ')
@@ -42,6 +63,8 @@ export default function Headertwo() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isOpen1, setIsOpen1] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
+  const [isOpen3, setIsOpen3] = useState(false);
+  const [isOpen4, setIsOpen4] = useState(false);
   const [color, setColor] = useState(false);
 
   const changeColor = () => {
@@ -72,180 +95,268 @@ export default function Headertwo() {
     setIsOpen2(false);
   };
 
+  const handleMouseEnter3 = () => {
+    setIsOpen3(true);
+  };
+
+  const handleMouseLeave3 = () => {
+    setIsOpen3(false);
+  };
+
+  const handleMouseEnter4 = () => {
+    setIsOpen4(true);
+  };
+
+  const handleMouseLeave4 = () => {
+    setIsOpen4(false);
+  };
+
 
   return (
     <header className='fixed top-0 w-full z-50 font-poppins'>
       <div className={color ? 'transition duration-300 bg-white drop-shadow-md text-gray-900' : 'transition duration-300 bg-transparent text-white'}>
         <nav className="mx-auto flex max-w-7xl items-center justify-between p-[15px] px-8" aria-label="Global">
-          <div className="flex lg:flex-1">
+          <div className="flex items-center">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">IBI</span>
-              <img className="h-[50px] w-auto transition duration-[400ms] ease-in-out hover:scale-110" 
+              <img className="h-[52px] w-auto transition duration-[400ms] ease-in-out hover:scale-110" 
               src={color ? "https://i.ibb.co/fk2L0Yz/ibi.png" : "https://i.ibb.co/FY9hVhS/IBI-LOGO-WHITE.png"} alt="IBI LOGO" />
             </a>
           </div>
-          <div className="flex lg:hidden">
+          <div id='Hamburger' className="flex justify-end lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Цэс нээх</span>
-              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+              <Bars3Icon className={color ? "h-6 w-6 text-gray-900" : "h-6 w-6 text-white"} aria-hidden="true" />
             </button>
           </div>
-          <Popover.Group className="hidden lg:flex lg:gap-x-12">
-            <Popover className="relative">
-              <div
-                className="flex items-center gap-x-1 text-md font-semibold leading-6 ring-0 transition duration-300 hover:text-blue-700"
-                onMouseEnter={handleMouseEnter1}
-                onMouseLeave={handleMouseLeave1}
-              >
-                Компани
-                <ChevronDownIcon className="h-5 w-5 flex-none" aria-hidden="true" />
-              </div>
+          <div className='flex justify-center flex-1'>
+            <Popover.Group className="hidden lg:flex lg:gap-x-12">
+              <Popover className="relative">
+                <div
+                  className="flex items-center gap-x-1 text-md font-semibold leading-6 ring-0 transition duration-300 hover:text-gray-500 hover:cursor-default"
+                  onMouseEnter={handleMouseEnter1}
+                  onMouseLeave={handleMouseLeave1}
+                >
+                  Бидний тухай
+                  <ChevronDownIcon className='h-5 w-5 flex-none' aria-hidden="true" />
+                </div>
 
-              <Transition
-                as={Fragment}
-                show={isOpen1}
-                enter="transition ease-out duration-200"
-                enterFrom="opacity-0 translate-y-1"
-                enterTo="opacity-100 translate-y-0"
-                leave="transition ease-in duration-150"
-                leaveFrom="opacity-100 translate-y-0"
-                leaveTo="opacity-0 translate-y-1"
-              >
-                <Popover.Panel className="absolute -left-8 top-full z-10 mt-1 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
-                  <div className="p-4" onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1}>
-                    {company.map((item) => (
-                      <div
-                        key={item.name}
-                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
-                      >
-                        <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                          <item.icon className="h-6 w-6 text-gray-600 group-hover:text-blue-600" aria-hidden="true" />
+                <Transition
+                  as={Fragment}
+                  show={isOpen1}
+                  enter="transition ease-out duration-200"
+                  enterFrom="opacity-0 translate-y-1"
+                  enterTo="opacity-100 translate-y-0"
+                  leave="transition ease-in duration-150"
+                  leaveFrom="opacity-100 translate-y-0"
+                  leaveTo="opacity-0 translate-y-1"
+                >
+                  <Popover.Panel className="absolute -left-8 top-full z-10 mt-1 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                    <div className="p-4" onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1}>
+                      {aboutUS.map((item) => (
+                        <div
+                          key={item.name}
+                          className="group relative flex items-center gap-x-6 rounded-lg p-4 text-md leading-6 hover:bg-gray-50"
+                        >
+                          <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                            <item.icon className="h-6 w-6 text-gray-600 group-hover:text-blue-600" aria-hidden="true" />
+                          </div>
+                          <div className="flex-auto">
+                            <a href={item.href} className="block font-semibold text-gray-900">
+                              {item.name}
+                              <span className="absolute inset-0" />
+                            </a>
+                            <p className="mt-1 text-gray-600">{item.description}</p>
+                          </div>
                         </div>
-                        <div className="flex-auto">
-                          <a href={item.href} className="block font-semibold text-gray-900">
-                            {item.name}
-                            <span className="absolute inset-0" />
-                          </a>
-                          <p className="mt-1 text-gray-600">{item.description}</p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </Popover.Panel>
-              </Transition>
-            </Popover >
+                      ))}
+                    </div>
+                  </Popover.Panel>
+                </Transition>
+              </Popover >
 
-            <Popover className="relative">
-              <div
-                className="flex items-center gap-x-1 text-md font-semibold leading-6 ring-0 transition duration-300 hover:text-blue-700"
-                onMouseEnter={handleMouseEnter2}
-                onMouseLeave={handleMouseLeave2}
-              >
+              <a href="./products" className="text-md font-semibold leading-6 transition duration-300 hover:text-gray-500 hover:cursor-default">
                 Бүтээгдэхүүн
-                <ChevronDownIcon className="h-5 w-5 flex-none" aria-hidden="true" />
-              </div>
+              </a>
 
-              <Transition
-                as={Fragment}
-                show={isOpen2}
-                enter="transition ease-out duration-200"
-                enterFrom="opacity-0 translate-y-1"
-                enterTo="opacity-100 translate-y-0"
-                leave="transition ease-in duration-150"
-                leaveFrom="opacity-100 translate-y-0"
-                leaveTo="opacity-0 translate-y-1"
-              >
-                <Popover.Panel className="absolute -left-8 top-full z-10 mt-1 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
-                  <div className="p-4" onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}>
-                    {products.map((item) => (
-                      <div
-                        key={item.name}
-                        className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
-                      >
-                        <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                          <item.icon className="h-6 w-6 text-gray-600 group-hover:text-blue-600" aria-hidden="true" />
-                        </div>
-                        <div className="flex-auto">
-                          <a href={item.href} className="block font-semibold text-gray-900">
-                            {item.name}
-                            <span className="absolute inset-0" />
-                          </a>
-                          <p className="mt-1 text-gray-600">{item.description}</p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </Popover.Panel>
-              </Transition>
-            </Popover >
-            {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-                    {callsToAction.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
-                      >
-                        <item.icon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-                        {item.name}
-                      </a>
-                    ))}
-                  </div> */}
-                      
-            <a href="#" className="text-md font-semibold leading-6 transition duration-300 hover:text-blue-700">
-              Үйлчилгээ
-            </a>
-            <a href="#" className="text-md font-semibold leading-6 transition duration-300 hover:text-blue-700">
-              Тоног төхөөрөмж
-            </a>
-            <a href="#" className="text-md font-semibold leading-6 transition duration-300 hover:text-blue-700">
-              Хүний нөөц
-            </a>
-            <a href="#" className="text-md font-semibold leading-6 transition duration-300 hover:text-blue-700">
-              Хамтрагчид
-            </a>
-
-            {/* <div className="hidden sm:ml-6 sm:block">
-                    <div className="flex space-x-4">
-                      {navigation.map((item) => (
+              {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+                      {callsToAction.map((item) => (
                         <a
                           key={item.name}
                           href={item.href}
-                          className={classNames(
-                            item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                            'rounded-md px-3 py-2 text-sm font-medium'
-                          )}
-                          aria-current={item.current ? 'page' : undefined}
+                          className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
                         >
+                          <item.icon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
                           {item.name}
                         </a>
                       ))}
-                  </div>
-              </div> */}
-          </Popover.Group>
+                    </div> */}
+                        
+                        <Popover className="relative">
+                <div
+                  className="flex items-center gap-x-1 text-md font-semibold leading-6 ring-0 transition duration-300 hover:text-gray-500 hover:cursor-default"
+                  onMouseEnter={handleMouseEnter2}
+                  onMouseLeave={handleMouseLeave2}
+                >
+                  Үйлчилгээ
+                  <ChevronDownIcon className="h-5 w-5 flex-none" aria-hidden="true" />
+                </div>
+
+                <Transition
+                  as={Fragment}
+                  show={isOpen2}
+                  enter="transition ease-out duration-200"
+                  enterFrom="opacity-0 translate-y-1"
+                  enterTo="opacity-100 translate-y-0"
+                  leave="transition ease-in duration-150"
+                  leaveFrom="opacity-100 translate-y-0"
+                  leaveTo="opacity-0 translate-y-1"
+                >
+                  <Popover.Panel className="absolute -left-8 top-full z-10 mt-1 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                    <div className="p-4" onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}>
+                      {service.map((item) => (
+                        <div
+                          key={item.name}
+                          className="group relative flex items-center gap-x-6 rounded-lg p-4 text-md leading-6 hover:bg-gray-50"
+                        >
+                          <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                            <item.icon className="h-6 w-6 text-gray-600 group-hover:text-blue-600" aria-hidden="true" />
+                          </div>
+                          <div className="flex-auto">
+                            <a href={item.href} className="block font-semibold text-gray-900">
+                              {item.name}
+                              <span className="absolute inset-0" />
+                            </a>
+                            <p className="mt-1 text-gray-600">{item.description}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </Popover.Panel>
+                </Transition>
+              </Popover >
+              <Popover className="relative">
+                <div
+                  className="flex items-center gap-x-1 text-md font-semibold leading-6 ring-0 transition duration-300 hover:text-gray-500 hover:cursor-default"
+                  onMouseEnter={handleMouseEnter3}
+                  onMouseLeave={handleMouseLeave3}
+                >
+                  Хүний нөөц
+                  <ChevronDownIcon className="h-5 w-5 flex-none" aria-hidden="true" />
+                </div>
+
+                <Transition
+                  as={Fragment}
+                  show={isOpen3}
+                  enter="transition ease-out duration-200"
+                  enterFrom="opacity-0 translate-y-1"
+                  enterTo="opacity-100 translate-y-0"
+                  leave="transition ease-in duration-150"
+                  leaveFrom="opacity-100 translate-y-0"
+                  leaveTo="opacity-0 translate-y-1"
+                >
+                  <Popover.Panel className="absolute -left-8 top-full z-10 mt-1 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                    <div className="p-4" onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3}>
+                      {HR.map((item) => (
+                        <div
+                          key={item.name}
+                          className="group relative flex items-center gap-x-6 rounded-lg p-4 text-md leading-6 hover:bg-gray-50"
+                        >
+                          <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                            <item.icon className="h-6 w-6 text-gray-600 group-hover:text-blue-600" aria-hidden="true" />
+                          </div>
+                          <div className="flex-auto">
+                            <a href={item.href} className="block font-semibold text-gray-900">
+                              {item.name}
+                              <span className="absolute inset-0" />
+                            </a>
+                            <p className="mt-1 text-gray-600">{item.description}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </Popover.Panel>
+                </Transition>
+              </Popover >
+              <Popover className="relative">
+                <div
+                  className="flex items-center gap-x-1 text-md font-semibold leading-6 ring-0 transition duration-300 hover:text-gray-500 hover:cursor-default"
+                  onMouseEnter={handleMouseEnter4}
+                  onMouseLeave={handleMouseLeave4}
+                >
+                  Санал хүсэлт
+                  <ChevronDownIcon className="h-5 w-5 flex-none" aria-hidden="true" />
+                </div>
+
+                <Transition
+                  as={Fragment}
+                  show={isOpen4}
+                  enter="transition ease-out duration-200"
+                  enterFrom="opacity-0 translate-y-1"
+                  enterTo="opacity-100 translate-y-0"
+                  leave="transition ease-in duration-150"
+                  leaveFrom="opacity-100 translate-y-0"
+                  leaveTo="opacity-0 translate-y-1"
+                >
+                  <Popover.Panel className="absolute -left-8 top-full z-10 mt-1 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                    <div className="p-4" onMouseEnter={handleMouseEnter4} onMouseLeave={handleMouseLeave4}>
+                      {feedback.map((item) => (
+                        <div
+                          key={item.name}
+                          className="group relative flex items-center gap-x-6 rounded-lg p-4 text-md leading-6 hover:bg-gray-50"
+                        >
+                          <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                            <item.icon className="h-6 w-6 text-gray-600 group-hover:text-blue-600" aria-hidden="true" />
+                          </div>
+                          <div className="flex-auto">
+                            <a href={item.href} className="block font-semibold text-gray-900">
+                              {item.name}
+                              <span className="absolute inset-0" />
+                            </a>
+                            <p className="mt-1 text-gray-600">{item.description}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </Popover.Panel>
+                </Transition>
+              </Popover >
+              {/* <div className="hidden sm:ml-6 sm:block">
+                      <div className="flex space-x-4">
+                        {navigation.map((item) => (
+                          <a
+                            key={item.name}
+                            href={item.href}
+                            className={classNames(
+                              item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                              'rounded-md px-3 py-2 text-sm font-medium'
+                            )}
+                            aria-current={item.current ? 'page' : undefined}
+                          >
+                            {item.name}
+                          </a>
+                        ))}
+                    </div>
+                </div> */}
+            </Popover.Group>
+          </div>
+          
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-10" />
-          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-            <div className="flex items-center justify-between bg-opacity-100">
-              <a href="page" className="-m-1.5 p-1.5">
-                <span className="sr-only">IBI</span>
-                <img
-                  className="h-[50px] w-auto"
-                  src="https://i.ibb.co/fk2L0Yz/ibi.png"
-                  alt=""
-                />
-              </a>
+          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-[75%] h-screen overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div className="flex items-center justify-end bg-opacity-100">
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-gray-700 "
+                className="-m-2.5 rounded-md p-2.5"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Цэс хаах</span>
-                <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                <XMarkIcon className="items-end h-6 w-6" aria-hidden="true" />
               </button>
             </div>
             <div className="mt-6 flow-root">
@@ -254,78 +365,145 @@ export default function Headertwo() {
                   <Disclosure as="div" className="-mx-3">
                       {({ open }) => (
                         <> 
-                          <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                            Компани
+                          <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                            Бидний тухай
                             <ChevronDownIcon
-                              className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
+                              className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
                               aria-hidden="true"
                             />
                           </Disclosure.Button>
-                          <Disclosure.Panel className="mt-2 space-y-2">
-                            {[...company ].map((item) => (
-                              <Disclosure.Button
-                                key={item.name}
-                                as="a"
-                                href={item.href}
-                                className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                              >
-                                {item.name}
-                              </Disclosure.Button>
-                            ))}
-                          </Disclosure.Panel>
+                          <Transition 
+                              show={open}
+                              enter="tranlate-y-2 duration-300 ease-in transform"
+                              enterFrom="opacity-0 -translate-y-2"
+                              enterTo="opacity-100 translate-y-0"
+                              leave="-translate-y-2 duration-300 ease-out transform"
+                              leaveFrom="opacity-100 translate-y-0"
+                              leaveTo="opacity-0 -translate-y-2">
+                                <Disclosure.Panel className="mt-2 space-y-2">
+                                  {[...aboutUS ].map((item) => (
+                                    <Disclosure.Button
+                                      key={item.name}
+                                      as="a"
+                                      href={item.href}
+                                      className="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-gray-500 hover:bg-gray-50"
+                                    >
+                                      {item.name}
+                                    </Disclosure.Button>
+                                  ))}
+                                </Disclosure.Panel>
+                          </Transition>
+                        </>
+                      )}
+                    </Disclosure>
+                  <a
+                    href="./products"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    Бүтээгдэхүүн
+                  </a>
+                  <Disclosure as="div" className="-mx-3">
+                      {({ open }) => (
+                        <> 
+                          <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                            Үйлчилгээ
+                            <ChevronDownIcon
+                              className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
+                              aria-hidden="true"
+                            />
+                          </Disclosure.Button>
+                          <Transition 
+                              show={open}
+                              enter="tranlate-y-2 duration-300 ease-in transform"
+                              enterFrom="opacity-0 -translate-y-2"
+                              enterTo="opacity-100 translate-y-0"
+                              leave="-translate-y-2 duration-300 ease-out transform"
+                              leaveFrom="opacity-100 translate-y-0"
+                              leaveTo="opacity-0 -translate-y-2">
+                                <Disclosure.Panel className="mt-2 space-y-2">
+                                  {[...service ].map((item) => (
+                                    <Disclosure.Button
+                                      key={item.name}
+                                      as="a"
+                                      href={item.href}
+                                      className="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-gray-500 hover:bg-gray-50"
+                                    >
+                                      {item.name}
+                                    </Disclosure.Button>
+                                  ))}
+                                </Disclosure.Panel>
+                          </Transition>
                         </>
                       )}
                     </Disclosure>
                     <Disclosure as="div" className="-mx-3">
                       {({ open }) => (
                         <> 
-                          <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                            Бүтээгдэхүүн
+                          <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                            Хүний нөөц
                             <ChevronDownIcon
-                              className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
+                              className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
                               aria-hidden="true"
                             />
                           </Disclosure.Button>
-                          <Disclosure.Panel className="mt-2 space-y-2">
-                            {[...products ].map((item) => (
-                              <Disclosure.Button
-                                key={item.name}
-                                as="a"
-                                href={item.href}
-                                className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                              >
-                                {item.name}
-                              </Disclosure.Button>
-                            ))}
-                          </Disclosure.Panel>
+                          <Transition 
+                              show={open}
+                              enter="tranlate-y-2 duration-300 ease-in transform"
+                              enterFrom="opacity-0 -translate-y-2"
+                              enterTo="opacity-100 translate-y-0"
+                              leave="-translate-y-2 duration-300 ease-out transform"
+                              leaveFrom="opacity-100 translate-y-0"
+                              leaveTo="opacity-0 -translate-y-2">
+                                <Disclosure.Panel className="mt-2 space-y-2">
+                                  {[...HR ].map((item) => (
+                                    <Disclosure.Button
+                                      key={item.name}
+                                      as="a"
+                                      href={item.href}
+                                      className="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-gray-500 hover:bg-gray-50"
+                                    >
+                                      {item.name}
+                                    </Disclosure.Button>
+                                  ))}
+                                </Disclosure.Panel>
+                          </Transition>
                         </>
                       )}
                     </Disclosure>
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Үйлчилгээ
-                  </a>
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Тоног төхөөрөмж
-                  </a>
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Хүний нөөц
-                  </a>
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    Хамтрагчид
-                  </a>
-
+                    <Disclosure as="div" className="-mx-3">
+                      {({ open }) => (
+                        <> 
+                          <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                            Санал хүсэлт
+                            <ChevronDownIcon
+                              className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
+                              aria-hidden="true"
+                            />
+                          </Disclosure.Button>
+                          <Transition 
+                              show={open}
+                              enter="tranlate-y-2 duration-300 ease-in transform"
+                              enterFrom="opacity-0 -translate-y-2"
+                              enterTo="opacity-100 translate-y-0"
+                              leave="-translate-y-2 duration-300 ease-out transform"
+                              leaveFrom="opacity-100 translate-y-0"
+                              leaveTo="opacity-0 -translate-y-2">
+                                <Disclosure.Panel className="mt-2 space-y-2">
+                                  {[...feedback ].map((item) => (
+                                    <Disclosure.Button
+                                      key={item.name}
+                                      as="a"
+                                      href={item.href}
+                                      className="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-gray-500 hover:bg-gray-50"
+                                    >
+                                      {item.name}
+                                    </Disclosure.Button>
+                                  ))}
+                                </Disclosure.Panel>
+                          </Transition>
+                        </>
+                      )}
+                    </Disclosure>
                 </div>
               </div>
             </div>
