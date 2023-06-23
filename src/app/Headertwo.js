@@ -15,6 +15,18 @@ import {
   BuildingOfficeIcon,
   BuildingOffice2Icon,
   UserGroupIcon,
+  HomeModernIcon,
+  CommandLineIcon,
+  LightBulbIcon,
+  CurrencyDollarIcon,
+  DocumentArrowUpIcon,
+  QuestionMarkCircleIcon,
+  ComputerDesktopIcon,
+  ClipboardDocumentCheckIcon,
+  DocumentMagnifyingGlassIcon,
+  PhoneArrowDownLeftIcon,
+  PaperAirplaneIcon,
+  InformationCircleIcon
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 
@@ -22,9 +34,9 @@ import { ChevronDownIcon, PhoneIcon, PlayCircleIcon, MagnifyingGlassIcon } from 
 const aboutUS = [
     { name: 'Танилцуулга', description: 'Бидний бүтээсэн түүх', href: './company', icon: BuildingOfficeIcon},
     { name: 'Бүтээгдэхүүн', description: 'Бүтээгдэхүүний хөгжлийн түүх', href: '#', icon: UserGroupIcon},
-    { name: 'Зохион байгуулалт', description: 'Албадуудын үйл ажиллагааны чиглэл', href: '#', icon: PhoneIcon},
-    { name: 'Хамтрагч', description: 'Харилцагч байгууллагуудын мэдээлэл', href: '#', icon: PhoneIcon},
-    { name: 'Стратиги', description: 'Бизнесийн үзэл санаа', href: '#', icon: PhoneIcon},
+    { name: 'Зохион байгуулалт', description: 'Албадуудын үйл ажиллагааны чиглэл', href: '#', icon: HomeModernIcon},
+    { name: 'Хамтрагч', description: 'Харилцагч байгууллагуудын мэдээлэл', href: '#', icon: UserGroupIcon},
+    { name: 'Стратеги', description: 'Бизнесийн үзэл санаа', href: '#', icon: CommandLineIcon},
 ]
 
 // const products = [
@@ -33,21 +45,21 @@ const aboutUS = [
 
 // ]
 const service = [
-  { name: 'Зөвлөх үйлчилгээ', description: 'ERP системийн үр өгөөж', href: '#', icon: BuildingOfficeIcon},
-  { name: 'Борлуулалт', description: 'Борлуулалтын үеийн үйлчилгээ', href: '#', icon: UserGroupIcon},
-  { name: 'Нэвтрүүлэлт', description: 'Худалдаж авсны дараах үйлчилгээ', href: '#', icon: PhoneIcon},
-  { name: 'IT үйлчилгээ', description: 'Техник, тоног төхөөрөмжийн үйлчилгээ', href: '#', icon: PhoneIcon},
+  { name: 'Зөвлөх үйлчилгээ', description: 'ERP системийн үр өгөөж', href: '#', icon: LightBulbIcon},
+  { name: 'Борлуулалт', description: 'Борлуулалтын үеийн үйлчилгээ', href: '#', icon: CurrencyDollarIcon},
+  { name: 'Нэвтрүүлэлт', description: 'Худалдаж авсны дараах үйлчилгээ', href: '#', icon: DocumentArrowUpIcon},
+  { name: 'IT үйлчилгээ', description: 'Техник, тоног төхөөрөмжийн үйлчилгээ', href: '#', icon: ComputerDesktopIcon},
 ]
 const HR = [
-  { name: 'Яагаад бид гэж?', description: 'Бидэнтэй нэгдэх шалтгаан', href: '#', icon: BuildingOfficeIcon},
-  { name: 'Ажлын байр', description: 'Нээлттэй ажлын байрны зарууд', href: '#', icon: UserGroupIcon},
-  { name: 'CV илгээх', description: 'Ажилд орох хүсэлт гаргах', href: '#', icon: PhoneIcon},
-  { name: 'IT үйлчилгээ', description: 'Техник, тоног төхөөрөмжийн үйлчилгээ', href: '#', icon: PhoneIcon},
+  { name: 'Яагаад бид гэж?', description: 'Бидэнтэй нэгдэх шалтгаан', href: '#', icon: QuestionMarkCircleIcon},
+  { name: 'Ажлын байр', description: 'Нээлттэй ажлын байрны зарууд', href: '#', icon: BuildingOffice2Icon},
+  { name: 'CV илгээх', description: 'Ажилд орох хүсэлт гаргах', href: '#', icon: ClipboardDocumentCheckIcon},
+  { name: 'Санал хүсэлт', description: 'Яагаад бид таныг ажилд авах ёстой вэ?', href: '#', icon: DocumentMagnifyingGlassIcon},
 ]
 const feedback = [
-  { name: 'Шууд холбогдох', description: 'Мэдээллийн ажилтнаас мэдээлэл авах', href: '#', icon: BuildingOfficeIcon},
-  { name: 'Албан хүсэлт', description: 'Хамтран ажиллах санал', href: '#', icon: UserGroupIcon},
-  { name: 'CV илгээх', description: '', href: '#', icon: PhoneIcon},
+  { name: 'Шууд холбогдох', description: 'Мэдээллийн ажилтнаас мэдээлэл авах', href: '#', icon: PhoneArrowDownLeftIcon},
+  { name: 'Албан хүсэлт', description: 'Хамтран ажиллах санал', href: '#', icon: PaperAirplaneIcon},
+  { name: 'CV илгээх', description: '', href: '#', icon: InformationCircleIcon},
 ]
 
 // const callsToAction = [
@@ -119,10 +131,11 @@ export default function Headertwo() {
           <div className="flex items-center">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">IBI</span>
-              <img className="h-[52px] w-auto transition duration-[400ms] ease-in-out hover:scale-110" 
+              <img className="h-[52px] w-auto transition duration-300 ease-in-out hover:scale-110" 
               src={color ? "https://i.ibb.co/fk2L0Yz/ibi.png" : "https://i.ibb.co/FY9hVhS/IBI-LOGO-WHITE.png"} alt="IBI LOGO" />
             </a>
           </div>
+  
           <div id='Hamburger' className="flex justify-end lg:hidden">
             <button
               type="button"
@@ -346,168 +359,169 @@ export default function Headertwo() {
           </div>
           
         </nav>
+        
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-10" />
-          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-[75%] h-screen overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-            <div className="flex items-center justify-end bg-opacity-100">
-              <button
-                type="button"
-                className="-m-2.5 rounded-md p-2.5"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                <span className="sr-only">Цэс хаах</span>
-                <XMarkIcon className="items-end h-6 w-6" aria-hidden="true" />
-              </button>
-            </div>
-            <div className="mt-6 flow-root">
-              <div className="-my-6 divide-y divide-gray-500/10">
-                <div className="space-y-2 py-6">
-                  <Disclosure as="div" className="-mx-3">
-                      {({ open }) => (
-                        <> 
-                          <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                            Бидний тухай
-                            <ChevronDownIcon
-                              className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
-                              aria-hidden="true"
-                            />
-                          </Disclosure.Button>
-                          <Transition 
-                              show={open}
-                              enter="tranlate-y-2 duration-300 ease-in transform"
-                              enterFrom="opacity-0 -translate-y-2"
-                              enterTo="opacity-100 translate-y-0"
-                              leave="-translate-y-2 duration-300 ease-out transform"
-                              leaveFrom="opacity-100 translate-y-0"
-                              leaveTo="opacity-0 -translate-y-2">
-                                <Disclosure.Panel className="mt-2 space-y-2">
-                                  {[...aboutUS ].map((item) => (
-                                    <Disclosure.Button
-                                      key={item.name}
-                                      as="a"
-                                      href={item.href}
-                                      className="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-gray-500 hover:bg-gray-50"
-                                    >
-                                      {item.name}
-                                    </Disclosure.Button>
-                                  ))}
-                                </Disclosure.Panel>
-                          </Transition>
-                        </>
-                      )}
-                    </Disclosure>
-                  <a
-                    href="./products"
-                    className="-mx-3 block rounded-lg px-3 py-2 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+            <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-[75%] h-screen overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <div className="flex items-center justify-end bg-opacity-100">
+                  <button
+                    type="button"
+                    className="-m-2.5 rounded-md p-2.5"
+                    onClick={() => setMobileMenuOpen(false)}
                   >
-                    Бүтээгдэхүүн
-                  </a>
-                  <Disclosure as="div" className="-mx-3">
-                      {({ open }) => (
-                        <> 
-                          <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                            Үйлчилгээ
-                            <ChevronDownIcon
-                              className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
-                              aria-hidden="true"
-                            />
-                          </Disclosure.Button>
-                          <Transition 
-                              show={open}
-                              enter="tranlate-y-2 duration-300 ease-in transform"
-                              enterFrom="opacity-0 -translate-y-2"
-                              enterTo="opacity-100 translate-y-0"
-                              leave="-translate-y-2 duration-300 ease-out transform"
-                              leaveFrom="opacity-100 translate-y-0"
-                              leaveTo="opacity-0 -translate-y-2">
-                                <Disclosure.Panel className="mt-2 space-y-2">
-                                  {[...service ].map((item) => (
-                                    <Disclosure.Button
-                                      key={item.name}
-                                      as="a"
-                                      href={item.href}
-                                      className="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-gray-500 hover:bg-gray-50"
-                                    >
-                                      {item.name}
-                                    </Disclosure.Button>
-                                  ))}
-                                </Disclosure.Panel>
-                          </Transition>
-                        </>
-                      )}
-                    </Disclosure>
+                    <span className="sr-only">Цэс хаах</span>
+                    <XMarkIcon className="items-end h-6 w-6" aria-hidden="true" />
+                  </button>
+                </div>
+              <div className="mt-6 flow-root">
+                <div className="-my-6 divide-y divide-gray-500/10">
+                  <div className="space-y-2 py-6">
                     <Disclosure as="div" className="-mx-3">
-                      {({ open }) => (
-                        <> 
-                          <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                            Хүний нөөц
-                            <ChevronDownIcon
-                              className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
-                              aria-hidden="true"
-                            />
-                          </Disclosure.Button>
-                          <Transition 
-                              show={open}
-                              enter="tranlate-y-2 duration-300 ease-in transform"
-                              enterFrom="opacity-0 -translate-y-2"
-                              enterTo="opacity-100 translate-y-0"
-                              leave="-translate-y-2 duration-300 ease-out transform"
-                              leaveFrom="opacity-100 translate-y-0"
-                              leaveTo="opacity-0 -translate-y-2">
-                                <Disclosure.Panel className="mt-2 space-y-2">
-                                  {[...HR ].map((item) => (
-                                    <Disclosure.Button
-                                      key={item.name}
-                                      as="a"
-                                      href={item.href}
-                                      className="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-gray-500 hover:bg-gray-50"
-                                    >
-                                      {item.name}
-                                    </Disclosure.Button>
-                                  ))}
-                                </Disclosure.Panel>
-                          </Transition>
-                        </>
-                      )}
-                    </Disclosure>
+                        {({ open }) => (
+                          <> 
+                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                              Бидний тухай
+                              <ChevronDownIcon
+                                className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
+                                aria-hidden="true"
+                              />
+                            </Disclosure.Button>
+                            <Transition 
+                                 show={open}
+                                 enter="transform duration-300 ease-in"
+                                 enterFrom="opacity-0 translate-y-0"
+                                 enterTo="opacity-100 translate-y-0"
+                                 leave="transform duration-300 ease-out"
+                                 leaveFrom="opacity-100 translate-y-0"
+                                 leaveTo="opacity-0 translate-y-0">
+                                  <Disclosure.Panel className="mt-2 space-y-2">
+                                    {[...aboutUS ].map((item) => (
+                                      <Disclosure.Button
+                                        key={item.name}
+                                        as="a"
+                                        href={item.href}
+                                        className="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-gray-500 hover:bg-gray-50"
+                                      >
+                                        {item.name}
+                                      </Disclosure.Button>
+                                    ))}
+                                  </Disclosure.Panel>
+                            </Transition>
+                          </>
+                        )}
+                      </Disclosure>
+                    <a
+                      href="./products"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    >
+                      Бүтээгдэхүүн
+                    </a>
                     <Disclosure as="div" className="-mx-3">
-                      {({ open }) => (
-                        <> 
-                          <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                            Санал хүсэлт
-                            <ChevronDownIcon
-                              className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
-                              aria-hidden="true"
-                            />
-                          </Disclosure.Button>
-                          <Transition 
-                              show={open}
-                              enter="tranlate-y-2 duration-300 ease-in transform"
-                              enterFrom="opacity-0 -translate-y-2"
-                              enterTo="opacity-100 translate-y-0"
-                              leave="-translate-y-2 duration-300 ease-out transform"
-                              leaveFrom="opacity-100 translate-y-0"
-                              leaveTo="opacity-0 -translate-y-2">
-                                <Disclosure.Panel className="mt-2 space-y-2">
-                                  {[...feedback ].map((item) => (
-                                    <Disclosure.Button
-                                      key={item.name}
-                                      as="a"
-                                      href={item.href}
-                                      className="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-gray-500 hover:bg-gray-50"
-                                    >
-                                      {item.name}
-                                    </Disclosure.Button>
-                                  ))}
-                                </Disclosure.Panel>
-                          </Transition>
-                        </>
-                      )}
-                    </Disclosure>
+                        {({ open }) => (
+                          <> 
+                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                              Үйлчилгээ
+                              <ChevronDownIcon
+                                className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
+                                aria-hidden="true"
+                              />
+                            </Disclosure.Button>
+                            <Transition 
+                                show={open}
+                                enter="transform duration-300 ease-in"
+                                enterFrom="opacity-0 translate-y-0"
+                                enterTo="opacity-100 translate-y-0"
+                                leave="transform duration-300 ease-out"
+                                leaveFrom="opacity-100 translate-y-0"
+                                leaveTo="opacity-0 translate-y-0">
+                                  <Disclosure.Panel className="mt-2 space-y-2">
+                                    {[...service ].map((item) => (
+                                      <Disclosure.Button
+                                        key={item.name}
+                                        as="a"
+                                        href={item.href}
+                                        className="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-gray-500 hover:bg-gray-50"
+                                      >
+                                        {item.name}
+                                      </Disclosure.Button>
+                                    ))}
+                                  </Disclosure.Panel>
+                            </Transition>
+                          </>
+                        )}
+                      </Disclosure>
+                      <Disclosure as="div" className="-mx-3">
+                        {({ open }) => (
+                          <> 
+                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                              Хүний нөөц
+                              <ChevronDownIcon
+                                className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
+                                aria-hidden="true"
+                              />
+                            </Disclosure.Button>
+                            <Transition 
+                                show={open}
+                                enter="transform duration-300 ease-in"
+                                enterFrom="opacity-0 translate-y-0"
+                                enterTo="opacity-100 translate-y-0"
+                                leave="transform duration-300 ease-out"
+                                leaveFrom="opacity-100 translate-y-0"
+                                leaveTo="opacity-0 translate-y-0">
+                                  <Disclosure.Panel className="mt-2 space-y-2">
+                                    {[...HR ].map((item) => (
+                                      <Disclosure.Button
+                                        key={item.name}
+                                        as="a"
+                                        href={item.href}
+                                        className="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-gray-500 hover:bg-gray-50"
+                                      >
+                                        {item.name}
+                                      </Disclosure.Button>
+                                    ))}
+                                  </Disclosure.Panel>
+                            </Transition>
+                          </>
+                        )}
+                      </Disclosure>
+                      <Disclosure as="div" className="-mx-3">
+                        {({ open }) => (
+                          <> 
+                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                              Санал хүсэлт
+                              <ChevronDownIcon
+                                className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
+                                aria-hidden="true"
+                              />
+                            </Disclosure.Button>
+                            <Transition 
+                                show={open}
+                                enter="transform duration-300 ease-in"
+                                enterFrom="opacity-0 translate-y-0"
+                                enterTo="opacity-100 translate-y-0"
+                                leave="transform duration-300 ease-out"
+                                leaveFrom="opacity-100 translate-y-0"
+                                leaveTo="opacity-0 translate-y-0">
+                                  <Disclosure.Panel className="mt-2 space-y-2">
+                                    {[...feedback ].map((item) => (
+                                      <Disclosure.Button
+                                        key={item.name}
+                                        as="a"
+                                        href={item.href}
+                                        className="block rounded-lg py-2 pl-6 pr-3 text-md font-semibold leading-7 text-gray-500 hover:bg-gray-50"
+                                      >
+                                        {item.name}
+                                      </Disclosure.Button>
+                                    ))}
+                                  </Disclosure.Panel>
+                            </Transition>
+                          </>
+                        )}
+                      </Disclosure>
+                  </div>
                 </div>
               </div>
-            </div>
-          </Dialog.Panel>
+            </Dialog.Panel>
         </Dialog>
       </div>
     </header>
