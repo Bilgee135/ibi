@@ -127,16 +127,15 @@ export default function Headertwo() {
   return (
     <header className='fixed top-0 w-full z-50 font-poppins'>
       <div className={color ? 'transition duration-300 bg-white drop-shadow-md text-gray-900' : 'transition duration-300 bg-transparent text-white'}>
-        <nav className="mx-auto flex max-w-7xl items-center justify-between p-[15px] px-8" aria-label="Global">
+        <nav className="mx-auto flex max-w-7xl items-center justify-between p-[15px] px-8 relative" aria-label="Global">
           <div className="flex items-center">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">IBI</span>
-              <img className="h-[52px] w-auto transition duration-300 ease-in-out hover:scale-110" 
-              src={color ? "https://i.ibb.co/fk2L0Yz/ibi.png" : "https://i.ibb.co/FY9hVhS/IBI-LOGO-WHITE.png"} alt="IBI LOGO" />
+              <img className="h-[52px] w-auto transition duration-[400ms] ease-in-out hover:scale-110" 
+              src={color ? "/ibicoloredlogo.png" : "/ibiwhitelogo.png"} alt="IBI LOGO" />
             </a>
           </div>
-  
-          <div id='Hamburger' className="flex justify-end lg:hidden">
+          <div id='Hamburger' className="flex justify-end lg:hidden absolute right-[30px]">
             <button
               type="button"
               className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5"

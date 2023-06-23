@@ -48,7 +48,13 @@ export default function Layout( props ) {
     <main className="flex min-h-screen flex-col scroll-smooth bg-white overflow-x-hidden">
       <Headertwo />
       <div className='h-auto w-full'>
-        <div className='relative w-full h-[620px] bg-[#C5E9FF] flex items-center justify-center'>
+        <div className="relative w-full h-[620px] bg-[#C5E9FF] flex items-center justify-center">
+          <div
+            className="absolute top-0 h-full w-full bg-cover bg-center bg-fixed"
+            style={{
+              backgroundImage: `url(${ props.data[1]["herosrc"] })`,
+            }}
+          ></div>
           <Viewcontainer1 details={ props.data }/>
           <div className=' absolute left-0 top-[70px]'><Backbutton /></div>
         </div>
