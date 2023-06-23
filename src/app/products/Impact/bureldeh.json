@@ -12,6 +12,7 @@
     {
         "systemName" : "Импакт",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
-        "systemIcon" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png"
+        "systemIcon" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
+        "herosrc" : "/productheroimg/diamondERP.png"
     }
 ]
