@@ -12,9 +12,9 @@ export default function Home() {
         <section id='header'>
           <Headertwo />
         </section>
-        <section id='heroSection' className='z-40'>
-          <div className="w-screen h-full">
-            <div className="container mx-auto flex px-5 py-[250px] items-left justify-center flex-col">
+        <section id='heroSection' className='z-40 '>
+          <div className="w-screen max-h-screen min-h-screen backdrop-brightness-50">
+            <div className="container mx-auto flex px-5 h-screen items-left justify-center flex-col">
               <div className="text-start text-white lg:w-8/12 w-full relative">
                 <h1 className="my-4 text-5xl  sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black leading-tight uppercase">
                   <span className='text-[#072ac8] drop-shadow-2xl'>I</span>nteractive<br/><span className='text-[#1e96fc] drop-shadow-2xl'>B</span>usiness<br/><span className='text-[#072ac8] drop-shadow-2xl'>I</span>ntelligence
@@ -26,12 +26,12 @@ export default function Home() {
                   Бид бизнесийн бүхий л салбарт програм хангамжийн автоматжуулалтын цогц шийдлийг санал болгож байна.
                 </p> */}
               </div>
-              <div className="w-full flex justify-center items-center translate-y-[140px]">
-                  <button className=" text-white transition durantion-200 hover:text-gray-200 hover:-translate-y-[3px] font-bold rounded-2xl py-4 px-8 ">
-                    <a href="./company" className='text-[18px]'>[Бидний тухай]</a>
+              <div className="w-full flex justify-center items-center translate-y-[260px] md:translate-y-[230px] lg:translate-y-[205px]">
+                  <button className=" text-white transition durantion-200 hover:text-gray-500 hover:-translate-y-[3px] font-bold rounded-2xl py-4 px-8 ">
+                    <a href="./company" className='text-[13px] sm:text-[15px] lg:text-[18px]'>[Танилцуулга]</a>
                   </button>
-                  <button className="ml-4 text-white transition durantion-200 hover:text-gray-200 hover:-translate-y-[3px] font-bold rounded-2xl py-4 px-8 ">
-                    <a href="./products" className='text-[18px]'>[Бүтээгдэхүүн]</a>
+                  <button className="ml-2 text-white transition durantion-200 hover:text-gray-500 hover:-translate-y-[3px] font-bold rounded-2xl py-4 px-8 ">
+                    <a href="./products" className='text-[13px] sm:text-[15px] lg:text-[18px]'>[Бүтээгдэхүүн]</a>
                   </button>
               </div>
             </div>
