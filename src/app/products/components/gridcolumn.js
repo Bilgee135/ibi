@@ -21,12 +21,12 @@ function Card3(props) {
         <div className="w-1/2 lg:w-1/3 h-[200px] flex justify-center items-center ">
             <div className="w-[90%] h-[85%] relative">
                 <div className=' bg-[#e8f6ff] text-black h-full w-full absolute top-0 opacity-0 hover:opacity-100 transition duration-[400ms] ease-in-out rounded-xl'>
-                    <div className="w-full h-1/5 flex justify-center items-center"><h3 className="font-semibold text-[85%]">{ props.title }</h3></div>
-                    <div className="w-full h-4/5 overflow-y-auto "><p className="text-[60%] text-center">{ props.fdesc }</p></div>
+                    <div className="w-full h-1/5 flex justify-center items-center"><h3 className="font-semibold text-[70%] text-center"> { props.title } </h3></div>
+                    <div className="w-full h-4/5 overflow-y-auto "><p className="text-[60%] text-center sm:text-[80%] sm:ml-5 sm:text-start">{ props.fdesc }</p></div>
                 </div>
                 <div className="w-full h-1/3 flex justify-center items-center static"><img className="aspect-auto h-[80%]" src="https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png" /></div>
                 <div className="h-full">
-                    <div className="w-full h-1/5 flex justify-center items-center"><h3 className="font-semibold text-[110%]">{ props.title }</h3></div>
+                    <div className="w-full h-1/5 flex justify-center items-center"><h3 className="font-semibold text-[70%] text-center">{ props.title }</h3></div>
                     <div className="w-full h-[46.66%] overflow-y-hidden"><p className="text-[75%] text-center">{ props.sdesc }</p></div>
                 </div>
             </div>

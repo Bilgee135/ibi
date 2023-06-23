@@ -4,36 +4,24 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon, ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
 import { ButtonGroup, Button } from "@material-tailwind/react"
 import Gridcolumn from './gridcolumn'
-
-export function Carousel() {
-    return (
-        <div className='w-full bg-black aspect-auto'> 
-            <div id='upperPart' className='bg-slate-100 relative w-full flex overflow-hidden rounded-b-lg'>
-                <img className='h-full w-full aspect-auto' alt='Some img' src='https://imagehost9.online-image-editor.com/oie_upload/images/22834292Do60mb/8EUwEuhNd0dB.png'/>
-                <button id='carouselLeftButton' className='transition-all duration-400 ease-in-out hover: h-full w-[75px] absolute left-[10px] flex items-center'>
-                    <div className='rounded-full w-full aspect-square bg-slate-300 opacity-50 hover:opacity-90 flex items-center justify-center'><ChevronLeftIcon /></div>
-                </button>
-                <button id='carouselLeftButton' className='transition-all duration-400 ease-in-out hover: h-full w-[75px] absolute right-[10px] flex items-center'>
-                    <div className='rounded-full w-full aspect-square bg-slate-300 opacity-50 hover:opacity-90 flex items-center justify-center'><ChevronRightIcon /></div>
-                </button>
-            </div>
-        </div>
-    )
-}
+import Statistics from './Statistics'
 
 
 export default function MainPage(){
     return (
         <div>
-            <div className='h-auto flex justify-center'><Carousel /></div>
             <div className='static ml-[10%] mt-[10px] mr-[10%]' >
-                <div id='middlePart' className='mt-[50px] flex flex-col items-end'>
-                    <h1 className='text-2xl font-sans font-bold md:text-3xl lg:text-4xl'>
-                        <span className='text-blue-500'>ДАВУУ</span> {' '}
-                        <span className='text-black'>ТАЛУУД</span>
-                    </h1>
-                    <div className="h-1 sm:h-2 mt-[5px] sm:mt-[10px]                                  
-                            bg-gradient-to-l from-blue-500 to-50% to-white w-full">
+                <div id='topPart' className='w-full h-auto'>
+                    <div id='title' className='flex text-center justify-start items-center flex-row w-full h-1/6 text-2xl font-bold md:text-4xl lg:text-5xl mt-[40px]'><h1 className='mx-[5%]'><span className='text-blue-600'>ҮНДСЭН</span>{' '}<span>БҮТЭЭГДЭХҮҮН</span></h1></div>
+                    <div id='text' className='mx-[10%] mt-[40px] md:mx-[5%] text-sm md:text-base'><p>ERP гэдэг нь байгууллагын нөөц төлөвлөлтийн цогц шийдэл юм. Байгууллагын нөөц төлөвлөлтийн системийг зөвхэрэглэснээр өөрсдийн бизнесээ өргөжүүлж, байгууллагын санхүү, цалин, хүний нөөц, түгээлт, ханган нийлүүлэлт,агуулах, үйлдвэрлэлээс гадна салбарын онцлогт тохирсон хэрэглэхэд хялбар системээр бизнесийнхээ үнэн бодитоймэдээллийг цаг тухайд нь хүлээн авч оновчтой шийдвэр гарган, үр ашигтай удирдаж, бүтээмжээ нэмэгдүүлэн ажиллах боломжтой болно.</p></div>
+                </div>
+                <Statistics />
+                <div id='middlePart' className='mt-[0px] flex flex-col items-center'>
+                    <div className="bg-slate-200 w-screen h-[100px] md:h-[140px] flex justify-center items-center aspect-auto bg-[url('https://i.pinimg.com/originals/3c/24/46/3c24462450c2a902bf7e18f3d9aada81.jpg')] bg-cover bg-center bg-fixed">
+                        <h1 className='text-2xl font-sans font-bold md:text-3xl lg:text-4xl'>
+                            <span className=' text-gray-50'>ДАВУУ</span> {' '}
+                            <span className='text-gray-100'>ТАЛУУД</span>
+                        </h1>
                     </div>
                     <Gridcolumn />
                 </div>

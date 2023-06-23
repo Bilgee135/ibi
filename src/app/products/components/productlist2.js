@@ -56,7 +56,7 @@ function Productlist2() {
   let displayproducts = products
 
   return (
-    <div className='h-[100px] w-screen flex items-center justify-center z-30 border-y-2 border-black shadow-lg'>
+    <div className='h-[100px] w-screen flex items-center justify-center z-30 border-black shadow-md'>
       <div className=' bg-transparent h-[100px] w-screen inline-block align-middle relative'>
 
             <div className='h-auto w-screen flex justify-center scroll-smooth'><Productbox productlist={displayproducts}/></div>
