@@ -154,7 +154,8 @@ export default function Headertwo() {
                   onMouseLeave={handleMouseLeave1}
                 >
                   Бидний тухай
-                  <ChevronDownIcon className='h-5 w-5 flex-none' aria-hidden="true" />
+                  <ChevronDownIcon className={`h-5 w-5 flex-none transform ${isOpen1 ? 'rotate-180 transition-transform duration-300' : 'rotate-0 transition-transform duration-300'}`} 
+                    aria-hidden="true" />
                 </div>
 
                 <Transition
@@ -215,7 +216,8 @@ export default function Headertwo() {
                   onMouseLeave={handleMouseLeave2}
                 >
                   Үйлчилгээ
-                  <ChevronDownIcon className="h-5 w-5 flex-none" aria-hidden="true" />
+                  <ChevronDownIcon className={`h-5 w-5 flex-none transform ${isOpen2 ? 'rotate-180 transition-transform duration-300' : 'rotate-0 transition-transform duration-300'}`} 
+                    aria-hidden="true" />
                 </div>
 
                 <Transition
@@ -258,7 +260,8 @@ export default function Headertwo() {
                   onMouseLeave={handleMouseLeave3}
                 >
                   Хүний нөөц
-                  <ChevronDownIcon className="h-5 w-5 flex-none" aria-hidden="true" />
+                  <ChevronDownIcon className={`h-5 w-5 flex-none transform ${isOpen3 ? 'rotate-180 transition-transform duration-300' : 'rotate-0 transition-transform duration-300'}`} 
+                    aria-hidden="true" />
                 </div>
 
                 <Transition
@@ -301,7 +304,8 @@ export default function Headertwo() {
                   onMouseLeave={handleMouseLeave4}
                 >
                   Санал хүсэлт
-                  <ChevronDownIcon className="h-5 w-5 flex-none" aria-hidden="true" />
+                  <ChevronDownIcon className={`h-5 w-5 flex-none transform ${isOpen4 ? 'rotate-180 transition-transform duration-300' : 'rotate-0 transition-transform duration-300'}`} 
+                    aria-hidden="true" />
                 </div>
 
                 <Transition
@@ -361,7 +365,7 @@ export default function Headertwo() {
         
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-10" />
-            <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-[75%] h-screen overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-[75%] h-screen overflow-y-auto bg-white border-l-4 border-gray-300 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                 <div className="flex items-center justify-end bg-opacity-100">
                   <button
                     type="button"
@@ -369,7 +373,7 @@ export default function Headertwo() {
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     <span className="sr-only">Цэс хаах</span>
-                    <XMarkIcon className="items-end h-6 w-6" aria-hidden="true" />
+                    <XMarkIcon className="items-end h-6 w-6 text-gray-900" aria-hidden="true" />
                   </button>
                 </div>
               <div className="mt-6 flow-root">
@@ -378,7 +382,7 @@ export default function Headertwo() {
                     <Disclosure as="div" className="-mx-3">
                         {({ open }) => (
                           <> 
-                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-extrabold leading-7 text-gray-900 hover:bg-gray-50">
                               Бидний тухай
                               <ChevronDownIcon
                                 className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
@@ -386,13 +390,13 @@ export default function Headertwo() {
                               />
                             </Disclosure.Button>
                             <Transition 
-                                 show={open}
-                                 enter="transform duration-300 ease-in"
-                                 enterFrom="opacity-0 translate-y-0"
-                                 enterTo="opacity-100 translate-y-0"
-                                 leave="transform duration-300 ease-out"
-                                 leaveFrom="opacity-100 translate-y-0"
-                                 leaveTo="opacity-0 translate-y-0">
+                                show={open}
+                                enter="transform duration-300 ease-in"
+                                enterFrom="opacity-0 translate-y-0"
+                                enterTo="opacity-100 translate-y-0"
+                                leave="transform duration-300 ease-out"
+                                leaveFrom="opacity-100 translate-y-0"
+                                leaveTo="opacity-0 translate-y-0">
                                   <Disclosure.Panel className="mt-2 space-y-2">
                                     {[...aboutUS ].map((item) => (
                                       <Disclosure.Button
@@ -411,14 +415,14 @@ export default function Headertwo() {
                       </Disclosure>
                     <a
                       href="./products"
-                      className="-mx-3 block rounded-lg px-3 py-2 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-md font-extrabold leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       Бүтээгдэхүүн
                     </a>
                     <Disclosure as="div" className="-mx-3">
                         {({ open }) => (
                           <> 
-                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-extrabold leading-7 text-gray-900 hover:bg-gray-50">
                               Үйлчилгээ
                               <ChevronDownIcon
                                 className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
@@ -452,7 +456,7 @@ export default function Headertwo() {
                       <Disclosure as="div" className="-mx-3">
                         {({ open }) => (
                           <> 
-                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-extrabold leading-7 text-gray-900 hover:bg-gray-50">
                               Хүний нөөц
                               <ChevronDownIcon
                                 className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
@@ -486,7 +490,7 @@ export default function Headertwo() {
                       <Disclosure as="div" className="-mx-3">
                         {({ open }) => (
                           <> 
-                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-md font-extrabold leading-7 text-gray-900 hover:bg-gray-50">
                               Санал хүсэлт
                               <ChevronDownIcon
                                 className={classNames(open ? 'rotate-180 duration-200' : 'rotate-0 duration-200', 'h-5 w-5 flex-none')}
@@ -524,6 +528,6 @@ export default function Headertwo() {
         </Dialog>
       </div>
     </header>
-    // </div>
+
   )
 }
