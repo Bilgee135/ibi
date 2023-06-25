@@ -26,7 +26,7 @@ function ProductButton(props) {
     return (
         <div className='w-full sm:w-1/2 lg:w-[300px] flex items-center justify-center flex-col'>
             <div className='h-[36px] w-full'></div>
-            <button className='bg-[#e8f6ff] hover:bg-[#d5efff]  hover:-translate-y-4 ease-in-out aspect-[0.65] w-[90%] flex-col rounded-xl border-0 border-black transition duration-200 hover:drop-shadow-2xl'>
+            <button className='bg-[#e8f6ff] hover:bg-[#d5efff]  hover:-translate-y-4 ease-in-out aspect-[0.65] w-[90%] flex-col rounded-xl border-0 border-black transition duration-300 hover:drop-shadow-2xl'>
                 <a href={ props.href }>
                     <div className='h-1/2 w-full flex justify-center items-center'>
                         <img className='h-[60%] w-[60%]' src={ props.src }></img>

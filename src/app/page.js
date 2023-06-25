@@ -9,9 +9,9 @@ import SideNav from './sidenav'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col overflow-x-hidden bg-white">
-      {/* <section id='SideNavigation'>
+      <section id='SideNavigation' className='z-50'>
         <SideNav />
-      </section> */}
+      </section>
       <div id='topContainer' className="bg-[url('/bigheroimg.jpeg')] bg-cover bg-center bg-fixed min-h-screen max-h-screen">
         <section id='header'>
           <Headertwo />
@@ -21,12 +21,19 @@ export default function Home() {
             <div className="container mx-auto flex px-5 h-screen items-left justify-center flex-col relative">
               <div className="text-center md:text-start text-white lg:w-8/12 w-full relative">
                 <h1 className="my-4 text-[45px] sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black leading-tight uppercase">
+
                   {/* <span className='text-[#072ac8] drop-shadow-2xl'>I</span>nteractive<br/>
                   <span className='text-[#1e96fc] drop-shadow-2xl'>B</span>usiness<br/>
                   <span className='text-[#072ac8] drop-shadow-2xl'>I</span>ntelligence */}
+
                   <span className='text-white drop-shadow-2xl'>I</span>nteractive<br/>
                   <span className='text-white drop-shadow-2xl'>B</span>usiness<br/>
                   <span className='text-white drop-shadow-2xl'>I</span>ntelligence
+
+                  {/* <span className='text-white'>И</span>нтерактив<br/>
+                  <span className='text-white'>БИ</span>{' '}АЙ{' '}
+                  <span className='text-white'>ХХК</span> */}
+
                 </h1>
                 <h2 className="text-white text-xl md:text-2xl mb-8 font-medium tracking-wide normal-case">
                   Санхүү, нягтлан бодох бүртгэл болон бусад бүх төрлийн програм хангамж
