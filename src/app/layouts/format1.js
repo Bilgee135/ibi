@@ -1,8 +1,9 @@
 import React from 'react'
+import MainFormat from './mainFormat'
 
 function Format1() {
   return (
-    <div>format1</div>
+    <MainFormat></MainFormat>
   )
 }
 
