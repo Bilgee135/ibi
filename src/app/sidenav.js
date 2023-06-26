@@ -4,9 +4,9 @@ import { ArrowDownTrayIcon, BellAlertIcon, ChartBarIcon, CloudIcon, RssIcon, Che
 
 const SIDE = [
   { name: 'Navigation Item', href: '#', icon: ArrowDownTrayIcon, color: 'bg-[#014F86]' },
-  { name: 'TeamViewer татах', href: '#', icon: BellAlertIcon, color: 'bg-[#2A6F97]' },
-  { name: 'AnyDesk татах', href: '#', icon: ChartBarIcon, color: 'bg-[#2C7DA0]' },
-  { name: 'Navigation Item', href: '#', icon: CloudIcon, color: 'bg-[#468FAF]' },
+  { name: 'TeamViewer татах', href: '/installs/TeamViewerQS.exe', icon: BellAlertIcon, color: 'bg-[#0e8ee9]' },
+  { name: 'AnyDesk татах', href: '/installs/AnyDesk.exe', icon: ChartBarIcon, color: 'bg-[#ef443b]' },
+  { name: 'QuickJoin татах', href: '#', icon: CloudIcon, color: 'bg-[#468FAF]' },
   { name: 'Navigation Item', href: '#', icon: RssIcon, color: 'bg-[#61A5C2]' },
 ]
 
@@ -30,6 +30,18 @@ export default function SideNav(){
     });
   };
 
+  const getDownloadFileName = (name) => {
+    if (name === 'TeamViewer татах') {
+      return 'TeamViewer_Installer.exe';
+    } else if (name === 'AnyDesk татах') {
+      return 'AnyDesk_Installer.exe';
+    } else if (name === 'QuickJoin татах') {
+      return 'QuickJoin_Installer.exe';
+    } else {
+      return '';
+    }
+  };
+
 
   return(
     <div className="hidden md:flex md:fixed md:right-0 md:items-center md:justify-center md:h-screen">
@@ -38,6 +50,7 @@ export default function SideNav(){
           {SIDE.map((item, index) => (
             <a
               href={item.href}
+              download={getDownloadFileName(item.name)}
               className="hover:cursor-pointer"
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={() => handleMouseLeave(index)}

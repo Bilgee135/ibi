@@ -33,11 +33,11 @@ import { ChevronDownIcon, PhoneIcon, PlayCircleIcon, MagnifyingGlassIcon } from 
 
 
 const aboutUS = [
-    { name: 'Танилцуулга', description: 'Бидний бүтээсэн түүх', href: './company', icon: BuildingOfficeIcon},
-    { name: 'Бүтээгдэхүүн', description: 'Бүтээгдэхүүний хөгжлийн түүх', href: '#', icon: CodeBracketSquareIcon},
-    { name: 'Зохион байгуулалт', description: 'Албадуудын үйл ажиллагааны чиглэл', href: '#', icon: HomeModernIcon},
-    { name: 'Хамтрагч', description: 'Харилцагч байгууллагуудын мэдээлэл', href: '#', icon: UserGroupIcon},
-    { name: 'Стратеги', description: 'Бизнесийн үзэл санаа', href: '#', icon: CommandLineIcon},
+    { name: 'Танилцуулга', description: 'Бидний бүтээсэн түүх', href: '/company/introduction', icon: BuildingOfficeIcon},
+    { name: 'Бүтээгдэхүүн', description: 'Бүтээгдэхүүний хөгжлийн түүх', href: '/company/product', icon: CodeBracketSquareIcon},
+    { name: 'Зохион байгуулалт', description: 'Албадуудын үйл ажиллагааны чиглэл', href: '/company/organization', icon: HomeModernIcon},
+    { name: 'Хамтрагч', description: 'Харилцагч байгууллагуудын мэдээлэл', href: '/company/partners', icon: UserGroupIcon},
+    { name: 'Стратеги', description: 'Бизнесийн үзэл санаа', href: '/company/strategy', icon: CommandLineIcon},
 ]
 
 // const products = [
@@ -46,21 +46,21 @@ const aboutUS = [
 
 // ]
 const service = [
-  { name: 'Зөвлөх үйлчилгээ', description: 'ERP системийн үр өгөөж', href: '#', icon: LightBulbIcon},
-  { name: 'Борлуулалт', description: 'Борлуулалтын үеийн үйлчилгээ', href: '#', icon: CurrencyDollarIcon},
-  { name: 'Нэвтрүүлэлт', description: 'Худалдаж авсны дараах үйлчилгээ', href: '#', icon: DocumentArrowUpIcon},
-  { name: 'IT үйлчилгээ', description: 'Техник, тоног төхөөрөмжийн үйлчилгээ', href: '#', icon: ComputerDesktopIcon},
+  { name: 'Зөвлөх үйлчилгээ', description: 'ERP системийн үр өгөөж', href: '/services/advising', icon: LightBulbIcon},
+  { name: 'Борлуулалт', description: 'Борлуулалтын үеийн үйлчилгээ', href: '/services/sales', icon: CurrencyDollarIcon},
+  { name: 'Нэвтрүүлэлт', description: 'Худалдаж авсны дараах үйлчилгээ', href: '/services/launch', icon: DocumentArrowUpIcon},
+  { name: 'IT үйлчилгээ', description: 'Техник, тоног төхөөрөмжийн үйлчилгээ', href: '/services/softhelp', icon: ComputerDesktopIcon},
 ]
 const HR = [
-  { name: 'Яагаад бид гэж?', description: 'Бидэнтэй нэгдэх шалтгаан', href: '#', icon: QuestionMarkCircleIcon},
-  { name: 'Ажлын байр', description: 'Нээлттэй ажлын байрны зарууд', href: '#', icon: BuildingOffice2Icon},
-  { name: 'CV илгээх', description: 'Ажилд орох хүсэлт гаргах', href: '#', icon: ClipboardDocumentCheckIcon},
+  { name: 'Яагаад бид гэж?', description: 'Бидэнтэй нэгдэх шалтгаан', href: '/humanResources/whyUs', icon: QuestionMarkCircleIcon},
+  { name: 'Ажлын байр', description: 'Нээлттэй ажлын байрны зарууд', href: '/humanResources/vacancy', icon: BuildingOffice2Icon},
+  { name: 'CV илгээх', description: 'Ажилд орох хүсэлт гаргах', href: '/humanResources/Resume', icon: ClipboardDocumentCheckIcon},
   { name: 'Санал хүсэлт', description: 'Яагаад бид таныг ажилд авах ёстой вэ?', href: '#', icon: DocumentMagnifyingGlassIcon},
 ]
 const feedback = [
-  { name: 'Шууд холбогдох', description: 'Мэдээллийн ажилтнаас мэдээлэл авах', href: '#', icon: PhoneArrowDownLeftIcon},
-  { name: 'Албан хүсэлт', description: 'Хамтран ажиллах санал', href: '#', icon: PaperAirplaneIcon},
-  { name: 'CV илгээх', description: '', href: '#', icon: InformationCircleIcon},
+  { name: 'Шууд холбогдох', description: 'Мэдээллийн ажилтнаас мэдээлэл авах', href: '/feedback/contact', icon: PhoneArrowDownLeftIcon},
+  { name: 'Албан хүсэлт', description: 'Хамтран ажиллах санал', href: '/feedback/partnershipreq', icon: PaperAirplaneIcon},
+  { name: 'CV илгээх', description: '', href: '/feedback/complaints', icon: InformationCircleIcon},
 ]
 
 // const callsToAction = [
