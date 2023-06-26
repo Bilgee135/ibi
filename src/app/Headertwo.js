@@ -192,7 +192,7 @@ export default function Headertwo() {
                 </Transition>
               </Popover >
 
-              <a href="./products" className="text-md font-semibold leading-6 transition duration-300 hover:text-gray-500 hover:cursor-default">
+              <a href="/products" className="text-md font-semibold leading-6 transition duration-300 hover:text-gray-500 hover:cursor-default">
                 Бүтээгдэхүүн
               </a>
 
