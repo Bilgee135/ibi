@@ -26,14 +26,15 @@ import {
   DocumentMagnifyingGlassIcon,
   PhoneArrowDownLeftIcon,
   PaperAirplaneIcon,
-  InformationCircleIcon
+  InformationCircleIcon,
+  CodeBracketSquareIcon
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon, MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 
 
 const aboutUS = [
     { name: 'Танилцуулга', description: 'Бидний бүтээсэн түүх', href: './company', icon: BuildingOfficeIcon},
-    { name: 'Бүтээгдэхүүн', description: 'Бүтээгдэхүүний хөгжлийн түүх', href: '#', icon: UserGroupIcon},
+    { name: 'Бүтээгдэхүүн', description: 'Бүтээгдэхүүний хөгжлийн түүх', href: '#', icon: CodeBracketSquareIcon},
     { name: 'Зохион байгуулалт', description: 'Албадуудын үйл ажиллагааны чиглэл', href: '#', icon: HomeModernIcon},
     { name: 'Хамтрагч', description: 'Харилцагч байгууллагуудын мэдээлэл', href: '#', icon: UserGroupIcon},
     { name: 'Стратеги', description: 'Бизнесийн үзэл санаа', href: '#', icon: CommandLineIcon},
@@ -126,7 +127,7 @@ export default function Headertwo() {
 
   return (
     <header className='fixed top-0 w-full z-50 font-poppins'>
-      <div className={color ? 'transition duration-300 bg-white drop-shadow-md text-gray-900' : 'transition duration-300 bg-transparent text-white'}>
+      <div className={color ? 'transition duration-300 bg-white drop-shadow text-gray-900' : 'transition duration-300 bg-transparent text-white'}>
         <nav className="mx-auto flex max-w-7xl items-center justify-between p-[15px] px-8 relative" aria-label="Global">
           <div className="flex items-center">
             <a href="/" className="-m-1.5 p-1.5">

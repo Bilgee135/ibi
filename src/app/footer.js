@@ -119,7 +119,7 @@ export default function Footer() {
   return (
     <footer className="w-full">
     <div className="max-w-screen bg-gradient-to-tr from-[#013a63] from-[10%] via-[#014f86] to-[#61a5c2] to-[80%]">
-    <div className="mx-auto w-full max-w-7xl px-8 bg-tranparent">
+      <div className="mx-auto w-full max-w-7xl px-8 bg-tranparent">
         <div className="mx-auto grid w-full grid-cols-1 gap-5 py-12 md:grid-cols-2 lg:grid-cols-6">
           {SITEMAP.map(({ title, links }, key) => (
             <div key={key} className="w-full">
