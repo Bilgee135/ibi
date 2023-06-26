@@ -13,7 +13,7 @@ import ProductCards from './components/productcards'
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-white overflow-x-hidden pt-20 w-full">
-      <section id='SideNavigation'>
+      <section id='SideNavigation' className='z-50'>
         <SideNav />
       </section>
       <section id='header' className='fixed top-0 w-full z-50'>
