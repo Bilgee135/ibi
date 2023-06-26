@@ -1,7 +1,7 @@
 'use client'
 
-import Headertwo from "../Headertwo"
-import Footer from "../footer"
+import Headertwo from "../../Headertwo"
+import Footer from "../../footer"
 export default function Company(){
     return (
         <div className='flex min-h-screen flex-col bg-white overflow-x-hidden'>

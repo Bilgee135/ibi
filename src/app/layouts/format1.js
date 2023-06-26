@@ -1,7 +1,7 @@
 import React from 'react'
 import MainFormat from './mainFormat'
 
-function Format1() {
+function Format1( props ) {
   return (
     <MainFormat></MainFormat>
   )
