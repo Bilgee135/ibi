@@ -1,25 +1,16 @@
-'use client'
+import Format1 from "@/app/layouts/format1"
 
-import Headertwo from "../../Headertwo"
-import Footer from "../../footer"
 export default function Company(){
+    let title = "Бидний тухай"
+    return (
+        <Format1 Content={ Content } Title={ title } />
+    )
+}
+
+function Content() {
     return (
         <div className='flex min-h-screen flex-col bg-white overflow-x-hidden'>
-            <section id='header' className='fixed top-0 w-full'>
-                <Headertwo />
-            </section>
-            <section id='heroSection'>
-                <div className='w-screen h-fit text-white bg-gradient-to-r from-blue-500 via-sky-800 to-blue-700'>
-                    <div className='container mx-auto flex px-5 py-24 items-center justify-between flex-col'>
-                        <div className='text-center lg:w-5/12 w-full'>
-                            <h1 id='Company' className='uppercasef text-7xl font-opensans font-7xl font-extrabold'>
-                                Бидний Тухай
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </section>
-             <div className='ml-[10%] mr-[10%] mt-[5%]'>
+            <div className='ml-[10%] mr-[10%] mt-[5%]'>
                 <h1 className='text-7xl text-black font-opensans font-bold'>
                     Бидний Түүх
                 </h1>
@@ -41,10 +32,6 @@ export default function Company(){
                     esse dolore adipisicing tempor aute adipisicing. Do culpa ut pariatur sint.
                 </p>
             </div>
-            <section id='footerSection' className='mt-[12%]'>
-                <Footer />
-            </section>
-
         </div>
     )
 }

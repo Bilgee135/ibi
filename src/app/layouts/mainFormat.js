@@ -9,7 +9,7 @@ function MainFormat({children}) {
         <section id='Header'>
             <Headertwo />
         </section>
-        <section id='Body' className='mr-[10%] ml-[10%]'>
+        <section id='Body' className='mr-[0%] ml-[0%]'>
             {children}
         </section>
         <section id='Footer'>
