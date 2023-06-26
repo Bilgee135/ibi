@@ -12,7 +12,7 @@ export default function Home() {
       <section id='SideNavigation' className='z-50'>
         <SideNav />
       </section>
-      <div id='topContainer' className="bg-[url('/bigheroimg.jpeg')] bg-cover bg-center bg-fixed min-h-screen max-h-screen">
+      <div id='topContainer' className="bg-[url('/tempbackground3.jpg')] bg-cover bg-center bg-fixed min-h-screen max-h-screen">
         <section id='header'>
           <Headertwo />
         </section>
