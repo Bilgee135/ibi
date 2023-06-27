@@ -40,7 +40,7 @@ function NiitBureldeguun(props) {
     return (
         <div className='w-full flex justify-center flex-wrap'>
             {props.Bureldehuun.map(function(comp) {
-                if (props.Bureldeh[0][comp["id"]]) {
+                if (props.Bureldeh[comp["id"]]) {
                     return (
                         <BureldehCom key={ comp["id"] } name={comp["name"]} img={comp["img"]} desc={comp["desc"]} href={ comp["href"] } />
                     )
