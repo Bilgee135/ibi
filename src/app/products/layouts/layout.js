@@ -52,7 +52,7 @@ export default function Layout( props ) {
           <div
             className="absolute top-0 h-full w-full bg-cover bg-center bg-fixed"
             style={{
-              backgroundImage: `url(${ props.data[1]["herosrc"] })`,
+              backgroundImage: `url(${ props.data["herosrc"] })`,
             }}
           ></div>
           <Viewcontainer1 details={ props.data }/>

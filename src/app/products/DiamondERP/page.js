@@ -2,10 +2,19 @@
 
 import React from 'react'
 import Layout from '../layouts/layout'
-import details from './bureldeh'
 import Text from './text'
 
+import unfilteredDetails from '../main.json'
+
 export default function Page() {
+  //SQL Query: details = SELECT * FROM (table_name) WHERE ID=1;
+  let id = 1
+  let details
+  unfilteredDetails.map(function (curlylist) {
+    if (curlylist["id"] === id) {
+      details = curlylist
+    }
+  })
   return (
     <div><Layout data={ details } Text={ Text } /></div>
   )
