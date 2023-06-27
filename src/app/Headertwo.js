@@ -39,12 +39,6 @@ const aboutUS = [
     { name: 'Хамтрагч', description: 'Харилцагч байгууллагуудын мэдээлэл', href: '/company/partners', icon: UserGroupIcon},
     { name: 'Стратеги', description: 'Бизнесийн үзэл санаа', href: '/company/strategy', icon: CommandLineIcon},
 ]
-
-// const products = [
-//   { name: 'Үндсэн Бүтээгдэхүүн', description: 'Манай бүтээгдэхүүнтэй танилцах', href: './products', icon: ChartPieIcon },
-//   { name: 'Үйл ажиллагааны чиглэлээр', description: 'Чиглэлүүдээр сонгож харах', href: '#', icon: CursorArrowRaysIcon },
-
-// ]
 const service = [
   { name: 'Зөвлөх үйлчилгээ', description: 'ERP системийн үр өгөөж', href: '/services/advising', icon: LightBulbIcon},
   { name: 'Борлуулалт', description: 'Борлуулалтын үеийн үйлчилгээ', href: '/services/sales', icon: CurrencyDollarIcon},
@@ -60,13 +54,8 @@ const HR = [
 const feedback = [
   { name: 'Шууд холбогдох', description: 'Мэдээллийн ажилтнаас мэдээлэл авах', href: '/feedback/contact', icon: PhoneArrowDownLeftIcon},
   { name: 'Албан хүсэлт', description: 'Хамтран ажиллах санал', href: '/feedback/partnershipreq', icon: PaperAirplaneIcon},
-  { name: 'CV илгээх', description: '', href: '/feedback/complaints', icon: InformationCircleIcon},
+  { name: 'Санал гомдол', description: '', href: '/feedback/complaints', icon: InformationCircleIcon},
 ]
-
-// const callsToAction = [
-//   { name: 'Үндсэн бүтээгдэхүүн', href: '/products', icon: ShieldCheckIcon },
-//   { name: 'ҮА чиглэлээр', href: '#', icon: ArrowUturnUpIcon },
-// ]
 
 function classNames(...classes) {  
   return classes.filter(Boolean).join(' ')
@@ -210,7 +199,7 @@ export default function Headertwo() {
                       ))}
                     </div> */}
                         
-                        <Popover className="relative">
+              <Popover className="relative">
                 <div
                   className="flex items-center gap-x-1 text-md font-semibold leading-6 ring-0 transition duration-300 hover:text-gray-500 hover:cursor-default"
                   onMouseEnter={handleMouseEnter2}

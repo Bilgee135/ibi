@@ -57,7 +57,7 @@ export default function Home() {
     
       <div className='ml-[10%] mr-[10%] mt-[2%]'>
           <h1 className='text-3xl md:text-4xl lr:text-5xl text-blue-500 font-opensans font-bold text-start'>
-             Мэдээ, мэдээлэл 
+            Бид бизнесийн бүхий л салбарт програм хангамжийн автоматжуулалтын цогц шийдлийг санал болгож байна. 
           </h1>
           <p className='mt-[10px] text-lr md:text-xl lr:text-2xl text-left font-normal text-black'>
             Aute mollit nulla aute amet anim labore voluptate pariatur Lorem 
