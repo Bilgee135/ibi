@@ -52,32 +52,37 @@ function Productlist2() {
   
 
 
-  //game?
+  //---------------------------------------Undsen Butsaalt-----------------------------------//
   let displayproducts = products
 
   return (
     <div className='h-[100px] w-screen flex items-center justify-center z-30 border-black shadow-md'>
       <div className=' bg-transparent h-[100px] w-screen inline-block align-middle relative'>
-
             <div className='h-auto w-screen flex justify-center scroll-smooth'><Productbox productlist={displayproducts}/></div>
-
       </div>
     </div>
   )
 }
 
+//------------------------------------COMPLEMENTARY FUNCTIONS-------------------------------------//
+
 function Productbox({ productlist }) {
   const listRef = React.useRef(null)
+  //index of "selected" (active) product icon
   const [index, setIndex] = useState(0)
 
+  //state of whether left and right button (LB, RB) is visisble or not
   const [isRBVisible, setIsRBVisible] = useState(false)
   const [isLBVisible, setIsLBVisible] = useState(true)
 
+  //function using the states to hide RB or LB on scroll (Hide RB or LB on where the scroll is: When it is at the start, hide LB for example)
   function HandleScroll() {
     const listItems = listRef.current.getElementsByTagName('li')
     const itemWidth = 100
     const { scrollLeft, scrollWidth, clientWidth } = listRef.current;
 
+    //ActiveIndex is the index number of the product list element to be ACTIVE: essentially saying that the product
+    //at ActiveIndex is the product list element that is selected
     let activeIndex = Math.floor(scrollLeft / itemWidth)
     activeIndex = Math.max(0, Math.min(activeIndex, listItems.length - 1))
 
@@ -102,6 +107,7 @@ function Productbox({ productlist }) {
     setIndex(activeIndex)
   }
 
+  //Functionality of the Right Button (scrolling to the next list element)
   function scrollNext() {
     if (listRef.current) {
       const ListElements = listRef.current.getElementsByTagName("li")
@@ -112,6 +118,8 @@ function Productbox({ productlist }) {
       }
     }
   }
+
+  //Functionality of the Left Button (scrolling to the previous list element)
   function scrollPrevious() {
     if (listRef.current) {
       const ListElements = listRef.current.getElementsByTagName("li")
@@ -123,8 +131,9 @@ function Productbox({ productlist }) {
     }
   }
 
+  //Body of the RightButton
   function RightButton() {
-    let bopacity = 1
+    let bopacity = 1 //Bopacity is short for: Button Opacity
     if (isRBVisible) {
       bopacity = 1
     } else {
@@ -165,6 +174,8 @@ function Productbox({ productlist }) {
       </>
     )
   }
+
+  //-------------------------------------------------------UNDSEN BUTSAALTIIN BODY------------------------------------//
 
   return (
   <>
