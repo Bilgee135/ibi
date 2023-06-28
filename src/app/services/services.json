@@ -13,14 +13,14 @@
     },
     {
         "id" : 2,
-        "title" : "",
-        "subtitle" : "",
+        "title" : "Нэвтрүүлэлт",
+        "subtitle" : "Худалдаж авсны дараах үйлчилгээ",
         "heroimg" : "/companyheroimg/product.jpg"
     },
     {
         "id" : 3,
-        "title" : "",
-        "subtitle" : "",
+        "title" : "IT үйлчилгээ",
+        "subtitle" : "Техник, тоног төхөөрөмжийн үйлчилгээ",
         "heroimg" : "/companyheroimg/product.jpg"
     }
 ]

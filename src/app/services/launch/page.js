@@ -1,9 +1,26 @@
-import React from 'react'
+import Format1 from "@/app/layouts/format2"
+import Content from "./Content"
 
-function page() {
-  return (
-    <div>Нэвтрүүлэлт</div>
-  )
+import data from "../services.json"
+
+export default function Launch(){
+    let pData = {
+        "title" : "",
+        "heroimg" : "",
+        "subtitle" : ""
+    }
+    let id = 2 //----------------------------------------------LAUNCH ID: 2-------------------------//
+    data.map(function(curlylist) {
+        if ( curlylist["id"] === id) {
+            pData = {
+                "title" : curlylist["title"],
+                "heroimg" : curlylist["heroimg"],
+                "subtitle" : curlylist["subtitle"]
+            }
+        }
+    })
+
+    return (
+        <Format1 Content={ Content } data={ pData } />
+    )
 }
-
-export default page
