@@ -16,7 +16,7 @@ function Format1( props ) {
             <h1 id='CompanyIntro' className=' text-[90px] font-opensans font-bold text-center z-10 text-white'>
               { props.data["title"] }
             </h1>
-            <h2 id='CompanyIntroSubtitle' className=' text-2xl font-opensans font-7xl font-bold text-center z-10 text-white'>
+            <h2 id='CompanyIntroSubtitle' className=' text-2xl font-opensans font-bold text-center z-10 text-white'>
               { props.data["subtitle"]}
             </h2>
           </div>
