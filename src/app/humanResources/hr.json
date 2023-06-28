@@ -1,14 +1,14 @@
 [
     {
         "id" : 0,
-        "title" : "",
-        "subtitle" : "",
+        "title" : "Яагаад бид гэж?",
+        "subtitle" : "Бидэнтэй нэгдэх шалтгаан",
         "heroimg" : "/companyheroimg/team.png"
     },
     {
         "id" : 1,
-        "title" : "",
-        "subtitle" : "",
+        "title" : "Ажлын байр",
+        "subtitle" : "Нээлттэй ажлын байрны зарууд",
         "heroimg" : "/companyheroimg/team.png"
     },
     {
