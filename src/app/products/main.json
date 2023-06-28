@@ -11,7 +11,7 @@
         "BurdeldehuunSystem7" : true,
         "systemName" : "ДАЙМОНД 6.0",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
-        "systemIcon" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
+        "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png"
     },
     {
@@ -26,7 +26,7 @@
         "BurdeldehuunSystem7" : true,
         "systemName" : "ДАЙМОНД ERP",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
-        "systemIcon" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
+        "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png"
     },
     {
@@ -41,7 +41,7 @@
         "BurdeldehuunSystem7" : false,
         "systemName" : "ЭМЕРАЛД",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
-        "systemIcon" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
+        "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png"
     },
     {
@@ -56,7 +56,7 @@
         "BurdeldehuunSystem7" : false,
         "systemName" : "Импакт",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
-        "systemIcon" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
+        "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png"
     },
     {
@@ -71,7 +71,7 @@
         "BurdeldehuunSystem7" : true,
         "systemName" : "RUBY",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
-        "systemIcon" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
+        "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png"
     },
     {
@@ -86,7 +86,7 @@
         "BurdeldehuunSystem7" : false,
         "systemName" : "СЭЦЭН КАССЫН СИСТЕМ",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
-        "systemIcon" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
+        "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png"
     },
     {
@@ -101,7 +101,7 @@
         "BurdeldehuunSystem7" : true,
         "systemName" : "СПИНЕЛ",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
-        "systemIcon" : "https://img.uxwing.com/wp-content/themes/uxwing/download/clothes-accessories/diamond-icon.png",
+        "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png"
     }
 ]
