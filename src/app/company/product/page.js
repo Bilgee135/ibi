@@ -1,7 +1,7 @@
-import Format1 from "@/app/layouts/format1"
 import Content from "./Content"
 
 import data from "../company.json"
+import Format1 from "@/app/layouts/format1"
 
 export default function Product(){
     let pData = {
