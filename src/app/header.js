@@ -111,7 +111,7 @@ export default function Header() {
       [index]: false,
     }));
   };
-  
+
   return (
     <header className='fixed top-0 w-full z-50 font-poppins'>
       <div className={color ? 'transition duration-300 bg-white drop-shadow text-gray-900' : 'transition duration-300 bg-transparent text-white'}>
@@ -212,7 +212,7 @@ export default function Header() {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10 overflow-x-hidden">
                 <a
-                  href="./products"
+                  href="/products"
                   className="flex w-full items-center justify-between block rounded-lg py-6 pl-3 pr-3.5 text-md font-extrabold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Бүтээгдэхүүн
