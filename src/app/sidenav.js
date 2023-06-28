@@ -60,7 +60,7 @@ export default function SideNav(){
           {SIDE.map((item, index) => (
             <a
               href={item.href}
-              download={getDownloadFileName(item.name)}
+              download={item.href.endsWith('.exe') ? getDownloadFileName(item.name) : undefined}
               className="hover:cursor-pointer"
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={() => handleMouseLeave(index)}
