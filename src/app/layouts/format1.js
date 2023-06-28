@@ -13,10 +13,10 @@ function Format1( props ) {
               backgroundImage: `url(${props.data["heroimg"]})`,
             }}
           ></div>
-            <h1 id='CompanyIntro' className=' text-[90px] font-opensans font-bold text-center z-10 text-white'>
+            <h1 id='CompanyIntro' className='text-[50px] md:text-[80px] font-opensans font-bold text-center z-10 text-white'>
               { props.data["title"] }
             </h1>
-            <h2 id='CompanyIntroSubtitle' className=' text-2xl font-opensans font-bold text-center z-10 text-white'>
+            <h2 id='CompanyIntroSubtitle' className='text-[16px] md:text-2xl font-opensans font-bold text-center z-10 text-white'>
               { props.data["subtitle"]}
             </h2>
           </div>
