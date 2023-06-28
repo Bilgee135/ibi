@@ -1,14 +1,14 @@
 [
     {
         "id" : 0,
-        "title" : "",
-        "subtitle" : "",
-        "heroimg" : "/companyheroimg/team.png"
+        "title" : "Зөвлөх үйлчилгээ",
+        "subtitle" : "ERP системийн үр өгөөж",
+        "heroimg" : "/companyheroimg/product.jpg"
     },
     {
         "id" : 1,
-        "title" : "",
-        "subtitle" : "",
+        "title" : "Борлуулалт",
+        "subtitle" : "Борлуулалтын үеийн үйлчилгээ",
         "heroimg" : "/companyheroimg/product.jpg"
     },
     {
