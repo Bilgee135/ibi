@@ -4,6 +4,7 @@ import Headertwo from './Headertwo'
 import MainPage from './products/components/MainProductPage'
 import Footer from './footer'
 import SideNav from './sidenav'
+// import Header from './header'
 
 
 export default function Home() {
