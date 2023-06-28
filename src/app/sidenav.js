@@ -54,7 +54,7 @@ export default function SideNav(){
   };
 
   return(
-    <div className="hidden md:flex md:fixed md:right-0 md:items-center md:justify-center md:h-screen">
+    <div className="hidden md:flex md:fixed md:right-0 md:items-center md:justify-center md:h-screen z-50">
       <div className="w-52 h-auto">
         <div className="py-2 pl-2 flex flex-col space-y-1 font-poppins">
           {SIDE.map((item, index) => (
