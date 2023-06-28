@@ -7,14 +7,14 @@
     },
     {
         "id" : 1,
-        "title" : "",
-        "subtitle" : "",
+        "title" : "Ажлын байр",
+        "subtitle" : "Нээлттэй ажлын байрны зарууд",
         "heroimg" : "/companyheroimg/team.png"
     },
     {
         "id" : 2,
-        "title" : "",
-        "subtitle" : "",
-        "heroimg" : "/companyheroimg/team.png"
+        "title" : "CV илгээх",
+        "subtitle" : "Ажилд орох хүсэлт гаргах",
+        "heroimg" : "/companyheroimg/product.jpg"
     }
 ]
