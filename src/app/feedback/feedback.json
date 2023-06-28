@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 0,
+        "title" : "Шууд холбогдох",
+        "subtitle" : "Мэдээллийн ажилтнаас мэдээлэл авах",
+        "heroimg" : "/companyheroimg/team.png"
+    },
+    {
+        "id" : 1,
+        "title" : "Албан хүсэлт",
+        "subtitle" : "Хамтран ажиллах санал",
+        "heroimg" : "/companyheroimg/team.png"
+    },
+    {
+        "id" : 2,
+        "title" : "Санал гомдол",
+        "subtitle" : "",
+        "heroimg" : "/companyheroimg/product.jpg"
+    }
+]
