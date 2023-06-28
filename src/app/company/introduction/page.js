@@ -6,14 +6,16 @@ import data from "../company.json"
 export default function Company(){
     let pData = {
         "title" : "",
-        "heroimg" : ""
+        "heroimg" : "",
+        "subtitle" : ""
     }
     let id = 0 //----------------------------------------------COMPANY INTRODUCTION ID: 0-------------------------//
     data.map(function(curlylist) {
-        if ( curlylist["id"] === 0) {
+        if ( curlylist["id"] === id) {
             pData = {
                 "title" : curlylist["title"],
-                "heroimg" : curlylist["heroimg"]
+                "heroimg" : curlylist["heroimg"],
+                "subtitle" : curlylist["subtitle"]
             }
         }
     })

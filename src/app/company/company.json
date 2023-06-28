@@ -1,7 +1,32 @@
 [
     {
         "id" : 0,
-        "title" : "Бидний тухай",
+        "title" : "Танилцуулга",
+        "subtitle" : "Бидний бүтээсэн түүх",
         "heroimg" : "/companyheroimg/team.png"
+    },
+    {
+        "id" : 1,
+        "title" : "Бүтээгдэхүүн",
+        "subtitle" : "Бүтээгдэхүүний хөгжлийн түүх",
+        "heroimg" : "/companyheroimg/product.jpg"
+    },
+    {
+        "id" : 2,
+        "title" : "",
+        "subtitle" : "Бүтээгдэхүүний хөгжлийн түүх",
+        "heroimg" : "/companyheroimg/product.jpg"
+    },
+    {
+        "id" : 3,
+        "title" : "",
+        "subtitle" : "Бүтээгдэхүүний хөгжлийн түүх",
+        "heroimg" : "/companyheroimg/product.jpg"
+    },
+    {
+        "id" : 4,
+        "title" : "",
+        "subtitle" : "Бүтээгдэхүүний хөгжлийн түүх",
+        "heroimg" : "/companyheroimg/product.jpg"
     }
 ]

@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import Headertwo from '../Headertwo'
+import Header from '../header'
 import Footer from '../footer'
 import RootLayout from '../layout'
 import SideNav from '../sidenav'
@@ -14,7 +14,7 @@ function MainFormat({children}) {
               <SideNav />
           </section>
           <section id='Header'>
-              <Headertwo />
+              <Header />
           </section>
           <section id='Body' className='mr-[0%] ml-[0%]'>
               {children}
