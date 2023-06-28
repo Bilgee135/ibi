@@ -1,6 +1,6 @@
 'use client'
 
-import Headertwo from '../Headertwo'
+import Header from '../header'
 import MainPage from './components/MainProductPage'
 import Footer from '../footer'
 import Productlist2 from './components/productlist2'
@@ -18,7 +18,7 @@ export default function Home() {
       </section>
       <section id='header' className='fixed top-0 w-full z-50'>
         <div className="bg-gradient-to-r from-[#013a63] from-[10%] via-[#014f86] to-[#61a5c2] to-[80%] h-20 w-full">
-          <Headertwo />
+          <Header />
         </div>
       </section>
       <section id='productList'>

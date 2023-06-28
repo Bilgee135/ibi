@@ -4,6 +4,7 @@ import Headertwo from './Headertwo'
 import MainPage from './products/components/MainProductPage'
 import Footer from './footer'
 import SideNav from './sidenav'
+import Header from './header'
 
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
       </section>
       <div id='topContainer' className="bg-[url('/tempbackground3.jpg')] bg-cover bg-center bg-fixed min-h-screen max-h-screen">
         <section id='header'>
-          <Headertwo />
+          <Header />
         </section>
         <section id='heroSection' className='z-40 '>
           <div className="w-screen max-h-screen min-h-screen backdrop-brightness-50">
