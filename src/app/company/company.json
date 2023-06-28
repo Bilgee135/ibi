@@ -3,5 +3,27 @@
         "id" : 0,
         "title" : "Бидний тухай",
         "heroimg" : "/companyheroimg/team.png"
+    },
+    {
+        "id" : 1,
+        "title" : "Бидний тухай",
+        "heroimg" : "/companyheroimg/team.png"
+    },
+    {
+        "id" : 2,
+        "title" : "Бидний тухай",
+        "heroimg" : "/companyheroimg/team.png"
+    },
+    {
+        "id" : 3,
+        "title" : "Бидний тухай",
+        "heroimg" : "/companyheroimg/team.png"
+    },
+    
+    {
+        "id" : 4,
+        "title" : "Стратеги",
+        "subtitle" : "Бизнесийн үзэл санаа",
+        "heroimg" : "/companyheroimg/team.png"
     }
 ]
