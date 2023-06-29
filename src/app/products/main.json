@@ -131,58 +131,82 @@
         "BurdeldehuunSystem1" : true,
         "BurdeldehuunSystem2" : true,
         "BurdeldehuunSystem3" : true,
-        "BurdeldehuunSystem4" : true,
+        "BurdeldehuunSystem4" : false,
         "BurdeldehuunSystem5" : true,
-        "BurdeldehuunSystem6" : false,
-        "BurdeldehuunSystem7" : false,
-        "systemName" : "ЭМЕРАЛД",
-        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
+        "BurdeldehuunSystem6" : true,
+        "BurdeldehuunSystem7" : true,
+        "BurdeldehuunSystem8" : true,
+        "BurdeldehuunSystem9" : true,
+        "systemName" : "ДАЙМОНД 5.0",
+        "systemDescription" : "Санхүү, нягтлан бодох бүртгэлийн Даймонд систем",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "text" : [
             {
-                "type" : "long",
-                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+                "type" : "heading1",
+                "content" : "Системийн танилцуулга"
+            },
+            {
+                "type" : "normal",
+                "content" : "Интерактив Би Ай ХХК-ийн бүтээгдэхүүний тав дахь хувилбар болох санхүү НББ-ийн Даймонд систем нь мөнгөн хөрөнгө, бараа материал, хангамжийн материал, үндсэн хөрөнгө, авлага өглөг, төсөв, төсөл, зардал болон байгууллагын санхүүтэй холбоотой бүх бүртгэлээ хөтлөх, тайлан мэдээллүүдээ цаг алдалгүй, үнэн зөвөөр авахад зориулагдсан систем юм. Уг систем нь Даймонд ERP цогц системийн бусад бүх системтэйгээ холбогдон ажилладгаараа онцлогтой юм."
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Санхүүгийн Даймонд системийн боломжууд"
             },
             {
                 "type" : "bullet",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Ямар ч үйл ажиллагаатай байгууллагад тохирч ажиллана."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Өөрийн байгууллагад гардаг онцлог ажил гүйлгээ, бүртгэлийг нэмж хийлгэх боломжтой."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "НББОУС, Татварын хуулиудын дагуу бүртгэлээ хөтөлж тайлангуудаа авна."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Тайлангууд дээр Drill Down тайлан буюу тайлангийн бүх үзүүлэлтийг хаанаас ямар үндэслэлээр гарч ирснийг задалж үзэх боломжийг оруулж өгсөн."
+                    },
+                    {
+                        "bulletlist": "Барааны өртгийг компаний хэмжээнд нэг болон агуулах бүрээр тооцно."
+                    },
+                    {
+                        "bulletlist": "Бараа болон үндсэн хөрөнгийн тооллогыг гараар хийхээс гадна баар кодоор хийнэ."
+                    },
+                    {
+                        "bulletlist": "Удирдлагад  санхүүгийн үйл ажиллагааг удирдан хянах боломжийг олгосон Санхүүгийн шинжилгээний системтэй уялдан ажиллаж, оновчтой шийдвэр гаргахад тусалдаг."
+                    },
+                    {
+                        "bulletlist": "Нярав, нягтлан бодогч нар ажил гүйлгээгээ өөрсдийн ажил үүргийн хуваарийн дагуу  тус тусдаа бүртгэж, ажил гүйлгээгээ дор бүр нь хянан алдаагаа олох боломжтой. "
+                    },
+                    {
+                        "bulletlist": "Одоогийн болон өнгөрсөн үеийн мэдээнүүдийг үндэслэж ирээдүйн бизнесийн ашиг орлогоо нэмэгдүүлэх, зардлаа хэмнэх төсөв төлөвлөгөө зохиох боломжтой."
                     }
                 ]
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийг ашигласнаар үүсэх давуу талууд"
             },
             {
-                "type" : "bullet",
+                "type" : "num",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Өдөр тутмын санхүүгийн үйл ажиллагааг автоматжуулж цаг хугацаа хэмнэнэ."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Удирдлагын хяналтын системтэй уялдан ажиллаж, оновчтой шийдвэр гаргахад тусалдаг."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Ажил үүргийн хуваарийн дагуу ажлаа хийхэд хялбар, бие биенийхээ хийсэн гүйлгээнд нөлөөлөхгүй өөр хүнээс хамаарч хүлээлт үүсэхгүй."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Шүүлтийн уян хатан нөхцлүүдийг ашиглан хүссэн баримт, гүйлгээгээ хянана."
+                    },
+                    {
+                        "bulletlist": "Өртгийн төв тус бүрээр орлого зарлагыг нарийн бүртгэснээр ашиг алдагдлаа тооцоолно."
                     }
                 ]
             }
@@ -190,62 +214,81 @@
     },
     {
         "id" : 3,
-        "BurdeldehuunSystem0" : false,
+        "BurdeldehuunSystem0" : true,
         "BurdeldehuunSystem1" : true,
-        "BurdeldehuunSystem2" : false,
+        "BurdeldehuunSystem2" : true,
         "BurdeldehuunSystem3" : true,
-        "BurdeldehuunSystem4" : false,
+        "BurdeldehuunSystem4" : true,
         "BurdeldehuunSystem5" : true,
-        "BurdeldehuunSystem6" : true,
+        "BurdeldehuunSystem6" : false,
         "BurdeldehuunSystem7" : false,
-        "systemName" : "Импакт",
-        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
+        "systemName" : "ИМПАКТ",
+        "systemDescription" : "Жижиг аж ахуйн нэгжүүдэд зориулсан хэрэглэхэд хялбар, үнэ хямд, цоо шинэ шийдэл бүхий санхүү НББ-ийн Импакт систем",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "text" : [
             {
-                "type" : "long",
-                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+                "type" : "heading1",
+                "content" : "Системийн танилцуулга"
+            },
+            {
+                "type" : "normal",
+                "content" : "Интерактив Би Ай ХХК нь жижиг аж ахуйн нэгжүүдэд зориулсан хэрэглэхэд хялбар, үнэ хямд, цоо шинэ шийдэл бүхий санхүү НББ-ийн Импакт системийг танилцуулж байна."
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийн боломжууд"
             },
             {
                 "type" : "bullet",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Сангийн яамны болон татварын албаны заавар журам, тайлан маягтуудын дагуу бүртгэлээ хөтөлж тайлангуудаа авна."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Бараа материалын FIFO болон Дундаж өртгийн аргуудтай."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Тайлангийн бүх үзүүлэлтийг хаанаас ямар үндэслэлээр гарч ирснийг задалж үзэх боломжтой Drill Down тайланг оруулж өгсөн."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Удирдлагын хяналтын модультай."
+                    },
+                    {
+                        "bulletlist": "Системийн горимд 1-5 хэрэглэгч нэгэн зэрэг ажиллах боломжтой."
+                    },
+                    {
+                        "bulletlist": "Балансын эхний үлдэгдэл, бараа материалын код, баар код, үлдэгдлийн мэдээлэл, үндсэн хөрөнгийн кодын болон эхний үлдэгдлийн мэдээллийг Excel програмаас татан оруулах боломжтой."
+                    },
+                    {
+                        "bulletlist": "Microsoft-ийн програмуудтай холбогдон ажиллана."
+                    },
+                    {
+                        "bulletlist": "Програмыг Монгол хэлээс гадна дурын 2 хэл дээр ашиглах боломжтой."
+                    },
+                    {
+                        "bulletlist": "Мөнгөний одоогийн болон ирээдүйн үнэ цэнийг тооцно."
                     }
                 ]
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийг ашигласнаар үүсэх давуу талууд"
             },
             {
-                "type" : "bullet",
+                "type" : "num",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Санхүүгийн тайлан гаргах, бүртгэл хөтлөг гар ажиллагаанууд бүгд хөнгөвчлөгдөж цаг хугацаа хэмнэнэ."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Өдөр тутмын санхүүгийн үйл ажиллагаа цэгцэрч, таны хяналтад бүрэн орно."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Удирдлагын хяналт хэсгээр байгууллагынхаа мэдээллийг харснаар мөнгөн урсгалаа хянаж, төлөвлөнө."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Авлага, өглөгийн насжилтыг харж хянаснаар цугларалтыг нь хурдасган шийдвэр гаргана."
                     }
                 ]
             }
@@ -255,60 +298,86 @@
         "id" : 4,
         "BurdeldehuunSystem0" : true,
         "BurdeldehuunSystem1" : true,
-        "BurdeldehuunSystem2" : false,
+        "BurdeldehuunSystem2" : true,
         "BurdeldehuunSystem3" : true,
         "BurdeldehuunSystem4" : false,
         "BurdeldehuunSystem5" : true,
         "BurdeldehuunSystem6" : true,
-        "BurdeldehuunSystem7" : true,
-        "systemName" : "RUBY",
-        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
+        "BurdeldehuunSystem7" : false,
+        "BurdeldehuunSystem8" : true,
+        "systemName" : "ЭМЕРАЛД",
+        "systemDescription" : "Төсөвт байгууллагын НББ-ийн Эмералд систем",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "text" : [
             {
-                "type" : "long",
-                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+                "type" : "heading1",
+                "content" : "Системийн танилцуулга"
+            },
+            {
+                "type" : "normal",
+                "content" : "Төсөвт байгууллагын НББ-ийн Эмералд систем нь төсөвт байгууллагын санхүү бүртгэлийн бүх төрлийн гүйлгээ хийж тайлан баланс гаргах бөгөөд төсөвт байгууллагын онцлог болох жилийн санхүүжилтийн төлөвлөгөө, түүний батлагдсан төсвийг улирал, сард хуваарилан, төсвийн хүрээнд мөнгөн урсгалыг бүрэн хянаж, гүйлгээ хийх, хэмнэлт хэтрэлтийг хянадаг систем юм."
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийн боломжууд"
             },
             {
                 "type" : "bullet",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Ямар ч үйл ажиллагаатай төсвийн байгууллагад тохирч ажиллана."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Өөрийн байгууллагад гардаг онцлог ажил гүйлгээ, бүртгэлийг нэмж хийлгэх боломжтой."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Мөнгөн урсгалаа хянаж, эдийн засгийн ангиллаар төсөв гаргах гүйцэтгэлийг хянах боломжтой."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "НББОУС, Сангийн яамнаас баталсан болон бусад заавар журмуудын дагуу бүртгэлээ хөтөлж бүх төрлийн тайлангууд батлагдсан маягтын дагуу гаргана."
+                    },
+                    {
+                        "bulletlist": "Дахин үнэлгээний нэмэгдлийг хэрэгжсэн үед нь дансанд бичнэ."
+                    },
+                    {
+                        "bulletlist": "Тайлангууд дээр Drill Down тайлан буюу тайлангийн бүх үзүүлэлтийг хаанаас ямар үндэслэлээр гарч ирснийг задалж үзэх боломжийг оруулж өгсөн."
+                    },
+                    {
+                        "bulletlist": "Бараа болон үндсэн хөрөнгийн тооллогыг цаг хугацаа хэмнэж хялбар аргаар сканнер ашиглаж хийх боломжтой. "
+                    },
+                    {
+                        "bulletlist": "Бүх модулиуд дээр нярав, нягтлангийн ажил үүргийг тусад нь хуваарилсан. Пластик нэгтгэлийн програмтай холбогдон ажиллана."
                     }
                 ]
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийг ашигласнаар үүсэх давуу талууд"
             },
             {
-                "type" : "bullet",
+                "type" : "num",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Өдөр тутмын санхүүгийн үйл ажиллагааг автоматжуулж цаг хугацаа хэмнэнэ."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Бүртгэлийн үйл ажиллагаагаа хянаж төлөвлөлт хийх, шийдвэр гаргахад тусална."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Ажил үүргийн хуваарийн дагуу ажлаа хийхэд хялбар, бие биенийхээ хийсэн гүйлгээнд нөлөөлөхгүй өөр хүнээс хамаарч хүлээлт үүсэхгүй."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Шүүлтийн уян хатан нөхцлүүдийг ашиглан хүссэн баримт, гүйлгээгээ хянана."
+                    },
+                    {
+                        "bulletlist": "Өртгийн төв тус бүрээр орлого зарлагыг нарийн бүртгэснээр ашиг алдагдлаа тооцоолно."
+                    },
+                    {
+                        "bulletlist": "Тайлангийн шүүлт бүлгийг хүссэнээрээ өөрчлөн янз бүрээр харах боломжуудтай."
+                    },
+                    {
+                        "bulletlist": "Салбар нэгж тус бүрээр санхүүгийн тайлан гаргана."
                     }
                 ]
             }
@@ -317,61 +386,74 @@
     {
         "id" : 5,
         "BurdeldehuunSystem0" : true,
-        "BurdeldehuunSystem1" : false,
-        "BurdeldehuunSystem2" : false,
-        "BurdeldehuunSystem3" : false,
-        "BurdeldehuunSystem4" : true,
+        "BurdeldehuunSystem1" : true,
+        "BurdeldehuunSystem2" : true,
+        "BurdeldehuunSystem3" : true,
+        "BurdeldehuunSystem4" : false,
         "BurdeldehuunSystem5" : true,
-        "BurdeldehuunSystem6" : false,
+        "BurdeldehuunSystem6" : true,
         "BurdeldehuunSystem7" : false,
-        "systemName" : "СЭЦЭН КАССЫН СИСТЕМ",
-        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
+        "BurdeldehuunSystem8" : true,
+        "BurdeldehuunSystem10" : true,
+        "BurdeldehuunSystem11" : true,
+        "BurdeldehuunSystem12" : true,
+        "BurdeldehuunSystem13" : true,
+        "BurdeldehuunSystem14" : true,
+        "BurdeldehuunSystem15" : true,
+        "BurdeldehuunSystem16" : true,
+        "BurdeldehuunSystem17" : true,
+        "systemName" : "СПИНЕЛ",
+        "systemDescription" : "Банк, ХЗХ, ББСБ-ын санхүү НББ-ийн Спинел систем",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "text" : [
             {
-                "type" : "long",
-                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+                "type" : "heading1",
+                "content" : "Системийн танилцуулга"
+            },
+            {
+                "type" : "normal",
+                "content" : "Spinel ERP систем нь санхүүгийн үйлчилгээ үзүүлдэг банк, ББСБ, хадгаламж, зээлийн хоршооны үйл ажиллагаанд зориулагдсан хадгаламж, зээлийн бүтээгдэхүүнүүд, хүү, хугацаа, зэрэг бүх төрлийн бүртгэлийг хөтөлж энэ салбарын онцлогт тохирсон бүх төрлийн тайлан мэдээнүүдийг гаргадаг програм юм."
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийн боломжууд"
             },
             {
                 "type" : "bullet",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Өдөр тутмын санхүүгийн үйл ажиллагаагаа хянана"
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Салбарын онцлогт тохирсон зээл, хадгаламж тэдгээртэй холбоотой хүү, валют арилжаа зэрэг мэдээллүүдийг бүртгэнэ. "
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Сангийн яам, Санхүүгийн зохицуулах хорооноос баталсан болон бусад заавар журмуудын дагуу бүртгэлээ хөтөлж тайлангууд авна."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Тайлангийн үзүүлэлтийг хаанаас ямар үндэслэлээр гарч ирснийг задалж үзэх боломжтой Drill Down тайланг оруулж өгсөн."
                     }
                 ]
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийг ашигласнаар үүсэх давуу талууд"
             },
             {
-                "type" : "bullet",
+                "type" : "num",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Хадгаламж болон зээлтэй холбоотой хүүний тооцооллийг үнэ зөв тооцоолох. Excel програм дээр тооцоолсноор хоногийн зөрүү үүсэх олон мөр мэдээллээс шалтгаалсан томъёо зөрөх, хоног буруу тооцоолох эрсдэлээс сэргийлнэ."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Зээл төлөлтийг графикийн дүнтэй харьцуулсан мэдээлэл гаргана."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Графикийн дагуу төлөлт хийгдээгүй тохиолдолд алдангийн дүн автоматаар тооцоологдсоноор гараар хийх ажиллагаа үгүй болно."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Зээлийн графикаас хамааран төлөлт хийгдэх огноо нь хэтэрсэн тохиолдолд анхааруулгын цонх дээр мэдээллийг харуулснаар хугацаа хэтэрсэн зээлдэгчийн мэдээллийг цаг алдалгүй харна."
                     }
                 ]
             }
@@ -387,7 +469,259 @@
         "BurdeldehuunSystem5" : false,
         "BurdeldehuunSystem6" : true,
         "BurdeldehuunSystem7" : true,
-        "systemName" : "СПИНЕЛ",
+        "systemName" : "Цаг бүртгэлийн систем",
+        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
+        "systemIcon" : "/whitediamond.png",
+        "herosrc" : "/productheroimg/diamondERP.png",
+        "text" : [
+            {
+                "type" : "long",
+                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 7,
+        "BurdeldehuunSystem0" : true,
+        "BurdeldehuunSystem1" : true,
+        "BurdeldehuunSystem2" : true,
+        "BurdeldehuunSystem3" : true,
+        "BurdeldehuunSystem4" : true,
+        "BurdeldehuunSystem5" : false,
+        "BurdeldehuunSystem6" : true,
+        "BurdeldehuunSystem7" : true,
+        "systemName" : "Дэлгүүрийн удирдлагын систем",
+        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
+        "systemIcon" : "/whitediamond.png",
+        "herosrc" : "/productheroimg/diamondERP.png",
+        "text" : [
+            {
+                "type" : "long",
+                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 8,
+        "BurdeldehuunSystem0" : true,
+        "BurdeldehuunSystem1" : true,
+        "BurdeldehuunSystem2" : true,
+        "BurdeldehuunSystem3" : true,
+        "BurdeldehuunSystem4" : true,
+        "BurdeldehuunSystem5" : false,
+        "BurdeldehuunSystem6" : true,
+        "BurdeldehuunSystem7" : true,
+        "systemName" : "Рестораны удирдлага төлөвлөлтийн систем",
+        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
+        "systemIcon" : "/whitediamond.png",
+        "herosrc" : "/productheroimg/diamondERP.png",
+        "text" : [
+            {
+                "type" : "long",
+                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 9,
+        "BurdeldehuunSystem0" : true,
+        "BurdeldehuunSystem1" : true,
+        "BurdeldehuunSystem2" : true,
+        "BurdeldehuunSystem3" : true,
+        "BurdeldehuunSystem4" : true,
+        "BurdeldehuunSystem5" : false,
+        "BurdeldehuunSystem6" : true,
+        "BurdeldehuunSystem7" : true,
+        "systemName" : "Зочид буудлын удирдлагын систем",
+        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
+        "systemIcon" : "/whitediamond.png",
+        "herosrc" : "/productheroimg/diamondERP.png",
+        "text" : [
+            {
+                "type" : "long",
+                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id" : 10,
+        "BurdeldehuunSystem0" : true,
+        "BurdeldehuunSystem1" : true,
+        "BurdeldehuunSystem2" : true,
+        "BurdeldehuunSystem3" : true,
+        "BurdeldehuunSystem4" : true,
+        "BurdeldehuunSystem5" : false,
+        "BurdeldehuunSystem6" : true,
+        "BurdeldehuunSystem7" : true,
+        "systemName" : "Хөнгөлөлтийн картны систем",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
@@ -440,4 +774,5 @@
             }
         ]
     }
+    
 ]
