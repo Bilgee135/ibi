@@ -9,17 +9,21 @@ import Footer from '@/app/footer'
 import Detailssubpage from './detailssubpage'
 import MainFormat from '@/app/layouts/mainFormat'
 import SideNav from '@/app/sidenav'
+import Pricesubpage from './pricesubpage'
 
 // import { Text } from '../Diamond6/page'
 
 export default function Layout( props ) {
   //----------------------------"Buteegdehuunii tuhai", "Bureldehuun" gsn tovchnd deer darahad state uurclugdune--------------------//
-  const [isDetails, SetIsDetails] = useState(true)
+  const [isDetails, SetIsDetails] = useState(0)
   const HandleDetailsButtonClick = () => {
-    SetIsDetails(true)
+    SetIsDetails(0)
   }
   const HandleOtherButtonClick = () => {
-    SetIsDetails(false)
+    SetIsDetails(1)
+  }
+  const HandlePriceButtonClick = () => {
+    SetIsDetails(2)
   }
 
   //-------------------------Give parameter to Text function-------------//
@@ -29,7 +33,7 @@ export default function Layout( props ) {
       <button className='relative w-3/4 h-2/3 flex items-center' onClick={ HandleDetailsButtonClick }>
         <h2 className='absolute left-0 text-[13px] sm:text-[16px] font-semibold w-auto flex-col'>
           Бүтээгдэхүүний тухай
-          <LineButton detailsbuttonclicked={ isDetails } detailsbutton={ true }/>
+          <LineButton detailsbuttonclicked={ isDetails } detailsbutton={ 0 }/>
         </h2>
       </button>
     )
@@ -39,7 +43,17 @@ export default function Layout( props ) {
       <button className='relative w-3/4 h-2/3 flex items-center' onClick={ HandleOtherButtonClick }>
         <h2 className='absolute left-0 text-[13px] sm:text-[16px] font-semibold w-auto flex-col'>
           Бүрэлдэхүүн
-          <LineButton detailsbuttonclicked={ isDetails } detailsbutton={ false }/>
+          <LineButton detailsbuttonclicked={ isDetails } detailsbutton={ 1 }/>
+        </h2>
+      </button>
+    )
+  }
+  function Pricebutton() {
+    return (
+      <button className='relative w-3/4 h-2/3 flex items-center' onClick={ HandlePriceButtonClick }>
+        <h2 className='absolute left-0 text-[13px] sm:text-[16px] font-semibold w-auto flex-col'>
+          Үнийн санал
+          <LineButton detailsbuttonclicked={ isDetails } detailsbutton={ 2 }/>
         </h2>
       </button>
     )
@@ -73,10 +87,14 @@ export default function Layout( props ) {
             <div className='relative w-1/2 h-1/2'>
               <Otherbutton />
             </div>
+            <div className='relative w-1/2 h-1/2'>
+              <Pricebutton />
+            </div>
           </div>
         </div>
         <props.Text isDetails={ isDetails } id={ props.id }>{ props.children }</props.Text>
         <Othersubpage isDetails={ isDetails } data={ props.data }/>
+        <Pricesubpage isDetails={ isDetails } />
       </div>
       <section id='Footer'>
         <Footer />
@@ -87,17 +105,29 @@ export default function Layout( props ) {
 
 //------------------------------Tovchnii doorh zuraas-------------------------------//
 function LineButton({ detailsbuttonclicked, detailsbutton}) {
-  if (detailsbuttonclicked) {
-    if (detailsbutton) {
-      return (<div className='w-full h-1 bg-slate-600'></div>)
-    } else {
+
+  //--------------Ene kodiig unshij baigaa hund uuchlaaarai, uneheer zalhuuraad ingeed hiiclee-----------------------------------------//
+  if (detailsbuttonclicked === 0) {
+    if (detailsbutton != detailsbuttonclicked) {
       return
+    } else {
+      return (<div className='w-full h-1 bg-slate-600'></div>)
     }
   } else {
-    if (!detailsbutton) {
-      return (<div className='w-full h-1 bg-slate-600'></div>)
+    if (detailsbuttonclicked === 1) {
+      if (detailsbutton != detailsbuttonclicked) {
+        return
+      } else {
+        return (<div className='w-full h-1 bg-slate-600'></div>)
+      }
     } else {
-      return
+      if (detailsbuttonclicked === 2) {
+        if (detailsbutton != detailsbuttonclicked) {
+          return
+        } else {
+          return (<div className='w-full h-1 bg-slate-600'></div>)
+        }
+      }
     }
   }
 }

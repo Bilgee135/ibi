@@ -13,37 +13,34 @@ export default function Text( props ) {
     <Detailssubpage isDetails={ props.isDetails }>
       <div className='h-auto w-full mb-[100px]'>
           { props.children }
-            {pData.map(paragraph => {
-                const { id, content, type } = paragraph;
-                let paragraphStyle = {};
-
+            {pData.map(function ({content, type}, i) {
                 switch (type) {
                 case 'heading1':
                     return (
-                        <div className='mb-[16px] mt-[35px]'>
+                        <div className='mb-[16px] mt-[35px]' key={i}>
                             <h1 className='flex text-3xl md:text-4xl text-blue-500 font-opensans font-bold'> {content} </h1>
                         </div>
                     )
                 case 'bullet' :
                     return (
-                        <ul className=' list-disc text-md md:text-lg my-[10px] w-full lg:w-2/3'>
+                        <ul className=' list-disc text-md md:text-lg my-[10px] w-full lg:w-2/3' key={i}>
                             { content.map(function( curlylist2, i ) {
                                 return (
-                                    <li key={ i }> {curlylist2["bulletlist"]} </li>
+                                    <li key={"textbulletlist" + i }> {curlylist2["bulletlist"]} </li>
                                 )
                             })}
                         </ul>
                     )
                 case 'heading2':
                     return (
-                        <div className='mb-[16px] mt-[35px]'>
+                        <div className='mb-[16px] mt-[35px]' key={i}>
                             <h1 className='flex text-xl md:text-2xl text-black font-opensans font-bold'> {content} </h1>
                         </div>
                     )
                 case 'long':
                     return (
-                        <div className='mt-[10px] w-full'>
-                            <p key={id} className='font-normal text-black text-base text-md md:text-lg'>
+                        <div className='mt-[10px] w-full' key={i}>
+                            <p className='font-normal text-black text-base text-md md:text-lg'>
                                 {content}
                             </p>
                         </div>
@@ -54,7 +51,7 @@ export default function Text( props ) {
 
                 return (
                 <div className='mt-[10px] w-full lg:w-2/3 '>
-                    <p key={id} className='font-normal text-black text-base text-md md:text-lg'>
+                    <p className='font-normal text-black text-base text-md md:text-lg'>
                         {content}
                     </p>
                 </div>
