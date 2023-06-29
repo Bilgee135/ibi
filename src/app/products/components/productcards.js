@@ -1,5 +1,5 @@
 import React from 'react'
-import data from './json/productjson'
+import data from './json/othersystem'
 
 export default function Productcards() {
   return (
@@ -8,7 +8,7 @@ export default function Productcards() {
             <div className="w-screen h-[100px] md:h-[140px] flex items-center justify-center 
             bg-[url('https://i.pinimg.com/originals/3c/24/46/3c24462450c2a902bf7e18f3d9aada81.jpg')] 
             bg-cover bg-center bg-fixed">
-                <h1 id='buteegdehuunHeader' className='text-2xl md:text-3xl lg:text-4xl font-bold text-white'>БҮТЭЭГДЭХҮҮН</h1>
+                <h1 id='buteegdehuunHeader' className='text-2xl md:text-3xl lg:text-4xl font-bold text-white'>БУСАД СИСТЕМҮҮД</h1>
             </div>
         <div className='h-[90%] w-[80%] flex items-center relative flex-wrap justify-center translate-y-[20px]'>
             { data.map(function(curlylist, i) {
@@ -32,7 +32,7 @@ function ProductButton(props) {
                         <img className='h-[60%] w-[60%]' src={ props.src }></img>
                     </div>
                     <div className='h-1/2 w-full flex justify-center flex-wrap overflow-hidden py-[10px]'>
-                        <div className='w-[85%] h-1/3 flex items-center text-[20px] sm:text-[18px] lg:text-[20px] xl:text-[24px] font-semibold text-black'>{ props.name }</div>
+                        <div className='w-[85%] h-1/3 flex items-center text-[16px] sm:[8px] lg:text-[16px] xl:text-[20px] font-semibold text-black'>{ props.name }</div>
                         <div className='w-[85%] h-[60%] text-[10px] sm:text-[9px] xl:text-[11px] 2xl:text-[12px] font-normal text-left text-black'>{ props.desc }</div>
                     </div>
                 </a>

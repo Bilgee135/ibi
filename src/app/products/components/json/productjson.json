@@ -1,50 +1,50 @@
 [
     {
         "srcimg" : "/diamond-icon.png",
-        "name" : "Даймонд ERP",
+        "name" : "Оч 7.7",
         "href" : "/DiamondERP",
         "key" : "diamond0",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "/diamond-icon.png",
-        "name" : "Импакт",
-        "href" : "/Impact",
+        "name" : "Даймонд 6.0",
+        "href" : "/Diamond6",
         "key" : "diamond1",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "/diamond-icon.png",
-        "name" : "Эмералд",
+        "name" : "Даймонд 5.0",
         "href" : "/Emerald",
         "key" : "diamond2",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "/diamond-icon.png",
-        "name" : "Спинел",
-        "href" : "/Spinel",
+        "name" : "Импакт",
+        "href" : "/Impact",
         "key" : "diamond3",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "/diamond-icon.png",
-        "name" : "Ruby",
-        "href" : "/Ruby",
+        "name" : "Эмералд",
+        "href" : "/Emerald",
         "key" : "diamond4",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "/diamond-icon.png",
-        "name" : "Сэцэн",
-        "href" : "/Setsen",
+        "name" : "Спинел",
+        "href" : "/Spinel",
         "key" : "diamond5",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "/diamond-icon.png",
-        "name" : "Даймонд 6.0",
-        "href" : "/Diamond6",
+        "name" : "Бусад",
+        "href" : "#buteegdehuunHeader",
         "key" : "diamond6",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     }
