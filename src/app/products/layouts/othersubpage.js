@@ -26,7 +26,7 @@ function BureldehCom(props) {
 
                     <div className='w-full h-[54%] relative'>
                         <div className='w-full h-4/6 sm:h-5/6 absolute bottom-0'>
-                            <p className='flex items-center text-left h-full w-auto text-[12px] sm:text-[11px] min-[1074px]:text-[13px]'> { props.desc } </p>
+                            <p className='flex items-center text-left dark:text-black h-full w-auto text-[12px] sm:text-[11px] min-[1074px]:text-[13px]'> { props.desc } </p>
                         </div>
                     </div>
                 </a>

@@ -485,16 +485,21 @@
     },
     {
         "id" : 6,
-        "BurdeldehuunSystem0" : true,
-        "BurdeldehuunSystem1" : true,
-        "BurdeldehuunSystem2" : true,
-        "BurdeldehuunSystem3" : true,
-        "BurdeldehuunSystem4" : true,
-        "BurdeldehuunSystem5" : false,
-        "BurdeldehuunSystem6" : true,
-        "BurdeldehuunSystem7" : true,
+        "timemanage1" : true,
+        "timemanage2" : true,
+        "timemanage3" : true,
+        "timemanage4" : true,
+        "timemanage5" : true,
+        "timemanage6" : true,
+        "timemanage7" : true,
+        "timemanage8" : true,
+        "timemanage9" : true,
+        "timemanage10" : true,
+        "timemanage11" : true,
+        "timemanage12" : true,
+        "timemanage13" : true,
         "systemName" : "Цаг бүртгэлийн систем",
-        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
+        "systemDescription" : "",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "tableinfo" : {
@@ -503,48 +508,79 @@
         },
         "text" : [
             {
-                "type" : "long",
-                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+                "type" : "heading1",
+                "content" : "Системийн танилцуулга"
+            },
+            {
+                "type" : "normal",
+                "content" : "Энэхүү цаг бүртгэлийн систем нь аж ахуйн нэгж, бизнесийн байгууллагын цагийн бүртгэлийг хялбаршуулах, хүссэн үедээ хяналт тавих боломжоор хангах, хэрэгцээт тайлан судалгааг богино хугацаанд гаргаж авах, цагийн нягтралыг сайжруулах, хөдөлмөрийн бүтээмжийг дээшлүүлэх зорилготой юм."
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийн боломжууд"
             },
             {
                 "type" : "bullet",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Байгууллага аж ахуй нэгж компанийн үйл ажиллагааны онцлог, цагийн хуваарьт тохируулан системийг ашиглах боломжтой."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Ажилтнуудын цагийн хуваарийг байгууллага, хэлтэс тасаг, ажилтан нэг бүрээр тохируулахаас гадна гариг, сараар оруулах боломжтой. Өөрөөр хэлбэл компанийн зарим ажилтнуудын цагийн хуваарь үйл ажиллагааны онцлогоос хамааран ялгаатай байдагтай уялдуулан цаг төлөвлөлтийг уян хатнаар зохион байгуулна."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Бүх төрлийн цаг бүртгэлийн автомат төхөөрөмжүүдтэй сүлжээгээр болон портоор холбогдож мэдээллийг чөлөөтэй солилцдог."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Олон салбар, охин компаниудтай байгууллага, аж ахуйн нэгжийн хувьд салбар дамжиж ажилладаг менежрүүдийн тухайн цаг мөчид хаана ажиллаж байгааг хянах бололцоотой."
+                    },
+                    {
+                        "bulletlist": "Хүний нөөцийн систем, цалингийн системтэй хамтран ажиллах боломжтой."
+                    },
+                    {
+                        "bulletlist": "Энэхүү систем дээр ажиллах хэрэглэгчдийн эрхийг ялгаатай тодорхойлсноор ажил үүргийг нарийн хууваарилах, шатлан хянах боломжтой."
+                    },
+                    {
+                        "bulletlist": "Цагийн балансын бүх төрлийн тайланг эрх бүхий хэрэглэгч өөрөө нэмж тайланг хүссэн загвараараа хэвлэх боломжтой."
+                    },
+                    {
+                        "bulletlist": "Удирдлага тухайн цаг мөчид хэн ажилдаа ирсэн хэдэн минут хоцорсон, хэлтсүүдийн ирц ямар байгааг хянах боломжтой."
                     }
                 ]
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийг ашигласнаар үүсэх давуу талууд"
             },
             {
-                "type" : "bullet",
+                "type" : "num",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Удирдлагыг нийт ажилтнуудын ирцийн талаарх дэлгэрэнгүй мэдээллээр хангана."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Хөдөлмөрийн хөлс бодох, шагнал урамшуулал, үнэлгээний асуудлаар шийдвэр гаргахад бодитой үндэслэл болно."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Байгууллагын цаг ашиглалтыг сайжруулахад тодорхой ахиц дэвшил авчирна."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Ажилтнууд өөрсдийн цагийн бүртгэлтэй танилцсанаар ажилласан цагаа хянах, хоцролт, таслалтыг багасгахад бодитой хөшүүрэг болно."
+                    },
+                    {
+                        "bulletlist": "Цаг бүртгэлийн системийг автомат төхөөрөмжтэй хослуулан нэвтрүүлснээр байгууллагын цаг бүртгэл хэвийн явагдах бас нэг нөхцөл болно."
+                    },
+                    {
+                        "bulletlist": "Нягтлан бодогчид ажилчдын цалин хөлсийг хялбархан бодох бодитой мэдээлэл болж өгнө."
+                    },
+                    {
+                        "bulletlist": "Хүний нөөцийн менежерт ажилтнуудын өвчтэй, чөлөөтэй, тасалсан, томилолттой гэх мэтчилэн үзүүлэлтээр тайлан судалгаа авах, цаг хугацаа, зардал мөнгө хэмнэхээс гадна ирцийн шинжилгээ хийх боломж олгоно."
+                    },
+                    {
+                        "bulletlist": "Ажлын цаг ашиглалтыг сайжруулснаар хөдөлмөрийн бүтээмж өсөх цаашилбал тухайн байгууллагын орлого нэмэгдэх хүчин зүйл болно."
+                    },
+                    {
+                        "bulletlist": "Хөдөлмөрийн хөлсний үнэлэмжийг ажлын цагтай холбож өгснөөр цалингийн зардлын алдагдлыг бууруулах бодит боломжийг бий болгоно. Өөрөөр хэлбэл ажлын байрандаа байхгүй хүнд цалин олгох шаардлагагүй болсноор үргүй зардлыг бууруулна."
                     }
                 ]
             }
@@ -552,16 +588,20 @@
     },
     {
         "id" : 7,
-        "BurdeldehuunSystem0" : true,
-        "BurdeldehuunSystem1" : true,
-        "BurdeldehuunSystem2" : true,
-        "BurdeldehuunSystem3" : true,
-        "BurdeldehuunSystem4" : true,
-        "BurdeldehuunSystem5" : false,
-        "BurdeldehuunSystem6" : true,
-        "BurdeldehuunSystem7" : true,
+        "market1" : true,
+        "market2" : true,
+        "market3" : true,
+        "market4" : true,
+        "market5" : true,
+        "market6" : true,
+        "market7" : true,
+        "market8" : true,
+        "market9" : true,
+        "market10" : true,
+        "market11" : true,
+        "market12" : true,
         "systemName" : "Дэлгүүрийн удирдлагын систем",
-        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
+        "systemDescription" : "",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "tableinfo" : {
@@ -570,48 +610,82 @@
         },
         "text" : [
             {
-                "type" : "long",
-                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+                "type" : "heading1",
+                "content" : "Системийн танилцуулга"
+            },
+            {
+                "type" : "normal",
+                "content" : "Энэхүү систем нь дэлгүүр, супермаркет, бусад бөөний болон жижиглэн худалдааны байгууллагын барааны дэлгэрэнгүй бүртгэл, үнийн мэдээлэл, борлуулалтын үйл ажиллагааны бүртгэл тооцоог хөтлөн, холбогдох тайлан мэдээг боловсруулж, үйлчлүүлэгчдэд түргэн шуурхай үйлчлэх боломжийг танд олгох дэлгүүрийн цогц систем юм."
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийн боломжууд"
             },
             {
                 "type" : "bullet",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Төрөл бүрийн хямдрал урамшууллын бодлого явуулах боломжтой."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Борлуулалттай холбоотой олон төрлийн график шинжилгээ хийнэ."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Барааны үнийн түүх хөтлөгдөнө."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Олон валютаар тооцоо хийх боломжтой."
+                    },
+                    {
+                        "bulletlist": "Салбар дэлгүүрийг валютаар ялган тохируулах боломжтой."
+                    },
+                    {
+                        "bulletlist": "Бэлэн болон бэлэн бус борлуулалт хийнэ."
+                    },
+                    {
+                        "bulletlist": "Талоны загварыг хүссэнээрээ өөрчлөх боломжтой"
+                    },
+                    {
+                        "bulletlist": "Жижиг дэлгүүрүүдээс эхлэн дунд, том, сүлжээ дэлгүүрүүдэд бүгдэд нь тохиромжтой."
+                    },
+                    {
+                        "bulletlist": "Электрон жин ашиглах боломжтой."
+                    },
+                    {
+                        "bulletlist": "Сериал болон цувралын дугаараар ялган борлуулалт хийнэ."
+                    },
+                    {
+                        "bulletlist": "Барааны баталгаат хугацаа хэвлэнэ."
+                    },
+                    {
+                        "bulletlist": "НӨАТ тооцох эсэхийг тохируулах боломжтой."
                     }
                 ]
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийг ашигласнаар гарах үр дүн"
             },
             {
-                "type" : "bullet",
+                "type" : "num",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Шуурхай үйлчилж, хэрэглэгчдийг татна."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Шуурхай үйлчилж, хэрэглэгчдийг татна."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Удирдлагын хяналт хэсгийг ашигласнаар борлуулалт, төлбөрийн мэдээнд бүрэн хяналт тавьж • оновчтой шийдвэр гаргахад дөхөмтэй болно."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Сүлжээ дэлгүүрүүдийн хувьд нөөцийг оновчтой хуваарилна."
+                    },
+                    {
+                        "bulletlist": "Нийлүүлэгчтэй тооцоо хурдан нийлж бүртгэх, тооцоход гардаг хүндрэлүүд багасна."
+                    },
+                    {
+                        "bulletlist": "Үргүй зардлыг бууруулна."
                     }
                 ]
             }
@@ -619,16 +693,14 @@
     },
     {
         "id" : 8,
-        "BurdeldehuunSystem0" : true,
-        "BurdeldehuunSystem1" : true,
-        "BurdeldehuunSystem2" : true,
-        "BurdeldehuunSystem3" : true,
-        "BurdeldehuunSystem4" : true,
-        "BurdeldehuunSystem5" : false,
-        "BurdeldehuunSystem6" : true,
-        "BurdeldehuunSystem7" : true,
+        "restaurant1" : true,
+        "restaurant2" : true,
+        "restaurant3" : true,
+        "restaurant4" : true,
+        "restaurant5" : true,
+        "restaurant6" : true,
         "systemName" : "Рестораны удирдлага төлөвлөлтийн систем",
-        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
+        "systemDescription" : "",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "tableinfo" : {
@@ -637,48 +709,97 @@
         },
         "text" : [
             {
-                "type" : "long",
-                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+                "type" : "heading1",
+                "content" : "Системийн танилцуулга"
+            },
+            {
+                "type" : "normal",
+                "content" : "Уг систем рестораны үйлчилгээ эрхэлдэг байгууллагуудын үйлчлүүлэгчийн захиалгаас эхлээд хоолны орц норм, зарагдах үнэ, рестораны заалны зохион байгуулалт, хоол гаргалттай холбоотой дэлгэрэнгүй мэдээллийг бүртгэж, зөөгч, хоол, ширээтэй холбоотой төрөл бүрийн шинжилгээ, тайлан мэдээллийг боловсруулан гаргадаг систем юм."
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийн боломжууд"
             },
             {
                 "type" : "bullet",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Өртгийн нарийн тооцоолол хийнэ."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Түүхий эд материалын зарцуулалтын бодит тооцоог гаргана."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Рестораны заалны зохион байгуулалтыг хүссэнээрээ зурна."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Зөөгчийн бичсэн захиалга тогоочийн компьютер дээр дэлгэрэнгүй хэлбэрээр цаг хугацаа алдалгүйгээр мэдээлэгдэнэ."
+                    },
+                    {
+                        "bulletlist": "Салбар тус бүрээр ялгаатай үнээр борлуулах боломжтой."
+                    },
+                    {
+                        "bulletlist": "Хямдралын бодлого, загвараа хүссэнээрээ хийнэ."
+                    },
+                    {
+                        "bulletlist": "Нэг ширээн дээрх тооцоог тус бүрд нь салгаж хийнэ."
+                    },
+                    {
+                        "bulletlist": "Үйлчлүүлэгчийн хүссэнээр хоолны орц, хэмжээ, бэлтгэх аргыг өөрчилнө."
+                    },
+                    {
+                        "bulletlist": "Хөнгөлөлтийн картын системтэй холбогдон картын хөнгөлөлт үзүүлэх боломжтой."
+                    },
+                    {
+                        "bulletlist": "Төлбөрийг бэлэн болон бэлэн бусаар хийх боломжтой."
+                    },
+                    {
+                        "bulletlist": "Түүхий эдийн зарлага, дуусаагүй үйлдвэрлэлийн зардал, бэлэн бүтээгдэхүүний орлогын гүйлгээ автоматаар хийгдэнэ. Өөрөөр хэлбэл Санхүүгийн системтэй уялдан ажиллана."
+                    },
+                    {
+                        "bulletlist": "Удирдлагын хяналт цонхоор рестораны хамгийн ачаалалтай цаг, ширээ, зөөгч, хоолны шинжилгээнүүдийг хийнэ."
+                    },
+                    {
+                        "bulletlist": "Зөөгч бүр өөрийн гэсэн кодтой байх бөгөөд зөөгч бүрийн захиалга ялгаран харагдана."
+                    },
+                    {
+                        "bulletlist": "Рестораны борлуулалтын тайланг олон хувилбараар шүүж гаргах боломжтой."
                     }
                 ]
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Програм ашигласнаар гарах үр дүн"
             },
             {
-                "type" : "bullet",
+                "type" : "num",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Хурдан шуурхай үйлчилгээ бий болно."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Борлуулалтын мэдээллийг цаг тухайд нь хянана."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Тогооч зөөгч касс хоорондын захиалгын үйл явцыг хурдасгаснаар хурдан шуурхай үйлчилгээ бий болж хэрэглэгчдийн таашаалыг хүртэн цаашлаад байгууллагын орлого өсөх бүрэн боломжтой юм."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Үйлчлүүлэгчийн хэрэглээнд бүрэн нийцсэн уян хатан үйлчилгээний хэлбэрүүд бий болно."
+                    },
+                    {
+                        "bulletlist": "Тайланг хэрэглэгчийн шаардлагаар ямар ч байдлаар авч болох ба хэрэглэгч өөрийн хүссэнээр тайлангийн маягтыг бэлдэх боломжтой."
+                    },
+                    {
+                        "bulletlist": "Рестораны замбараагүй бүртгэлүүд үгүй болж , цаг хугацаа бүрээр автоматжуулагдана."
+                    },
+                    {
+                        "bulletlist": "Санхүүгийн системтэй уялдаж ажилласнаар санхүүгийн систем дээр хийгдэх дуусаагүй үйлдвэрлэлийн зардлын бүртгэлийг автоматаар хөтөлсөнөөр цаг хугацаа хэмнэж, ажил хөнгөвчлөгдөнө."
+                    },
+                    {
+                        "bulletlist": "Төсөвт өртөг, худалдсан үнийн зөрүүгээр ашгийн шинжилгээ хийх боломжтой."
+                    },
+                    {
+                        "bulletlist": "Хоол боловсруулж буй хугацаа, зөөгчийн гүйцэтгэлийн хяналт, ширээ ашиглалтын хяналт зэрэг ойлгомжтой график, хүснэгтэн мэдээлэл бүхий Удирдлагын хяналтыг ашигласнаар бизнесийн ашигтай шийдэл гаргана."
                     }
                 ]
             }
@@ -686,16 +807,10 @@
     },
     {
         "id" : 9,
-        "BurdeldehuunSystem0" : true,
-        "BurdeldehuunSystem1" : true,
-        "BurdeldehuunSystem2" : true,
-        "BurdeldehuunSystem3" : true,
-        "BurdeldehuunSystem4" : true,
-        "BurdeldehuunSystem5" : false,
-        "BurdeldehuunSystem6" : true,
-        "BurdeldehuunSystem7" : true,
+        "hotel1" : true,
+        "hotel2" : true,
         "systemName" : "Зочид буудлын удирдлагын систем",
-        "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
+        "systemDescription" : "",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "tableinfo" : {
@@ -704,48 +819,88 @@
         },
         "text" : [
             {
-                "type" : "long",
-                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+                "type" : "heading1",
+                "content" : "Системийн танилцуулга"
+            },
+            {
+                "type" : "normal",
+                "content" : "Miracle зочид буудлын систем нь бага зардлаар дээд зэргийн үйлчилгээ үзүүлэн ашиг орлогоо нэмэгдүүлж улмаар үр ашигтай байдлаа дээшлүүлэх, олон үйлчлүүлэгчтэй болохын сацуу тэдгээрийг тогтоон барих, цаг хугацааг хэмнэх зэрэг олон асуудлыг шийдвэрлэж чадах хамгийн сүүлийн үеийн програмчлалын технологи ашиглан өндөр түвшинд боловсруулсан үндэсний програм хангамж юм."
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийн боломжууд"
             },
             {
                 "type" : "bullet",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Олон өрөөнд нэг дор олон зочинг зэрэг бүртгэж оруулах."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Олон өрөөний захиалгыг зэрэг авах."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Анхааруулгын жагсаалт харуулах."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Сануулах үйлчилгээг харуулах."
+                    },
+                    {
+                        "bulletlist": "Санал болгох үйлчилгээг харуулах."
+                    },
+                    {
+                        "bulletlist": "Тухайн зочны өмнө ирж байсан түүхийг харуулах."
+                    },
+                    {
+                        "bulletlist": "Төрөл бүрийн шинжилгээг харуулах."
+                    },
+                    {
+                        "bulletlist": "Төрөл бүрийн тайлан харуулах."
+                    },
+                    {
+                        "bulletlist": "Зочинтой холбоотой үйлдлүүдийг нэг дороос хийх."
+                    },
+                    {
+                        "bulletlist": "Мэдээллийг автоматаар шинэчлэх."
+                    },
+                    {
+                        "bulletlist": "Тухайн хугацаанд гарах болон хугацаа хэтэрсэн зочдыг ялгаж харуулах."
+                    },
+                    {
+                        "bulletlist": "Харилцагч байгууллагад үзүүлэх хөнгөлөлтийг хүссэнээрээ зохиох боломжтой."
+                    },
+                    {
+                        "bulletlist": "Өрөөний болон утасны үнийн тарифыг хүссэнээрээ зохиож болно."
+                    },
+                    {
+                        "bulletlist": "Төлбөрийг олон хэлбэрээр хийх боломжтой."
+                    },
+                    {
+                        "bulletlist": "Ресторан болон санхүүгийн програмтай маш сайн холбогдож ажиллана."
                     }
                 ]
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийг ашигласнаар гарах үр дүн"
             },
             {
-                "type" : "bullet",
+                "type" : "num",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Зочинд хурдан шуурхай үйлчилгээг үзүүлнэ."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Зочид буудлын програм нь санхүүгийн програмтай нягт уялдаа холбоотой ажиллах бөгөөд удирдлагууд буудлын бүхий л гүйлгээг цаг тухай бүрт  нь хянах боломжтой."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Зочноос захиалга хүлээн авч бүртгэхээс эхлээд буудлаас гарах хүртэлх бүх хугацаанд гарсан бүхий л төлбөр тооцоог хөтлөн баримтжуулж, шаардлагатай тайлан мэдээг түргэн хугацаанд гаргана."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Буудлын өрөөнүүдийг маш нарийн төлөвлөх боломжтой."
+                    },
+                    {
+                        "bulletlist": "Зочдын мэдээллийн санг үүсгэснээр тухайн зочны ая тухтай байдлыг хангах, тохирсон үйлчилгээг хурдан шуурхай үзүүлэхэд тусална."
                     }
                 ]
             }
@@ -753,14 +908,13 @@
     },
     {
         "id" : 10,
-        "BurdeldehuunSystem0" : true,
-        "BurdeldehuunSystem1" : true,
-        "BurdeldehuunSystem2" : true,
-        "BurdeldehuunSystem3" : true,
-        "BurdeldehuunSystem4" : true,
-        "BurdeldehuunSystem5" : false,
-        "BurdeldehuunSystem6" : true,
-        "BurdeldehuunSystem7" : true,
+        "discount1" : true,
+        "discount2" : true,
+        "discount3" : true,
+        "discount4" : true,
+        "discount5" : true,
+        "discount6" : true,
+        "discount7" : true,
         "systemName" : "Хөнгөлөлтийн картны систем",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
@@ -771,51 +925,46 @@
         },
         "text" : [
             {
-                "type" : "long",
-                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+                "type" : "heading1",
+                "content" : "Системийн танилцуулга"
+            },
+            {
+                "type" : "normal",
+                "content" : "Хөнгөлөлтийн картын систем нь худалдааны, ресторан, зочид буудлын үйлчилгээ эрхэлдэг байгууллагуудад зориулагдсан систем бөгөөд хөнгөлөлтийн картын хямдрал урамшууллын олон хувилбарыг ашиглан харилцагч үйлчлүүлэгчдийнхээ худалданавалтын шийдвэр гаргалтыг идэвхжүүлж, илүү олон бүтээгдэхүүн үйлчилгээг хүргэхэд туслах систем юм."
             },
             {
                 "type" : "heading2",
-                "content" : "Lorem Ipsum"
+                "content" : "Системийн боломжууд"
             },
             {
                 "type" : "bullet",
                 "content" : [
                     {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                        "bulletlist": "Хямдрал, бонус, бэлэг, VIP, урамшууллын картын төрлүүд ашиглах боломжтой."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Худалдан авалтын дүнгээс хамааран картын хувь автоматаар өөрчлөгдөнө."
                     },
                     {
-                        "bulletlist": "Pellentesque quis commodo tortor."
+                        "bulletlist": "Карт эзэмшигчийн худалдан авалт болон бонусын түүх хөтлөгдөнө."
                     },
                     {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                        "bulletlist": "Карт эзэмшигчдийн талаар тайлан, мэдээллүүд авах боломжтой."
+                    },
+                    {
+                        "bulletlist": "Карт эзэмшигчийн түүх мэдээлэл дээр үндэслэн менежмент хийх боломжтой."
+                    },
+                    {
+                        "bulletlist": "Картын үйлчилгээг нэвтрүүлэн худалдан авагчдын тоог нэмэгдүүлэх боломжтой."
+                    },
+                    {
+                        "bulletlist": "Картын үйлчилгээг олон төрлийн салбар дээр хэрэглэн бизнесээ өргөжүүлэх боломжтой."
+                    },
+                    {
+                        "bulletlist": "Байнгын хэрэглэгчиддээ зориулж хөнгөлөлт урамшуулал зарлан борлуулалтаа өсгөх боломжтой."
                     }
                 ]
-            },
-            {
-                "type" : "heading2",
-                "content" : "Lorem Ipsum"
-            },
-            {
-                "type" : "bullet",
-                "content" : [
-                    {
-                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                    },
-                    {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
-                    },
-                    {
-                        "bulletlist": "Pellentesque quis commodo tortor."
-                    },
-                    {
-                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
-                    }
-                ]
-            }
+            }       
         ]
     }
     

@@ -32,8 +32,8 @@ function ProductButton(props) {
                         <img className='h-[60%] w-[60%]' src={ props.src }></img>
                     </div>
                     <div className='h-1/2 w-full flex justify-center flex-wrap overflow-hidden py-[10px]'>
-                        <div className='w-[85%] h-1/3 flex items-center text-[16px] sm:[8px] lg:text-[16px] xl:text-[20px] font-semibold text-black text-start'>{ props.name }</div>
-                        <div className='w-[85%] h-[60%] text-[10px] sm:text-[9px] xl:text-[11px] 2xl:text-[12px] font-normal text-left text-black'>{ props.desc }</div>
+                        <div className='w-[85%] h-1/3 flex items-center text-[16px] sm:[8px] lg:text-[16px] xl:text-[20px] font-semibold dark:text-black text-start'>{ props.name }</div>
+                        <div className='w-[85%] h-[60%] text-[10px] sm:text-[9px] xl:text-[11px] 2xl:text-[12px] font-normal text-left dark:text-black'>{ props.desc }</div>
                     </div>
                 </a>
             </button>

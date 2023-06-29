@@ -213,7 +213,7 @@ export default function Header() {
               <div className="-my-6 divide-y divide-gray-500/10 overflow-x-hidden">
                 <a
                   href="/products"
-                  className="flex w-full items-center justify-between block rounded-lg py-6 pl-3 pr-3.5 text-md font-extrabold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="flex w-full items-center justify-between rounded-lg py-6 pl-3 pr-3.5 text-md font-extrabold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Бүтээгдэхүүн
                 </a>
