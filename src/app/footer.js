@@ -70,31 +70,6 @@ const SITEMAP = [
     ]
   },
   {
-    title: "Технологи",
-    links: [
-      {
-        "name" : ".NET",
-        "href" : "#"
-      },
-      {
-        "name" : "Java",
-        "href" : "#"
-      },
-      {
-        "name" : "Mobile",
-        "href" : "#"
-      },
-      {
-        "name" : "Web",
-        "href" : "#"
-      },
-      {
-        "name" : "Database",
-        "href" : "#"
-      },
-    ]
-  },
-  {
     title: "Хүний нөөц",
     links: [
       {
@@ -120,7 +95,7 @@ export default function Footer() {
     <footer className="w-full">
     <div className="max-w-screen bg-gradient-to-tr from-[#013a63] from-[10%] via-[#014f86] to-[#61a5c2] to-[80%]">
       <div className="mx-auto w-full max-w-7xl px-8 bg-tranparent">
-        <div className="mx-auto grid w-full grid-cols-1 gap-5 py-12 md:grid-cols-2 lg:grid-cols-6">
+        <div className="mx-auto grid w-full grid-cols-1 gap-5 py-12 md:grid-cols-2 lg:grid-cols-5">
           {SITEMAP.map(({ title, links }, key) => (
             <div key={key} className="w-full">
               <Typography
@@ -225,7 +200,6 @@ export default function Footer() {
         </div>
       </div>
     </div>
-      
     </footer>
   );
 }
