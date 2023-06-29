@@ -82,6 +82,14 @@ export default function Content( props ) {
                             <h1 className='flex text-xl md:text-2xl text-black font-opensans font-bold'> {content} </h1>
                         </div>
                     )
+                case 'long':
+                    return (
+                        <div className='mt-[10px] w-full'>
+                            <p key={id} className='font-normal text-black text-base text-md md:text-lg'>
+                                {content}
+                            </p>
+                        </div>
+                    )
                 default:
                     break;
                 }

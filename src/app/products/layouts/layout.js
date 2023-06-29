@@ -7,6 +7,8 @@ import Viewcontainer1 from './viewcontainer'
 import Othersubpage from './othersubpage'
 import Footer from '@/app/footer'
 import Detailssubpage from './detailssubpage'
+import MainFormat from '@/app/layouts/mainFormat'
+import SideNav from '@/app/sidenav'
 
 // import { Text } from '../Diamond6/page'
 
@@ -46,7 +48,12 @@ export default function Layout( props ) {
   //-----------------------------Undsen butsaalt-------------------//
   return (
     <main className="flex min-h-screen flex-col scroll-smooth bg-white overflow-x-hidden">
-      <Header />
+      <section id="SideNav" className='z-50'>
+          <SideNav />
+      </section>
+      <section id='Header'>
+          <Header />
+      </section>
       <div className='h-auto w-full'>
         <div className="relative w-full h-[620px] bg-[#C5E9FF] flex items-center justify-center">
           <div
@@ -68,10 +75,12 @@ export default function Layout( props ) {
             </div>
           </div>
         </div>
-        <props.Text isDetails={ isDetails }/>
+        <props.Text isDetails={ isDetails } id={ props.id } />
         <Othersubpage isDetails={ isDetails } data={ props.data }/>
       </div>
-      <Footer />
+      <section id='Footer'>
+        <Footer />
+      </section>
     </main>
   )
 }
@@ -96,8 +105,8 @@ function LineButton({ detailsbuttonclicked, detailsbutton}) {
 //------------------------------Undsen buteegdehuun huudas ruu butsah tovch----------------------//
 function Backbutton() {
   return (
-    <button>
-      <a href='/products#buteegdehuunHeader'><ChevronLeftIcon className='absolute top-[30px] left-[20px] h-[55px] md:h-[60px] w-auto lg:h-[70px]'/></a>
+    <button className='absolute top-[30px] left-[20px] h-auto w-auto rounded-full bg-blue-950'>
+      <a href='/products#buteegdehuunHeader'><ChevronLeftIcon className='h-[55px] md:h-[60px] w-auto lg:h-[70px]'/></a>
     </button>
   )
 }

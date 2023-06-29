@@ -12,7 +12,55 @@
         "systemName" : "ДАЙМОНД 6.0",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
-        "herosrc" : "/productheroimg/diamondERP.png"
+        "herosrc" : "/productheroimg/diamondERP.png",
+        "text" : [
+            {
+                "type" : "long",
+                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            }
+        ]
     },
     {
         "id" : 1,
@@ -27,7 +75,55 @@
         "systemName" : "ДАЙМОНД ERP",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
-        "herosrc" : "/productheroimg/diamondERP.png"
+        "herosrc" : "/productheroimg/diamondERP.png",
+        "text" : [
+            {
+                "type" : "long",
+                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            }
+        ]
     },
     {
         "id" : 2,
@@ -42,7 +138,55 @@
         "systemName" : "ЭМЕРАЛД",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
-        "herosrc" : "/productheroimg/diamondERP.png"
+        "herosrc" : "/productheroimg/diamondERP.png",
+        "text" : [
+            {
+                "type" : "long",
+                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            }
+        ]
     },
     {
         "id" : 3,
@@ -57,7 +201,55 @@
         "systemName" : "Импакт",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
-        "herosrc" : "/productheroimg/diamondERP.png"
+        "herosrc" : "/productheroimg/diamondERP.png",
+        "text" : [
+            {
+                "type" : "long",
+                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            }
+        ]
     },
     {
         "id" : 4,
@@ -72,7 +264,55 @@
         "systemName" : "RUBY",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
-        "herosrc" : "/productheroimg/diamondERP.png"
+        "herosrc" : "/productheroimg/diamondERP.png",
+        "text" : [
+            {
+                "type" : "long",
+                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            }
+        ]
     },
     {
         "id" : 5,
@@ -87,7 +327,55 @@
         "systemName" : "СЭЦЭН КАССЫН СИСТЕМ",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
-        "herosrc" : "/productheroimg/diamondERP.png"
+        "herosrc" : "/productheroimg/diamondERP.png",
+        "text" : [
+            {
+                "type" : "long",
+                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            }
+        ]
     },
     {
         "id" : 6,
@@ -102,6 +390,54 @@
         "systemName" : "СПИНЕЛ",
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
-        "herosrc" : "/productheroimg/diamondERP.png"
+        "herosrc" : "/productheroimg/diamondERP.png",
+        "text" : [
+            {
+                "type" : "long",
+                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper non nisl a vulputate. Nam leo justo, maximus sed ultricies quis, suscipit ac erat. Ut et nibh lobortis nisi sodales blandit et sed nulla. Proin egestas mollis placerat. Duis suscipit ac risus imperdiet gravida. Nunc tincidunt augue ac lectus tempor cursus non non ante. Pellentesque cursus nisi a odio luctus, non commodo quam auctor. Donec nisi diam, porta et dignissim egestas, tempor sed ligula."
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            },
+            {
+                "type" : "heading2",
+                "content" : "Lorem Ipsum"
+            },
+            {
+                "type" : "bullet",
+                "content" : [
+                    {
+                        "bulletlist": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    },
+                    {
+                        "bulletlist": "Pellentesque quis commodo tortor."
+                    },
+                    {
+                        "bulletlist": "     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor. Sed consectetur bibendum ipsum ut consequat. In auctor sed nisl ac porttitor. Quisque a fermentum nisl."
+                    }
+                ]
+            }
+        ]
     }
 ]
