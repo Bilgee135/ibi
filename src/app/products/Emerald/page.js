@@ -3,7 +3,7 @@
 import React from 'react'
 import Layout from '../layouts/layout'
 import unfilteredDetails from '../main.json'
-import Text from './text'
+import Text from '../layouts/text'
 
 export default function Page() {
   //SQL Query: details = SELECT * FROM (table_name) WHERE ID=2;
@@ -15,6 +15,12 @@ export default function Page() {
     }
   })
   return (
-    <div><Layout data={ details } Text={ Text } /></div>
+    <div><Layout data={ details } Text={ Text } id={ id }><CustomizeDetails /></Layout></div>
+  )
+}
+
+function CustomizeDetails() {
+  return (
+    <div></div>
   )
 }

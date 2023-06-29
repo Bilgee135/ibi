@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Layout from '../layouts/layout'
-import Text from './text'
+import Text from '../layouts/text'
 
 import unfilteredDetails from '../main.json'
 
@@ -16,6 +16,12 @@ export default function Page() {
     }
   })
   return (
-    <div><Layout data={ details } Text={ Text } /></div>
+    <div><Layout data={ details } Text={ Text } id={ id }><CustomizeDetails /></Layout></div>
+  )
+}
+
+function CustomizeDetails() {
+  return (
+    <div></div>
   )
 }
