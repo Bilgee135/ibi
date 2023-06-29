@@ -94,7 +94,7 @@ export default function Layout( props ) {
         </div>
         <props.Text isDetails={ isDetails } id={ props.id }>{ props.children }</props.Text>
         <Othersubpage isDetails={ isDetails } data={ props.data }/>
-        <Pricesubpage isDetails={ isDetails } />
+        <Pricesubpage isDetails={ isDetails } tableinfo={ props.data["tableinfo"] } id={ props.id } />
       </div>
       <section id='Footer'>
         <Footer />

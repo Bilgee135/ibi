@@ -23,17 +23,17 @@ export default function Text( props ) {
                     )
                 case 'bullet' :
                     return (
-                        <ul className=' list-disc dark:text-black text-md md:text-lg my-[10px] w-full ml-[3%] lg:w-2/3'>
+                        <ul key={i} className=' list-disc dark:text-black text-md md:text-lg my-[10px] w-full ml-[3%] lg:w-2/3'>
                             { content.map(function( curlylist2, i ) {
                                 return (
-                                    <li key={ i }> {curlylist2["bulletlist"]} </li>
+                                    <li key={"textbulletlistnotnumbered" + i }> {curlylist2["bulletlist"]} </li>
                                 )
                             })}
                         </ul>
                     )
                 case 'num' :
                     return (
-                        <ul className=' list-decimal dark:text-black text-md md:text-lg my-[10px] w-full ml-[3%] lg:w-2/3'>
+                        <ul key={i} className=' list-decimal dark:text-black text-md md:text-lg my-[10px] w-full ml-[3%] lg:w-2/3'>
                             { content.map(function( curlylist2, i ) {
                                 return (
                                     <li key={"textbulletlist" + i }> {curlylist2["bulletlist"]} </li>
@@ -60,7 +60,7 @@ export default function Text( props ) {
                 }
 
                 return (
-                <div className='mt-[10px] w-full lg:w-2/3 '>
+                <div key={i} className='mt-[10px] w-full lg:w-2/3 '>
                     <p className='font-normal text-black text-base text-md md:text-lg'>
                         {content}
                     </p>
