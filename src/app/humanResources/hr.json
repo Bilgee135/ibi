@@ -73,8 +73,8 @@
     },
     {
         "id" : 3,
-        "title" : "CV илгээх",
-        "subtitle" : "Ажилд орох хүсэлт гаргах",
+        "title" : "Санал хүсэлт",
+        "subtitle" : "Яагаад бид таныг ажилд авах ёстой вэ?",
         "heroimg" : "/companyheroimg/product.jpg",
         "text" : [
             {

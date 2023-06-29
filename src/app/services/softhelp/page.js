@@ -21,6 +21,12 @@ export default function Softhelp(){
     })
 
     return (
-        <Format1 Content={ Content } data={ pData } id={ id } />
+        <Format1 Content={ Content } data={ pData } id={ id } additions={ customizeContent } />
+    )
+}
+
+function customizeContent() {
+    return (
+        <div></div>
     )
 }

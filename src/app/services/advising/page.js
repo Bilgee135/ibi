@@ -21,6 +21,12 @@ export default function Advising(){
     })
 
     return (
-        <Format2 Content={ Content } data={ pData } id={ id } />
+        <Format2 Content={ Content } data={ pData } id={ id } additions={ customizeContent } />
+    )
+}
+
+function customizeContent() {
+    return (
+        <div></div>
     )
 }

@@ -58,7 +58,7 @@ const menuItems = [
       { name: 'Яагаад бид гэж?', description: 'Бидэнтэй нэгдэх шалтгаан', href: '/humanResources/whyUs', icon: QuestionMarkCircleIcon },
       { name: 'Ажлын байр', description: 'Нээлттэй ажлын байрны зарууд', href: '/humanResources/vacancy', icon: BuildingOffice2Icon },
       { name: 'CV илгээх', description: 'Ажилд орох хүсэлт гаргах', href: '/humanResources/Resume', icon: ClipboardDocumentCheckIcon },
-      { name: 'Санал хүсэлт', description: 'Яагаад бид таныг ажилд авах ёстой вэ?', href: '#', icon: DocumentMagnifyingGlassIcon },
+      { name: 'Санал хүсэлт', description: 'Яагаад бид таныг ажилд авах ёстой вэ?', href: '/humanResources/sanalhuselt', icon: DocumentMagnifyingGlassIcon },
     ],
   },
   {
