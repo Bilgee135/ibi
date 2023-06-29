@@ -1,5 +1,5 @@
 import Format1 from "@/app/layouts/format1"
-import Content from "./Content"
+import Content from "../Content"
 
 import data from "../company.json"
 
@@ -21,6 +21,6 @@ export default function Company(){
     })
 
     return (
-        <Format1 Content={ Content } data={ pData } />
+        <Format1 Content={ Content } data={ pData } id={ id } />
     )
 }

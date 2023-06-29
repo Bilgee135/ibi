@@ -1,4 +1,4 @@
-import Content from "./Content"
+import Content from "../Content"
 
 import data from "../services.json"
 import Format2 from "@/app/layouts/format2"
@@ -21,6 +21,6 @@ export default function Advising(){
     })
 
     return (
-        <Format2 Content={ Content } data={ pData } />
+        <Format2 Content={ Content } data={ pData } id={ id } />
     )
 }

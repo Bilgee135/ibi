@@ -1,5 +1,5 @@
 import Format2 from "@/app/layouts/format2"
-import Content from "./Content"
+import Content from "../Content"
 
 import data from "../hr.json"
 
@@ -21,6 +21,6 @@ export default function Resume(){
     })
 
     return (
-        <Format2 Content={ Content } data={ pData } />
+        <Format2 Content={ Content } data={ pData } id={ id } />
     )
 }

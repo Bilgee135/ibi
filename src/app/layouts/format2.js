@@ -21,7 +21,7 @@ function Format2( props ) {
           </div>
         </section>
         <section id='content'>
-          <props.Content />
+          <props.Content id={ props.id } />
         </section>
     </MainFormat>
   )
