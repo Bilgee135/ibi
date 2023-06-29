@@ -5,6 +5,7 @@ import Layout from '../../layouts/layout'
 import unfilteredDetails from '../../main.json'
 import Text from '../../layouts/text'
 
+
 export default function Page() {
   //SQL Query: details = SELECT * FROM (table_name) WHERE ID=2;
   let id = 6
@@ -14,6 +15,7 @@ export default function Page() {
       details = curlylist
     }
   })
+
   return (
     <div><Layout data={ details } Text={ Text } id={ id }><CustomizeDetails /></Layout></div>
   )

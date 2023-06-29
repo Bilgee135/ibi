@@ -31,7 +31,7 @@ export default function Layout( props ) {
   function Detailsbutton() {
     return (
       <button className='relative w-3/4 h-2/3 flex items-center' onClick={ HandleDetailsButtonClick }>
-        <h2 className='absolute left-0 text-[13px] sm:text-[16px] font-semibold w-auto flex-col'>
+        <h2 className='absolute left-0 text-[13px] sm:text-[16px] font-semibold w-auto flex-col text-black'>
           Бүтээгдэхүүний тухай
           <LineButton detailsbuttonclicked={ isDetails } detailsbutton={ 0 }/>
         </h2>
@@ -41,7 +41,7 @@ export default function Layout( props ) {
   function Otherbutton() {
     return (
       <button className='relative w-3/4 h-2/3 flex items-center' onClick={ HandleOtherButtonClick }>
-        <h2 className='absolute left-0 text-[13px] sm:text-[16px] font-semibold w-auto flex-col'>
+        <h2 className='absolute left-0 text-[13px] sm:text-[16px] font-semibold w-auto flex-col text-black'>
             Системийн үндсэн модулиуд
           <LineButton detailsbuttonclicked={ isDetails } detailsbutton={ 1 }/>
         </h2>
@@ -51,7 +51,7 @@ export default function Layout( props ) {
   function Pricebutton() {
     return (
       <button className='relative w-3/4 h-2/3 flex items-center' onClick={ HandlePriceButtonClick }>
-        <h2 className='absolute left-0 text-[13px] sm:text-[16px] font-semibold w-auto flex-col'>
+        <h2 className='absolute left-0 text-[13px] sm:text-[16px] font-semibold w-auto flex-col dark:text-black'>
           Үнийн санал
           <LineButton detailsbuttonclicked={ isDetails } detailsbutton={ 2 }/>
         </h2>
@@ -111,21 +111,21 @@ function LineButton({ detailsbuttonclicked, detailsbutton}) {
     if (detailsbutton != detailsbuttonclicked) {
       return
     } else {
-      return (<div className='w-full h-1 bg-slate-600'></div>)
+      return (<div className='w-full h-1 bg-blue-900'></div>)
     }
   } else {
     if (detailsbuttonclicked === 1) {
       if (detailsbutton != detailsbuttonclicked) {
         return
       } else {
-        return (<div className='w-full h-1 bg-slate-600'></div>)
+        return (<div className='w-full h-1 bg-blue-900'></div>)
       }
     } else {
       if (detailsbuttonclicked === 2) {
         if (detailsbutton != detailsbuttonclicked) {
           return
         } else {
-          return (<div className='w-full h-1 bg-slate-600'></div>)
+          return (<div className='w-full h-1 bg-blue-900'></div>)
         }
       }
     }
@@ -135,8 +135,8 @@ function LineButton({ detailsbuttonclicked, detailsbutton}) {
 //------------------------------Undsen buteegdehuun huudas ruu butsah tovch----------------------//
 function Backbutton() {
   return (
-    <button className='absolute top-[30px] left-[20px] h-auto w-auto rounded-full bg-blue-950'>
-      <a href='/products#buteegdehuunHeader'><ChevronLeftIcon className='h-[55px] md:h-[60px] w-auto lg:h-[70px]'/></a>
+    <button className='absolute top-[30px] left-[35px] xl:left-[70px] h-auto w-auto rounded-full bg-blue-950 transition duration-300 hover:bg-white hover:text-blue-950'>
+      <a href='/products'><ChevronLeftIcon className='h-[35px] md:h-[40px] w-auto lg:h-[50px]'/></a>
     </button>
   )
 }
