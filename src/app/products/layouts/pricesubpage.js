@@ -46,7 +46,7 @@ const Table = ({ data }) => {
             ))}
           </tr>
         </thead>
-        <tbody className="bg-white divide-y divide-gray-200">
+        <tbody className="bg-white divide-y divide-gray-200 text-black">
           {data.map((row, index) => (
             <tr key={index}>
               {Object.entries(row).map(([key, value]) => (
