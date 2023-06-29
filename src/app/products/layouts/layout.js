@@ -1,7 +1,7 @@
 
 
 import { useState } from 'react'
-import Headertwo from '../../Headertwo'
+import Header from '@/app/header'
 import { ChevronLeftIcon } from '@heroicons/react/20/solid'
 import Viewcontainer1 from './viewcontainer'
 import Othersubpage from './othersubpage'
@@ -46,7 +46,7 @@ export default function Layout( props ) {
   //-----------------------------Undsen butsaalt-------------------//
   return (
     <main className="flex min-h-screen flex-col scroll-smooth bg-white overflow-x-hidden">
-      <Headertwo />
+      <Header />
       <div className='h-auto w-full'>
         <div className="relative w-full h-[620px] bg-[#C5E9FF] flex items-center justify-center">
           <div
