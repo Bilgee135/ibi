@@ -13,6 +13,10 @@
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
+        "tableinfo" : {
+            "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
+            "additionalinfo" : "Лиценз ашиглалтын төлбөр 15% байна. Системд нэмэлтээр авах бааз бүр 1,100,000₮ байна. Жич: Одоор тэмдэглэсэн програмын үнийн санал дээрх төлбөр нь програмын суурь үнэ бөгөөд байгууллагын онцлогт таарсан хөгжүүлэлт хийгдэхдээ нэмэлт төлбөртэй байна."
+        },
         "text" : [
             {
                 "type" : "long",
@@ -76,6 +80,10 @@
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
+        "tableinfo" : {
+            "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
+            "additionalinfo" : "Лиценз ашиглалтын төлбөр 15% байна. Системд нэмэлтээр авах бааз бүр 1,100,000₮ байна. Жич: Одоор тэмдэглэсэн програмын үнийн санал дээрх төлбөр нь програмын суурь үнэ бөгөөд байгууллагын онцлогт таарсан хөгжүүлэлт хийгдэхдээ нэмэлт төлбөртэй байна."
+        },
         "text" : [
             {
                 "type" : "long",
@@ -230,6 +238,10 @@
         "systemDescription" : "Жижиг аж ахуйн нэгжүүдэд зориулсан хэрэглэхэд хялбар, үнэ хямд, цоо шинэ шийдэл бүхий санхүү НББ-ийн Импакт систем",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
+        "tableinfo" : {
+            "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
+            "additionalinfo" : "Лиценз ашиглалтын төлбөр 15% байна. Системд нэмэлтээр авах бааз бүр 1,100,000₮ байна. Жич: Одоор тэмдэглэсэн програмын үнийн санал дээрх төлбөр нь програмын суурь үнэ бөгөөд байгууллагын онцлогт таарсан хөгжүүлэлт хийгдэхдээ нэмэлт төлбөртэй байна."
+        },
         "text" : [
             {
                 "type" : "heading1",
@@ -313,6 +325,10 @@
         "systemDescription" : "Төсөвт байгууллагын НББ-ийн Эмералд систем",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
+        "tableinfo" : {
+            "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
+            "additionalinfo" : "Лиценз ашиглалтын төлбөр 15% байна. Системд нэмэлтээр авах бааз бүр 1,100,000₮ байна. Жич: Одоор тэмдэглэсэн програмын үнийн санал дээрх төлбөр нь програмын суурь үнэ бөгөөд байгууллагын онцлогт таарсан хөгжүүлэлт хийгдэхдээ нэмэлт төлбөртэй байна."
+        },
         "text" : [
             {
                 "type" : "heading1",
@@ -410,6 +426,10 @@
         "systemDescription" : "Банк, ХЗХ, ББСБ-ын санхүү НББ-ийн Спинел систем",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
+        "tableinfo" : {
+            "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
+            "additionalinfo" : "Лиценз ашиглалтын төлбөр 15% байна. Системд нэмэлтээр авах бааз бүр 1,100,000₮ байна. Жич: Одоор тэмдэглэсэн програмын үнийн санал дээрх төлбөр нь програмын суурь үнэ бөгөөд байгууллагын онцлогт таарсан хөгжүүлэлт хийгдэхдээ нэмэлт төлбөртэй байна."
+        },
         "text" : [
             {
                 "type" : "heading1",
@@ -477,6 +497,10 @@
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
+        "tableinfo" : {
+            "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
+            "additionalinfo" : "Лиценз ашиглалтын төлбөр 15% байна. Системд нэмэлтээр авах бааз бүр 1,100,000₮ байна. Жич: Одоор тэмдэглэсэн програмын үнийн санал дээрх төлбөр нь програмын суурь үнэ бөгөөд байгууллагын онцлогт таарсан хөгжүүлэлт хийгдэхдээ нэмэлт төлбөртэй байна."
+        },
         "text" : [
             {
                 "type" : "long",
@@ -540,6 +564,10 @@
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
+        "tableinfo" : {
+            "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
+            "additionalinfo" : "Лиценз ашиглалтын төлбөр 15% байна. Системд нэмэлтээр авах бааз бүр 1,100,000₮ байна. Жич: Одоор тэмдэглэсэн програмын үнийн санал дээрх төлбөр нь програмын суурь үнэ бөгөөд байгууллагын онцлогт таарсан хөгжүүлэлт хийгдэхдээ нэмэлт төлбөртэй байна."
+        },
         "text" : [
             {
                 "type" : "long",
@@ -603,6 +631,10 @@
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
+        "tableinfo" : {
+            "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
+            "additionalinfo" : "Лиценз ашиглалтын төлбөр 15% байна. Системд нэмэлтээр авах бааз бүр 1,100,000₮ байна. Жич: Одоор тэмдэглэсэн програмын үнийн санал дээрх төлбөр нь програмын суурь үнэ бөгөөд байгууллагын онцлогт таарсан хөгжүүлэлт хийгдэхдээ нэмэлт төлбөртэй байна."
+        },
         "text" : [
             {
                 "type" : "long",
@@ -666,6 +698,10 @@
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
+        "tableinfo" : {
+            "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
+            "additionalinfo" : "Лиценз ашиглалтын төлбөр 15% байна. Системд нэмэлтээр авах бааз бүр 1,100,000₮ байна. Жич: Одоор тэмдэглэсэн програмын үнийн санал дээрх төлбөр нь програмын суурь үнэ бөгөөд байгууллагын онцлогт таарсан хөгжүүлэлт хийгдэхдээ нэмэлт төлбөртэй байна."
+        },
         "text" : [
             {
                 "type" : "long",
@@ -729,6 +765,10 @@
         "systemDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis commodo tortor.",
         "systemIcon" : "/whitediamond.png",
         "herosrc" : "/productheroimg/diamondERP.png",
+        "tableinfo" : {
+            "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
+            "additionalinfo" : "Лиценз ашиглалтын төлбөр 15% байна. Системд нэмэлтээр авах бааз бүр 1,100,000₮ байна. Жич: Одоор тэмдэглэсэн програмын үнийн санал дээрх төлбөр нь програмын суурь үнэ бөгөөд байгууллагын онцлогт таарсан хөгжүүлэлт хийгдэхдээ нэмэлт төлбөртэй байна."
+        },
         "text" : [
             {
                 "type" : "long",
