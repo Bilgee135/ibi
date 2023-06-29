@@ -2,7 +2,7 @@ import React from 'react'
 import Bureldehuun from '../components/json/Bureldehuun'
 
 export default function Othersubpage({ isDetails, data }) {
-    if (!isDetails) {
+    if (isDetails === 1) {
         return (
             <div className='w-full h-auto flex justify-center'>
                 <NiitBureldeguun Bureldehuun={ Bureldehuun } Bureldeh={ data }/>

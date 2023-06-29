@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Detailssubpage({ isDetails , children}) {
-    if (isDetails) {
+    if (isDetails === 0) {
       return (
         <div className='mx-[10%]'> 
         { children }
