@@ -8,7 +8,7 @@ import unfilteredDetails from '../main.json'
 
 export default function Page() {
   //SQL Query: details = SELECT * FROM (table_name) WHERE ID=1;
-  let id = 1
+  let id = 2
   let details
   unfilteredDetails.map(function (curlylist) {
     if (curlylist["id"] === id) {

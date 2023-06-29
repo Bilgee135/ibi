@@ -2,7 +2,7 @@
     {
         "srcimg" : "/diamond-icon.png",
         "name" : "Оч 7.7",
-        "href" : "/DiamondERP",
+        "href" : "/Och7",
         "key" : "diamond0",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
@@ -16,7 +16,7 @@
     {
         "srcimg" : "/diamond-icon.png",
         "name" : "Даймонд 5.0",
-        "href" : "/Emerald",
+        "href" : "/Diamond5",
         "key" : "diamond2",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },

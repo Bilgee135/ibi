@@ -42,7 +42,7 @@ export default function Layout( props ) {
     return (
       <button className='relative w-3/4 h-2/3 flex items-center' onClick={ HandleOtherButtonClick }>
         <h2 className='absolute left-0 text-[13px] sm:text-[16px] font-semibold w-auto flex-col'>
-          Бүрэлдэхүүн
+            Системийн үндсэн модулиуд
           <LineButton detailsbuttonclicked={ isDetails } detailsbutton={ 1 }/>
         </h2>
       </button>

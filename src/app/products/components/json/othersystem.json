@@ -1,36 +1,36 @@
 [
     {
         "srcimg" : "/diamond-icon.png",
-        "name" : "Рестораны удирдлага төлөвлөлтийн систем",
-        "href" : "#",
+        "name" : "Цаг бүртгэлийн систем",
+        "href" : "/OtherSystems/timemanager",
         "key" : "diamond0",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "/diamond-icon.png",
         "name" : "Дэлгүүрийн удирдлагын систем",
-        "href" : "#",
+        "href" : "/OtherSystems/market",
         "key" : "diamond1",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "/diamond-icon.png",
-        "name" : "Зочид буудлын удирдлагын систем",
-        "href" : "#",
+        "name" : "Рестораны удирдлага төлөвлөлтийн систем",
+        "href" : "/OtherSystems/restaurant",
         "key" : "diamond2",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "/diamond-icon.png",
-        "name" : "Сэцэн кассын систем",
-        "href" : "#",
+        "name" : "Зочид буудлын удирдлагын систем",
+        "href" : "/OtherSystems/hotel",
         "key" : "diamond3",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     },
     {
         "srcimg" : "/diamond-icon.png",
-        "name" : "Цаг бүртгэлийн систем",
-        "href" : "#",
+        "name" : "Хөнгөлөлтийн картны систем",
+        "href" : "/OtherSystems/discount",
         "key" : "diamond4",
         "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
     } 
