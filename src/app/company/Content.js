@@ -54,7 +54,6 @@ export default function Content( props ) {
     return (
         <div className='flex min-h-screen flex-col bg-white overflow-x-hidden'>
             <div className='ml-[10%] mr-[10%] mt-[5%]'>
-            { props.children }
             {text.map(paragraph => {
                 const { id, content, type } = paragraph;
                 let paragraphStyle = {};
@@ -102,6 +101,7 @@ export default function Content( props ) {
                 </div>
                 );
             })}
+            { props.children }
             </div>
         </div>
     )

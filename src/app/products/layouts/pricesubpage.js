@@ -53,7 +53,7 @@ const Table = ({ data }) => {
                 <td
                   key={key}
                   className={`px-6 py-4 whitespace-nowrap text-xs md:text-sm lg:text-base ${
-                    !row["№"].startsWith("→") ? "font-bold bg-blue-100" : ""
+                    !row["№"] === null ? "font-bold bg-blue-100" : ""
                   }`}
                 >
                   {value}
