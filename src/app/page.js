@@ -5,6 +5,7 @@ import MainPage from './products/components/MainProductPage'
 import Footer from './footer'
 import SideNav from './sidenav'
 import Header from './header'
+import Component2 from './components/component2'
 
 
 export default function Home() {
@@ -75,6 +76,9 @@ export default function Home() {
           <p className='mt-[20px] text-lr md:text-xl lr:text-2xl text-center font-normal text-black italic'>
             Монгол улсын 3000 орчим байгууллага манай бүтээгдэхүүнийг өдөр тутмын үйл ажиллагаандаа хэрэглэж байна.
           </p>
+          <div id='ComponentTwo' className='mt-[30px]'>
+            <Component2 />
+         </div>
       </div>
       <section id='footerSection' className='mt-[12%]'>
         <Footer />

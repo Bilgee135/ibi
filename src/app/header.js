@@ -39,7 +39,6 @@ const menuItems = [
       { name: 'Танилцуулга', description: 'Бидний бүтээсэн түүх', href: '/company/introduction', icon: BuildingOfficeIcon },
       { name: 'Бүтээгдэхүүн', description: 'Бүтээгдэхүүний хөгжлийн түүх', href: '/company/product', icon: CodeBracketSquareIcon },
       { name: 'Зохион байгуулалт', description: 'Албадуудын үйл ажиллагааны чиглэл', href: '/company/organization', icon: HomeModernIcon },
-      { name: 'Хамтрагч', description: 'Харилцагч байгууллагуудын мэдээлэл', href: '/company/partners', icon: UserGroupIcon },
       { name: 'Стратеги', description: 'Бизнесийн үзэл санаа', href: '/company/strategy', icon: CommandLineIcon },
     ],
   },
@@ -53,23 +52,21 @@ const menuItems = [
     ],
   },  
   {
-    category: 'Хүний нөөц',
-    items: [
-      { name: 'Яагаад бид гэж?', description: 'Бидэнтэй нэгдэх шалтгаан', href: '/humanResources/whyUs', icon: QuestionMarkCircleIcon },
-      { name: 'Ажлын байр', description: 'Нээлттэй ажлын байрны зарууд', href: '/humanResources/vacancy', icon: BuildingOffice2Icon },
-      { name: 'CV илгээх', description: 'Ажилд орох хүсэлт гаргах', href: '/humanResources/Resume', icon: ClipboardDocumentCheckIcon },
-      { name: 'Санал хүсэлт', description: 'Яагаад бид таныг ажилд авах ёстой вэ?', href: '/humanResources/sanalhuselt', icon: DocumentMagnifyingGlassIcon },
-    ],
-  },
-  {
     category: 'Санал хүсэлт',
     items: [
       { name: 'Шууд холбогдох', description: 'Мэдээллийн ажилтнаас мэдээлэл авах', href: '/feedback/contact', icon: PhoneArrowDownLeftIcon },
-      { name: 'Албан хүсэлт', description: 'Хамтран ажиллах санал', href: '/feedback/partnershipreq', icon: PaperAirplaneIcon },
-      { name: 'Санал гомдол', description: '', href: '/feedback/complaints', icon: InformationCircleIcon },
     ],
   },
 ];
+// {
+//   category: 'Хүний нөөц',
+//   items: [
+//     { name: 'Яагаад бид гэж?', description: 'Бидэнтэй нэгдэх шалтгаан', href: '/humanResources/whyUs', icon: QuestionMarkCircleIcon },
+//     { name: 'Ажлын байр', description: 'Нээлттэй ажлын байрны зарууд', href: '/humanResources/vacancy', icon: BuildingOffice2Icon },
+//     { name: 'CV илгээх', description: 'Ажилд орох хүсэлт гаргах', href: '/humanResources/Resume', icon: ClipboardDocumentCheckIcon },
+//     { name: 'Санал хүсэлт', description: 'Яагаад бид таныг ажилд авах ёстой вэ?', href: '/humanResources/sanalhuselt', icon: DocumentMagnifyingGlassIcon },
+//   ],
+// },
 
 
 function classNames(...classes) {  
@@ -193,6 +190,9 @@ export default function Header() {
                 </Transition>
               </Popover>
             ))}
+            <a href="/company/partners" className="text-md font-semibold leading-6 transition duration-300 hover:text-gray-500 hover:cursor-default">
+                Хамтрагч
+            </a>
             </Popover.Group>
           </div>
         </nav>
