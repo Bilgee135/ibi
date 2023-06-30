@@ -60,7 +60,7 @@ export default function Home() {
       <PurposeWord />
 
       <div className='ml-[10%] mr-[10%] mt-[2%] py-8'>
-        <h2 className='uppercase text-3xl md:text-4xl text-start font-extrabold'>
+        <h2 className='uppercase text-2xl md:text-3xl text-start font-extrabold text-black'>
           САНХҮҮ,{' '}<span className='text-blue-500'>НЯГТЛАН БОДОХ БҮРТГЭЛ</span>{' '}БОЛОН БУСАД БҮХ ТӨРЛИЙН{' '}<span className='text-blue-500'>ПРОГРАМ ХАНГАМЖ</span>
         </h2>
         <p className='text-black text-start text-md md:text-lg font-normal'>
@@ -77,7 +77,7 @@ export default function Home() {
       </div>
       <div className=''>
           <Component2 />
-        </div>
+      </div>
       <section id='footerSection' className='mt-[7%]'>
         <Footer />
       </section>

@@ -67,8 +67,8 @@ export default function SideNav(){
               key={index}
             >
               <div
-                className={`w-full h-9 ${item.color} flex items-center justify-between rounded-xl transform ${
-                  isHover[index] ? 'translate-x-0 duration-500 drop-shadow-lg' : 'translate-x-40 duration-500'
+                className={`w-full h-9 ${item.color} flex items-center justify-between rounded-l-2xl transform ${
+                  isHover[index] ? 'translate-x-0 duration-500 shadow-xl shaodow-gray-800' : 'translate-x-40 duration-500'
                 }`}
               >
                 {typeof item.icon === 'string' ? (

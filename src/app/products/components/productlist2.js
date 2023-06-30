@@ -185,7 +185,7 @@ function Productbox({ productlist }) {
         return (
         <li key={ product.key }>
           <a href={ '/products' + product.href } className='relative h-[100px] w-[100px] bg-transparent flex justify-center hover:text-blue-500 dark:text-black'>
-            <img className='absolute top-5 justify-center w-[46.4px] h-[40px]' src={ product.imgsrc } alt={ product.name }/>
+            <img className='absolute top-5 justify-center w-[46.4px] h-[42px]' src={ product.imgsrc } alt={ product.name }/>
             <p className='absolute bottom-4 text-xs'>{ product.name }</p>
           </a>
         </li>

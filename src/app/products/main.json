@@ -147,7 +147,7 @@
         "BurdeldehuunSystem9" : true,
         "systemName" : "ДАЙМОНД 5.0",
         "systemDescription" : "Санхүү, нягтлан бодох бүртгэлийн Даймонд систем",
-        "systemIcon" : "/whitediamond.png",
+        "systemIcon" : "/productIcons/dimond55_cropped.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "tableinfo" : {
             "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
@@ -236,7 +236,7 @@
         "BurdeldehuunSystem7" : false,
         "systemName" : "ИМПАКТ",
         "systemDescription" : "Жижиг аж ахуйн нэгжүүдэд зориулсан хэрэглэхэд хялбар, үнэ хямд, цоо шинэ шийдэл бүхий санхүү НББ-ийн Импакт систем",
-        "systemIcon" : "/whitediamond.png",
+        "systemIcon" : "/productIcons/impact_cropped.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "tableinfo" : {
             "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
@@ -323,7 +323,7 @@
         "BurdeldehuunSystem8" : true,
         "systemName" : "ЭМЕРАЛД",
         "systemDescription" : "Төсөвт байгууллагын НББ-ийн Эмералд систем",
-        "systemIcon" : "/whitediamond.png",
+        "systemIcon" : "/productIcons/emerald_cropped.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "tableinfo" : {
             "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
@@ -424,7 +424,7 @@
         "BurdeldehuunSystem17" : true,
         "systemName" : "СПИНЕЛ",
         "systemDescription" : "Банк, ХЗХ, ББСБ-ын санхүү НББ-ийн Спинел систем",
-        "systemIcon" : "/whitediamond.png",
+        "systemIcon" : "/productIcons/spinel_cropped.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "tableinfo" : {
             "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
@@ -500,7 +500,7 @@
         "timemanage13" : true,
         "systemName" : "Цаг бүртгэлийн систем",
         "systemDescription" : "",
-        "systemIcon" : "/whitediamond.png",
+        "systemIcon" : "/productIcons/timemanager_temp.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "tableinfo" : {
             "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
@@ -602,7 +602,7 @@
         "market12" : true,
         "systemName" : "Дэлгүүрийн удирдлагын систем",
         "systemDescription" : "",
-        "systemIcon" : "/whitediamond.png",
+        "systemIcon" : "/productIcons/store.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "tableinfo" : {
             "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
@@ -701,7 +701,7 @@
         "restaurant6" : true,
         "systemName" : "Рестораны удирдлага төлөвлөлтийн систем",
         "systemDescription" : "",
-        "systemIcon" : "/whitediamond.png",
+        "systemIcon" : "/productIcons/restaurant.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "tableinfo" : {
             "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
@@ -811,7 +811,7 @@
         "hotel2" : true,
         "systemName" : "Зочид буудлын удирдлагын систем",
         "systemDescription" : "",
-        "systemIcon" : "/whitediamond.png",
+        "systemIcon" : "/productIcons/miracle.png",
         "herosrc" : "/productheroimg/diamondERP.png",
         "tableinfo" : {
             "heading" : "Diamond ERP цогц програм хангамжийн үнийн санал",
