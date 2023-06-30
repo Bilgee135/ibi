@@ -7,11 +7,11 @@ function Component2() {
       <div className='mr-[10%] ml-[10%] mb-[50px]'>
         <div className="w-full h-auto flex flex-col md:flex-row mt-[75px]">
           <div className="w-1/2 h-auto flex items-center justify-center ml-[50px]">
-            <img src='/diamond5.png' alt='pic' className='h-auto w-auto'></img>
+            <img src='/productIcons/diamond5.png' alt='pic' className='h-auto w-auto'></img>
           </div>
           <div className="w-1/2">
             <div className="flex flex-col items-left justify-center h-full">
-              <h2 className="text-6xl font-bold mb-4">Шинэлэг шийдэл</h2>
+              <h2 className="text-6xl font-bold mb-4 text-black">Шинэлэг шийдэл</h2>
               <p className="mt-[15px] text-lg text-gray-500 mb-6">
                 Мөнгөн хөрөнгө, бараа материал, хангамжийн материал, үндсэн хөрөнгө, авлага өглөг, төсөв, төсөл, зардал болон байгууллагын санхүүтэй холбоотой бүх бүртгэлээ хөтлөх, тайлан мэдээллүүдээ цаг алдалгүй, үнэн зөвөөр авахад зориулагдсан систем юм. Уг систем нь Даймонд ERP цогц системийн бусад бүх системтэйгээ холбогдон ажилладгаараа онцлогтой юм. 
               </p>
