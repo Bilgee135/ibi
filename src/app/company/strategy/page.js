@@ -3,7 +3,7 @@ import Content from "../Content"
 
 import data from "../company.json"
 
-import Component1 from "@/app/component1"
+import Component1 from "@/app/components/component1"
 
 export default function Strategy(){
     let pData = {
