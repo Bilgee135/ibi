@@ -133,3 +133,11 @@ Website structure:
 
         -📄layout.js           //main layout for all the pages
         -📄page.js             //main homepage
+
+Additional extensions, libraries:
+
+    MUI (Material User Interface) for its component library
+    Tailwind CSS for styling
+    Created by Next JS
+
+JSON FILES EXPLANATION:
