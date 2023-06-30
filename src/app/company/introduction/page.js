@@ -10,7 +10,7 @@ export default function Company(){
         "subtitle" : ""
     }
     let id = 0 //----------------------------------------------COMPANY INTRODUCTION ID: 0-------------------------//
-    data.map(function(curlylist) {
+    data.map(function(curlylist) { //THIS FUNCTION PICKS THE RELEVANT DATA FROM THE JSON FILE AND PUTS IT INTO pData
         if ( curlylist["id"] === id) {
             pData = {
                 "title" : curlylist["title"],
@@ -25,7 +25,7 @@ export default function Company(){
     )
 }
 
-function customizeContent() {
+function customizeContent() { //THIS FUNCTION WILL ADD ADDITIONAL HTML TO THE PAGE; USE IF NEEDED
     return (
         <div></div>
     )
