@@ -3,6 +3,8 @@ import Content from "../Content"
 
 import data from "../company.json"
 
+import Component1 from "@/app/component1"
+
 export default function Strategy(){
     let pData = {
         "title" : "",
@@ -25,8 +27,19 @@ export default function Strategy(){
     )
 }
 
+//JSON TYPE FORMAT VARIABLE TO BE PASSED ONTO COMPONENT 1;
+//COMPONENT 1 HAS BEEN THOUGHT TO BE STATIC, THUS DOES NOT NEED A JSON FILE ON ITS OWN.
+
+//COMPONENT 1 ALSO TAKES IN INPUT CALLED "LEFT" IN WHICH TELLS THE COMPONENET WHERE TO PLACE THE TEXT.
+
+let comData = {
+    "header" : "Уян хатан байдал",
+    "description" : "Өмнө нь хөгжүүлсэн процессууд, дүрмүүд, тайлангууд болон бусад загваруудыг дахин ашиглах замаар шинэ процессуудыг хялбархан үүсгэж, ашиглах боломжтой болсон",
+    "imgsrc" : "/testcomponentpic.png"
+}
+
 function customizeContent() {
     return (
-        <div></div>
+        <div className=""><Component1 left={ true } data={ comData } /></div>
     )
 }
