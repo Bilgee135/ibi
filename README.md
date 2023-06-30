@@ -1,5 +1,7 @@
-Website structure:
 
+# Interactive Bussiness Intelligence Website
+## Website structure:
+```
 -📁public                           //images and executable files are stored here
     -📁bureldehuunicons             //icons and/or pictures of the system modules
         -📄pictures and icons
@@ -133,11 +135,140 @@ Website structure:
 
         -📄layout.js           //main layout for all the pages
         -📄page.js             //main homepage
+```
+## Additional extensions, libraries:
 
-Additional extensions, libraries:
+ - [Tailwind CSS](https://tailwindcss.com/)
+ - [Next JS](https://nextjs.org/)
+ - [Material UI](https://mui.com/)
 
-    MUI (Material User Interface) for its component library
-    Tailwind CSS for styling
-    Created by Next JS
+## Json file explanations:
 
-JSON FILES EXPLANATION:
+**📙company.json, 📙feedback.json, 📙hr.json, 📙services.json, 📙main.json(in products folder)** are structured as
+```
+{
+        "id" : ,
+        "title" : "",
+        "subtitle" : "",
+        "heroimg" : "",
+        "text" : [
+            {
+                "type" : "heading1",
+                "content" : ""
+            },
+            {
+                "type" : "normal",
+                "content" : ""
+            },
+            {
+                "type" : "heading2",
+                "content" : ""
+            },
+            {
+                "type" : "normal",
+                "content" : ""
+            }
+        ]
+    },
+```
+**there are six "type" classes:**
+1. heading1 : big blue heading text
+2. heading2 : black slightly large text
+3. normal : normal sized black text
+4. bullet : bulleted list
+5. num : numbered list
+6. long : text that's width is 100%
+
+**the use of bullet and num should be further clarified**
+the styles bullet and num should be in the following format where type can be either bullet or num:
+```
+	{
+		"type" : "bullet",
+		"content" : [
+			{
+				"bulletlist": ""
+			},
+			{
+				"bulletlist": ""
+			},
+			{
+				"bulletlist": ""
+			},
+			{
+				"bulletlist": ""
+			}
+		]
+	},
+```
+
+**📙data.json** at tablecsv folder is structured as:
+```
+	{
+        "name" : "",
+        "id" : ,
+        "data" : [
+            {
+              "№": ,
+              "Системийн жагсаалт": "",
+              "Модулийн үнэ": ""
+			},
+			{
+              "№": ,
+              "Системийн жагсаалт": "",
+              "Модулийн үнэ": ""
+			},
+	}
+```
+
+where each "data" element is a table row corresponding to its key value pair
+
+**📙Advantages.json** is structured as:
+```
+	{
+        "imgsrc" : "/diamond-icon.png",
+        "title" : "Оновчтой үйл ажиллагаа",
+        "shortdesc" : "ERP нь танд нягтлан бодох бүртгэл, худалдан авалт, борлуулалт,бараа материал, харилцагч нартай холбоотой тооцоо, мөн үйлдвэрлэлийн процесс...",
+        "fulldesc" : "ERP нь танд нягтлан бодох бүртгэл, худалдан авалт, борлуулалт,бараа материал, харилцагч нартай холбоотой тооцоо, мөнүйлдвэрлэлийн процесс эсвэл олон газар байрлах салбаруудынхаа үйлажиллагааг дэмжиж оновчтой арга барилаар удирдахад тань туслахбодит хяналтыг мэдрүүлэх болно. Салбаруудын үйл ажиллагааны хяналтыг цаг алдалгүй хийж бизнесийгдэмжинэ. Бүхий л үйл ажиллагаандаа бодит хяналт тавина. Шийдвэр гаргах явцыг хурдасгаж, зах зээлд үзүүлэх нөлөөллийг нэмэгдүүлнэ. Удирдлага хялбар байдлаар нийт хэлтэс, нэгжүүдийн талаархоновчтой мэдээлэл авна."
+    },
+```
+
+**📙Bureldehuun.json** is structured as:
+```
+	{
+        "name" : "Ерөнхий журнал",
+        "desc" : "Бөөний болон жижиглэн худалдааны байгууллагын барааны дэлгэрэнгүй бүртгэл хөтөлж, борлуулалтын тооцоог хөтөлж, хянах...",
+        "img" : "/bureldehuunicons/a.png",
+        "href" : "#",
+        "id" : "BurdeldehuunSystem0"
+    },
+```
+
+**📙othersystem.json** is structured as:
+```
+	{
+        "srcimg" : "/diamond-icon.png",
+        "name" : "Цаг бүртгэлийн систем",
+        "href" : "/OtherSystems/timemanager",
+        "key" : "diamond0",
+        "desc" : "Цаг бүртгэлийн систем нь аж ахуйн нэгж, бизнесийн байгууллагын цагийн бүртгэлийг хялбаршуулах, хүссэн үедээ хяналт тавих боломжоор хангах, хэрэгцээт тайлан судалгааг богино хугацаанд гаргаж авах, цагийн нягтралыг сайжруулах, хөдөлмөрийн.."
+    },
+```
+
+**📙producjson.json** is structured as:
+```
+    {
+        "srcimg" : "/diamond-icon.png",
+        "name" : "Оч 7.7",
+        "href" : "/Och7",
+        "key" : "diamond0",
+        "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis tristique varius. Quisque molestie enim nec felis pharetra cursus fermentum mattis metus. Proin laoreet arcu arcu, eu aliquam odio lobortis vel."
+    },
+```
+
+**📙ProductStatistics.json** is structured as:
+```
+    {
+        "number" : "150+",
+        "description" : "Манай бүтээгдэхүүнийг ашигласан байгууллагуудын тоо"
+    },
+```
