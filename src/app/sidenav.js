@@ -4,11 +4,11 @@ import { ArrowDownTrayIcon, BellAlertIcon, ChartBarIcon, CloudIcon, RssIcon, Che
 
 
 const SIDE = [
-  { name: 'Navigation Item', href: '#', icon: ArrowDownTrayIcon, color: 'bg-[#014F86]' },
-  { name: 'TeamViewer татах', href: '/installs/TeamViewerQS.exe', icon: 'teamviewer', color: 'bg-[#0e8ee9]' },
-  { name: 'AnyDesk татах', href: '/installs/AnyDesk.exe', icon: 'anydesk', color: 'bg-[#ef443b]' },
-  { name: 'QuickJoin татах', href: '#', icon: CloudIcon, color: 'bg-[#468FAF]' },
-  { name: 'Navigation Item', href: '#', icon: RssIcon, color: 'bg-[#61A5C2]' },
+  { name: 'Navigation Item', href: '#', icon: ArrowDownTrayIcon, color: 'bg-[#014F86]', ringColor: 'ring-[#014F86]' },
+  { name: 'TeamViewer татах', href: '/installs/TeamViewerQS.exe', icon: 'teamviewer', color: 'bg-[#0e8ee9]', ringColor: 'ring-[#0e8ee9]' },
+  { name: 'AnyDesk татах', href: '/installs/AnyDesk.exe', icon: 'anydesk', color: 'bg-[#ef443b]', ringColor: 'ring-[#ef443b]' },
+  { name: 'QuickJoin татах', href: '#', icon: CloudIcon, color: 'bg-[#468FAF]', ringColor: 'ring-[#468FAF]' },
+  { name: 'Navigation Item', href: '#', icon: RssIcon, color: 'bg-[#61A5C2]', ringColor: 'ring-[#61A5C2]' },
 ]
 
 
@@ -56,7 +56,7 @@ export default function SideNav(){
   return(
     <div className="hidden md:flex md:fixed md:right-0 md:items-center md:justify-center md:h-screen z-50">
       <div className="w-52 h-auto">
-        <div className="py-2 pl-2 flex flex-col space-y-1 font-poppins">
+        <div className="py-2 pl-2 flex flex-col space-y-2 font-poppins">
           {SIDE.map((item, index) => (
             <a
               href={item.href}
@@ -67,7 +67,7 @@ export default function SideNav(){
               key={index}
             >
               <div
-                className={`w-full h-9 ${item.color} flex items-center justify-between rounded-l-2xl transform ${
+                className={`w-full h-9 flex items-center ${item.color} justify-between rounded-l-2xl ring-2 ${item.ringColor} transform ${
                   isHover[index] ? 'translate-x-0 duration-500 shadow-xl shaodow-gray-800' : 'translate-x-40 duration-500'
                 }`}
               >

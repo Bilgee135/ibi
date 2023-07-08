@@ -57,23 +57,24 @@ export default function Home() {
           </div>
         </section>
       </div>
-      <PurposeWord />
-
-      <div className='ml-[10%] mr-[10%] mt-[2%] py-8'>
+      <div className='ml-[10%] mr-[10%] mt-[2%] py-2'>
         <h2 className='uppercase text-2xl md:text-3xl text-start font-extrabold text-black'>
-          САНХҮҮ,{' '}<span className='text-blue-500'>НЯГТЛАН БОДОХ БҮРТГЭЛ</span>{' '}БОЛОН БУСАД БҮХ ТӨРЛИЙН{' '}<span className='text-blue-500'>ПРОГРАМ ХАНГАМЖ</span>
+          САНХҮҮ,{' '}<span className='text-blue-600'>НЯГТЛАН БОДОХ БҮРТГЭЛ</span>{' '}БОЛОН БУСАД БҮХ ТӨРЛИЙН{' '}<span className='text-blue-600'>ПРОГРАМ ХАНГАМЖ</span>
         </h2>
         <p className='text-black text-start text-md md:text-lg font-normal'>
           Бид бизнесийн бүхий л салбарт програм хангамжийн автоматжуулалтын цогц шийдлийг санал болгож байна.
         </p>
-        <h1 className='mt-[10%] text-3xl md:text-4xl lr:text-5xl text-black font-opensans font-bold text-center'>
-            МОНГОЛЫН {' '}<span className='text-blue-500'>ТОП-150</span> {' '}
-            {' '}АЖ АХУЙ НЭГЖИЙН <span className='text-blue-500'>88 НЬ</span> МАНАЙ КОМПАНИЙН {' '}
-            <span className='text-blue-500'>ХАРИЛЦАГЧИД</span>
+        <h1 className='mt-[3%] uppercase text-2xl md:text-3xl text-black font-opensans font-extrabold text-start'>
+            МОНГОЛЫН {' '}<span className='text-blue-600'>ТОП-150</span> {' '}
+            {' '}АЖ АХУЙ НЭГЖИЙН <span className='text-blue-600'>88 НЬ</span> МАНАЙ КОМПАНИЙН {' '}
+            <span className='text-blue-600'>ХАРИЛЦАГЧИД</span>
         </h1>
-        <p className='mt-[20px] text-lr md:text-xl lr:text-2xl text-center font-normal text-black italic'>
+        <p className='mt-[20px] text-lr md:text-xl lr:text-2xl text-start font-normal text-black italic'>
           Монгол улсын 3000 орчим байгууллага манай бүтээгдэхүүнийг өдөр тутмын үйл ажиллагаандаа хэрэглэж байна.
         </p>
+      </div>
+      <div className='py-8'>
+          <PurposeWord />
       </div>
       <div className=''>
           <Component2 />
